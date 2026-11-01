@@ -1,31 +1,23 @@
 # Pair Key / Dual Attestation
 
-**Status:** Draft Knowledge Library block.
+**Status:** Draft alignment block.
 
-## Purpose
+## Established meaning
 
-A pair key is a conceptual protocol object containing two independently attributable attestations: a **content attestation** by the sender or producer, and a **receipt attestation** by the receiving institution or service.
+In the Outerprise architecture, a **Pair Key** binds a sponsor identity to a project identity. It is an identity-and-scope binding, not a sender/receiver receipt object and not a replacement for the canonical Dual Attestation recipes.
 
-## Minimal shape
+The binding answers the narrower question: “Which sponsor and which project are paired for this Outerprise surface?” It must not be expanded into a claim that content is true, that a delivery was received, or that a platform endorsed the project.
 
-```text
-PairKey = {
-  content_digest: H(C),
-  content_attestor: A_s,
-  claimed_time: t_c,
-  receipt_digest: H(receipt_record),
-  receipt_attestor: A_r,
-  receipt_time: t_r,
-  linkage: identifier binding the receipt to H(C)
-}
-```
+## Scope boundary
 
-The receipt should bind to the content digest, not merely to a mutable display label. If a receiver cannot authenticate its receipt attestation, the field may be recorded as an unverified claim rather than treated as institutional proof.
+A Pair Key may be referenced by an attestation or delivery record, but the reference does not change the meaning of either record. Content integrity, claimed time, delivery attempt, institutional receipt, and sponsor/project identity binding remain separate fields and separate propositions.
 
-## Non-implication
+The original canonical Dual Attestation recipes are not present in this workspace. This draft therefore does not invent their field names, key material, or verification equations. A future canonical export should replace this alignment block with the established recipes verbatim.
 
-A sender attestation does not become a receiver attestation through forwarding. Likewise, a receiver attestation that it received bytes does not attest that the sender’s claims about those bytes are true.
+## Non-inheritance
 
-## Verification rule
+A sponsor/project binding does not inherit authority from Supabase storage, Lovable presentation, Entercation operations, or a receiving institution. Conversely, a receipt or content digest does not establish the sponsor/project pairing unless the relevant Pair Key binding is independently present and verified.
 
-A verifier checks the content digest against the received content, authenticates the sender attestation under its stated key or mechanism, authenticates the receipt attestation under the receiver’s stated mechanism, and confirms that both attestations bind to the same digest. Failure of any check must be visible rather than silently collapsed into “verified.”
+## Examination rule
+
+Do not use the retired sender/receiver interpretation for Pair Key. The established scope is sponsor/project identity binding.

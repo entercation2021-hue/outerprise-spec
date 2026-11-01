@@ -1,21 +1,18 @@
-# Digest verification scripts
+# Repository file-hash verification scripts
 
-The canonical digest manifest defines two digests:
+The canonical manifest records SHA-256 hashes of two committed artifacts:
 
-- **D1** is SHA-256 over the exact UTF-8 bytes of `canonical/knowledge-library.md`.
-- **D2** is SHA-256 over the exact UTF-8 bytes of `book/surprise-outerprise-examination-edition.md`.
+- `knowledge_library` is the hash of `canonical/knowledge-library.md`.
+- `examination_book_pdf` is the hash of the exact supplied bytes of `book/Surprise_Outerprise_Examination_Edition_105_Pages.pdf`.
 
-The files are committed with LF line endings and a final newline. The verifiers read bytes; they do not parse Markdown, trim whitespace, or normalize Unicode. Therefore a one-byte change changes the corresponding digest.
+These are repository reproducibility hashes. They are **not** Pair Key values, are **not** Dual Attestation recipes, and do **not** establish institutional receipt. The separate short Markdown examination note is not the authoritative 105-page book and is not the book hash input.
 
-Run from the repository root:
+The verifiers read raw bytes; they do not parse Markdown or PDF, trim whitespace, or normalize Unicode. Run from the repository root:
 
 ```bash
 python3 scripts/verify_digests.py
-a=node scripts/verify_digests.mjs
-```
-
-The scripts compare computed values to `digests/canonical-digests.json`, verify that the declared algorithm is `SHA-256`, and exit nonzero on any mismatch or missing file. The Node command above includes an accidental-safe shell variable assignment only if desired; the normal command is simply:
-
-```bash
 node scripts/verify_digests.mjs
+python3 scripts/verify_test_vectors.py
 ```
+
+The scripts compare computed values to `digests/canonical-digests.json`, verify that the declared algorithm is `SHA-256`, and exit nonzero on any mismatch or missing file.

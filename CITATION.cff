@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "If you use this draft specification surface, please cite the repository and the specific release or commit."
+title: "Outerprise specification surface"
+version: "0.1.1-dev"
+repository-code: "https://github.com/entercation2021-hue/outerprise-spec"
+license: MIT
+authors:
+  - name: "Entercation Info Inc."
+    affiliation: "Entercation Info Inc."
+abstract: "External Evidence Delivery: Separating Content Integrity, Claimed Time, and Institutional Receipt. An Entercation implementation note."
+keywords:
+  - evidence delivery
+  - content integrity
+  - claimed time
+  - institutional receipt
+  - SHA-256

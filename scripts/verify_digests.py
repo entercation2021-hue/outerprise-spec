@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Verify the canonical Outerprise SHA-256 digest manifest."""
+"""Verify the repository's canonical artifact file-hash manifest."""
 from __future__ import annotations
 
 import hashlib
@@ -22,9 +22,11 @@ def main() -> int:
     manifest = json.loads(MANIFEST.read_text(encoding="utf-8"))
     if manifest.get("algorithm") != "SHA-256":
         raise SystemExit("FAIL: manifest algorithm is not SHA-256")
+    if not manifest.get("scope", "").startswith("repository file integrity"):
+        raise SystemExit("FAIL: manifest scope is not repository file integrity")
 
     failures = []
-    for name, item in manifest["digests"].items():
+    for name, item in manifest["file_hashes"].items():
         path = ROOT / item["path"]
         actual = sha256_file(path)
         expected = item["sha256"]
@@ -36,7 +38,7 @@ def main() -> int:
     if failures:
         print("FAIL: " + ", ".join(failures))
         return 1
-    print("PASS: all canonical digests match")
+    print("PASS: all repository file hashes match")
     return 0
 
 

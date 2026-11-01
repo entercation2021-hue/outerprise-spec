@@ -1,15 +1,16 @@
 {
-  "manifest_version": 1,
+  "manifest_version": 2,
   "algorithm": "SHA-256",
-  "encoding": "raw file bytes (UTF-8 Markdown, LF line endings, final newline)",
-  "digests": {
-    "D1": {
+  "encoding": "raw file bytes",
+  "scope": "repository file integrity only; not Pair Key or Dual Attestation",
+  "file_hashes": {
+    "knowledge_library": {
       "path": "canonical/knowledge-library.md",
-      "sha256": "19470c825b43b7b50cf48ed2390e5fa548ed1c054e590c14c7a282b51e7d683f"
+      "sha256": "a2421b1bdd34b92034b1f7579006ba14f07cfe8d1e9019235c27af2a6874c344"
     },
-    "D2": {
-      "path": "book/surprise-outerprise-examination-edition.md",
-      "sha256": "8b8b07136e830e4bc1aabab0c06424f093d92f3da5f6646e4c06b5ed58890c28"
+    "examination_book_pdf": {
+      "path": "book/Surprise_Outerprise_Examination_Edition_105_Pages.pdf",
+      "sha256": "75c312294be784913ec27ecb9d1126f3b79b799162a16a3eb27b0c32f9d0c8f0"
     }
   }
 }

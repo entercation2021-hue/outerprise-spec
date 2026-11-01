@@ -1,18 +1,19 @@
-# OPD — Outerprise Proof Document
+# OPD — Outerprise Package Delivery
 
-**Status:** Draft Knowledge Library block.
+**Status:** Draft alignment block.
 
-## Definition
+## Established meaning
 
-An Outerprise Proof Document (OPD) is a typed evidence envelope. It does not manufacture authority; it makes the boundaries of a claim inspectable.
+OPD means **Outerprise Package Delivery**. It describes the delivery of an Outerprise package across a defined boundary. It is not an “Outerprise Proof Document,” and the acronym must not be expanded that way in examination materials.
 
-## Required conceptual fields
+An OPD may carry evidence fields, package references, integrity hashes, claimed times, delivery attempts, and receipt data. Those fields describe the package and its delivery; they do not manufacture proof or transfer authority between layers.
+
+## Required conceptual separation
 
 ```text
-opd_version
-payload_or_payload_reference
-content_digest { algorithm, value, encoding }
-claimant { id, role }
+package_reference
+package_integrity_hash { algorithm, value, encoding }
+pair_key_reference
 claimed_time { value, timezone, precision, basis }
 delivery { channel, attempt_id, sent_at }
 receipt { status, receiver, received_at, evidence_reference }
@@ -20,12 +21,12 @@ provenance { producer, transformations[] }
 limitations[]
 ```
 
-A field may be `unknown`, `not asserted`, or `not available`; omission must not be interpreted as confirmation.
+A field may be `unknown`, `not asserted`, or `not available`; omission must not be interpreted as confirmation. The `pair_key_reference` identifies the relevant sponsor/project binding when one is present. It does not turn the OPD into the Pair Key itself.
 
-## Digest rule
+## Integrity rule
 
-For a payload `C`, calculate `d = SHA-256(UTF8(C))` only when the encoding and canonical byte representation are specified. If a document is transformed, the transformed artifact has a new digest; it is not the same artifact merely because its rendered text appears equivalent.
+For package bytes `C`, calculate `d = SHA-256(C)` only when the byte representation, encoding, and algorithm are specified. If a package is transformed, the transformed bytes have a new hash unless the bytes are exactly unchanged.
 
-## Proof boundary
+## Boundary rule
 
-An OPD can make evidence easier to verify. It cannot turn an unsupported claim into a fact, and it cannot transfer institutional authority from one named layer to another.
+An OPD can make package delivery inspectable. It cannot turn an unsupported claim into a fact, establish institutional receipt without a receiver record, or transfer institutional authority from one named layer to another.
