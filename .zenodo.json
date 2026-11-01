@@ -1,0 +1,19 @@
+{
+  "title": "Outerprise specification surface",
+  "description": "External Evidence Delivery: Separating Content Integrity, Claimed Time, and Institutional Receipt. An Entercation implementation note.",
+  "upload_type": "software",
+  "publication_date": "2026-11-01",
+  "creators": [
+    {
+      "name": "Entercation Info Inc."
+    }
+  ],
+  "keywords": [
+    "evidence delivery",
+    "content integrity",
+    "claimed time",
+    "institutional receipt",
+    "SHA-256"
+  ],
+  "license": "MIT"
+}
