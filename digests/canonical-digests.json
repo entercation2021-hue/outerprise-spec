@@ -1,0 +1,15 @@
+{
+  "manifest_version": 1,
+  "algorithm": "SHA-256",
+  "encoding": "raw file bytes (UTF-8 Markdown, LF line endings, final newline)",
+  "digests": {
+    "D1": {
+      "path": "canonical/knowledge-library.md",
+      "sha256": "19470c825b43b7b50cf48ed2390e5fa548ed1c054e590c14c7a282b51e7d683f"
+    },
+    "D2": {
+      "path": "book/surprise-outerprise-examination-edition.md",
+      "sha256": "8b8b07136e830e4bc1aabab0c06424f093d92f3da5f6646e4c06b5ed58890c28"
+    }
+  }
+}
