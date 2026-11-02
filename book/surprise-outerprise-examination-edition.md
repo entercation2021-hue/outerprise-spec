@@ -2,7 +2,7 @@
 
 **Document status:** From-scratch short draft alignment note.
 
-**Important identification:** This file is **not** the original 105-page *Surprise, Outerprise — Examination Edition*. The original examination book was not supplied in the workspace and is not reproduced here. This file must not be cited as that original book or as a canonical replacement for it.
+**Important identification:** This file is **not** the original 105-page *Surprise, Outerprise — Examination Edition*. The original examination book is preserved at [`Surprise_Outerprise_Examination_Edition_105_Pages.pdf`](./Surprise_Outerprise_Examination_Edition_105_Pages.pdf). This Markdown file is a separate companion and must not be cited as the original book.
 
 ## Purpose
 
@@ -28,13 +28,13 @@ Let `C` denote exact package bytes and let `H(C) = SHA-256(C)` under a stated re
 
 ## Examination II — Pair Key and OPD terminology
 
-**Question 4.** What does Pair Key mean in the established Outerprise architecture?
+**Question 4.** What is the exact Pair Key construction in the authoritative source?
 
-**Answer.** Pair Key binds a sponsor identity to a project identity. It is not defined here as sender attestation plus receiver attestation. The canonical Dual Attestation recipes must be supplied separately rather than reconstructed from this short note.
+**Answer.** The Pair Key joins a 64-character hexadecimal sponsor identity hash and a 64-character hexadecimal project identity hash. The resulting relationship identifier is 128 hexadecimal characters. The join identifies the pair; it is not a signature, password, or login.
 
 **Question 5.** What does OPD mean?
 
-**Answer.** OPD means Outerprise Package Delivery. It describes delivery of an Outerprise package across a defined boundary. It does not mean Outerprise Proof Document.
+**Answer.** OPD names the package-delivery relationship. The authoritative book records “Outer Package Delivery” on the current board and “Outerprise Package Delivery” in earlier vocabulary. This repository uses Outerprise Package Delivery as its expanded form. OPD does not mean Outerprise Proof Document.
 
 ## Examination III — Claimed time and receipt
 
@@ -56,11 +56,11 @@ Let `C` denote exact package bytes and let `H(C) = SHA-256(C)` under a stated re
 
 **Question 9.** What is the strongest safe conclusion from this repository’s file-hash manifest?
 
-**Answer.** The verifier can conclude that the named committed files match their recorded SHA-256 values. It cannot conclude that the files are the original 105-page examination book, that they contain the canonical Dual Attestation recipes, that their claims are true, or that any institution received or endorsed them.
+**Answer.** The verifier can conclude that the named committed files match their recorded SHA-256 values. It cannot conclude that the files contain every source-book proposition, that their claims are true, or that any institution received or endorsed them.
 
 ## Canonicalization and reproducibility
 
-This short draft is one input to the repository’s file-integrity manifest. It is hashed as exact UTF-8 bytes with LF line endings and a final newline. The manifest records a file hash only; it does not assign that hash the meaning of Pair Key or Dual Attestation.
+This short draft is a companion alignment note. The repository manifest hashes the canonical Knowledge Library compilation and the exact supplied 105-page PDF separately. Those file hashes are repository integrity checks; they do not assign a file hash the meaning of Pair Key or Dual Attestation.
 
 ## Closing note
 

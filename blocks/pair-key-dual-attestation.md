@@ -4,15 +4,19 @@
 
 ## Established meaning
 
-In the Outerprise architecture, a **Pair Key** binds a sponsor identity to a project identity. It is an identity-and-scope binding, not a sender/receiver receipt object and not a replacement for the canonical Dual Attestation recipes.
+In the Outerprise architecture, a **Pair Key** identifies one sponsor and one project together. It is formed by joining the sponsor identity hash and the project identity hash:
 
-The binding answers the narrower question: “Which sponsor and which project are paired for this Outerprise surface?” It must not be expanded into a claim that content is true, that a delivery was received, or that a platform endorsed the project.
+```text
+pair_key = sponsor_identity_hash || project_identity_hash
+```
+
+Each identity hash is a 64-character hexadecimal value. The resulting Pair Key is a 128-character hexadecimal relationship identifier. The join is an identity binding; it is not a new signature, password, login, or proof that funds were received.
 
 ## Scope boundary
 
 A Pair Key may be referenced by an attestation or delivery record, but the reference does not change the meaning of either record. Content integrity, claimed time, delivery attempt, institutional receipt, and sponsor/project identity binding remain separate fields and separate propositions.
 
-The original canonical Dual Attestation recipes are not present in this workspace. This draft therefore does not invent their field names, key material, or verification equations. A future canonical export should replace this alignment block with the established recipes verbatim.
+The authoritative examination book contains the paired-identity definition. Any separate canonical Dual Attestation recipe must be cited at its own source location and must not be inferred from the Pair Key’s 128-character identity join.
 
 ## Non-inheritance
 
@@ -20,4 +24,4 @@ A sponsor/project binding does not inherit authority from Supabase storage, Lova
 
 ## Examination rule
 
-Do not use the retired sender/receiver interpretation for Pair Key. The established scope is sponsor/project identity binding.
+Do not use the retired sender/receiver interpretation for Pair Key. The established scope is the concatenation of the sponsor and project identity hashes.

@@ -3,8 +3,8 @@
 This index lists the current draft alignment surface and the supplied authoritative examination-book artifact. It deliberately distinguishes repository file-integrity hashes from the Outerprise architecture’s Pair Key and Dual Attestation concepts.
 
 1. [Integration Paradox](blocks/integration-paradox.md) — Explains why integration does not collapse content identity, claimed time, institutional receipt, or sponsor/project identity binding.
-2. [Pair Key / Dual Attestation](blocks/pair-key-dual-attestation.md) — Defines Pair Key as sponsor/project identity binding and preserves the boundary around canonical Dual Attestation recipes.
-3. [OPD](blocks/opd.md) — Defines OPD as Outerprise Package Delivery, not Outerprise Proof Document.
+2. [Pair Key / Dual Attestation](blocks/pair-key-dual-attestation.md) — Defines Pair Key as the 128-hex concatenation of sponsor and project identity hashes, and keeps it separate from any Dual Attestation recipe.
+3. [OPD](blocks/opd.md) — Defines OPD’s current-board and earlier-vocabulary expansions and rejects the obsolete “Proof Document” expansion.
 4. [Outer-Gration](blocks/outer-gration.md) — Describes an outward delivery boundary where a package leaves one system without inheriting authority from the destination.
 5. [Claimed Time vs. Institutional Receipt](blocks/claimed-time-vs-receipt.md) — Separates event time claimed by a sender from time evidenced by a receiving institution.
 6. [Evidence Delivery Contract](blocks/evidence-delivery-contract.md) — Provides a minimal protocol and verification checklist for delivery without overclaiming.

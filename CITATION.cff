@@ -1,7 +1,7 @@
 cff-version: 1.2.0
 message: "If you use this draft specification surface, please cite the repository and the specific release or commit."
 title: "Outerprise specification surface"
-version: "0.1.1"
+version: "0.1.2"
 date-released: 2026-11-01
 repository-code: "https://github.com/entercation2021-hue/outerprise-spec"
 license: MIT

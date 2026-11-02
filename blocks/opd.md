@@ -4,7 +4,7 @@
 
 ## Established meaning
 
-OPD means **Outerprise Package Delivery**. It describes the delivery of an Outerprise package across a defined boundary. It is not an “Outerprise Proof Document,” and the acronym must not be expanded that way in examination materials.
+OPD names the package-delivery relationship. The authoritative examination book records two vocabulary forms: **Outer Package Delivery** on the current board and **Outerprise Package Delivery** in earlier vocabulary. This repository uses **Outerprise Package Delivery** as its expanded form while preserving the source distinction. OPD is not “Outerprise Proof Document.”
 
 An OPD may carry evidence fields, package references, integrity hashes, claimed times, delivery attempts, and receipt data. Those fields describe the package and its delivery; they do not manufacture proof or transfer authority between layers.
 

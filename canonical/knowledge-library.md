@@ -2,7 +2,7 @@
 
 **Canonical artifact:** file-integrity hash input. UTF-8 Markdown, LF line endings, final newline.
 
-This compilation is a from-scratch draft alignment surface. Individual readable exports are linked from [the root index](../index.md). It does not claim to reproduce any unavailable source edition or unavailable canonical Dual Attestation recipe.
+This compilation is a draft alignment surface grounded in the supplied examination book. Individual readable exports are linked from [the root index](../index.md). It does not silently replace the source book’s vocabulary or identity rules.
 
 ---
 
@@ -12,11 +12,17 @@ The more systems participate in an evidence workflow, the more carefully the wor
 
 ## 2. Pair Key / Dual Attestation
 
-In the established Outerprise architecture, a Pair Key binds a sponsor identity to a project identity. It is not a sender/receiver receipt object. A Pair Key may be referenced by a Dual Attestation or delivery record, but the reference does not collapse identity binding, content integrity, claimed time, delivery, or institutional receipt into one proposition. The original canonical Dual Attestation recipes are not present in this workspace and are not fabricated by this draft.
+A Pair Key identifies one sponsor and one project together. It is the concatenation of a 64-character hexadecimal sponsor identity hash and a 64-character hexadecimal project identity hash, producing a 128-character hexadecimal relationship identifier:
+
+```text
+pair_key = sponsor_identity_hash || project_identity_hash
+```
+
+The join is not a new signature, password, login, or proof that funds were received. A separate Dual Attestation recipe must not be inferred from the Pair Key identity join.
 
 ## 3. OPD — Outerprise Package Delivery
 
-OPD means Outerprise Package Delivery. It describes delivery of an Outerprise package across a defined boundary. It is not “Outerprise Proof Document.” An OPD may carry package references, integrity hashes, Pair Key references, claimed times, delivery attempts, receipt data, provenance, and limitations. These fields make delivery inspectable; they do not manufacture proof or transfer authority.
+OPD names the package-delivery relationship. The authoritative examination book records **Outer Package Delivery** on the current board and **Outerprise Package Delivery** in earlier vocabulary. This repository uses Outerprise Package Delivery as its expanded form and preserves the source distinction. OPD is not “Outerprise Proof Document.” An OPD may carry package references, integrity hashes, Pair Key references, claimed times, delivery attempts, receipt data, provenance, and limitations. These fields make delivery inspectable; they do not manufacture proof or transfer authority.
 
 ## 4. Outer-Gration
 
@@ -32,4 +38,4 @@ For each delivery, create an integrity hash, identify the representation and sen
 
 ## File-hash note
 
-The repository manifest records hashes of committed files for reproducibility. Those file hashes are integrity checks for this repository’s bytes. They are not the Pair Key, not the Dual Attestation recipes, and not an institutional receipt.
+The repository manifest records hashes of committed files for reproducibility. Those file hashes are integrity checks for this repository’s bytes. They are not the Pair Key, not a Dual Attestation recipe, and not an institutional receipt.
