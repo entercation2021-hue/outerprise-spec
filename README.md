@@ -2,14 +2,27 @@
 
 External Evidence Delivery: Separating Content Integrity, Claimed Time, and Institutional Receipt. An Entercation implementation note.
 
-This repository is a draft examination surface for the Outerprise evidence-delivery model. It is intentionally explicit about what is a cryptographic property, what is a participant assertion, what is an institutional receipt, and what is a sponsor/project identity binding.
+This repository is a draft examination surface for the Outerprise evidence-delivery model. It distinguishes what can be checked cryptographically from what is asserted by a participant, acknowledged by a recipient, or recorded as a sponsor/project relationship.
 
 ## Start here
 
-- [Knowledge Library index](https://outerprise-knowledge-library.lovable.app)
+[**Open OIGP v1.3.1: Cryptographic Fiscal Sponsorship State Machine**](https://doi.org/10.5281/zenodo.24177899)
+
+Follow the approved and denied synthetic draws through sponsor decision, payment evidence, and closeout. The walkthrough shows how a reviewer can examine the supplied records without a standing connection to the system that produced them. Use the instructions in the versioned OIGP archive to reproduce its checks.
+
+## Publications and worked examples
+
+- [Outerprise Waste Metric report and publication guide](https://doi.org/10.5281/zenodo.24182132): a worksheet for comparing the cost of equivalent reviews. It does not establish measured savings.
+- [Data Center Transparency](https://doi.org/10.5281/zenodo.23993510): synthetic disclosures and the limits of what their evidence establishes.
+- [Outerprise specification surface](https://doi.org/10.5281/zenodo.23873552): Entercation Info Inc.’s draft specification for integrity, claimed time, and institutional receipt.
+
+[Live app](https://entercation.lovable.app/) · [Knowledge Library](https://outerprise-knowledge-library.lovable.app/) · [Vince Jones on ORCID](https://orcid.org/0009-0008-6712-8136)
+
+## Repository materials
+
 - [Trust and non-inheritance statement](./TRUST.md)
 - [Canonical Knowledge Library compilation](./canonical/knowledge-library.md)
-- [Authoritative 105-page Examination Edition PDF](./book/Surprise_Outerprise_Examination_Edition_105_Pages.pdf)
+- [Surprise, Outerprise — 105-page Examination Edition PDF](./book/Surprise_Outerprise_Examination_Edition_105_Pages.pdf)
 - [Short draft alignment note](./book/surprise-outerprise-examination-edition.md)
 - [Repository file-hash manifest](./digests/canonical-digests.json)
 - [Verification scripts](./scripts/)
@@ -18,13 +31,15 @@ This repository is a draft examination surface for the Outerprise evidence-deliv
 
 ## Scope and status
 
-These files are draft specifications, not legal advice, an audit opinion, or a claim that any named system has accepted a record. A hash proves equality with the bytes hashed; it does not prove authorship, truth, time of creation, delivery, receipt, or sponsor/project pairing.
+These materials are draft specifications and worked examples. They do not establish an audit opinion, regulatory approval, or acceptance by any named institution. A matching digest supports an integrity check against a trusted reference; it does not by itself establish authorship, truth, creation time, delivery, or receipt.
 
-The supplied `book/Surprise_Outerprise_Examination_Edition_105_Pages.pdf` is the authoritative examination-book artifact in this repository. It is preserved byte-for-byte from the supplied file and is not silently converted into the short Markdown note. The Markdown file is a separate, from-scratch alignment companion and must not be cited as the original 105-page book.
+The 105-page Examination Edition PDF is the authoritative book artifact in this repository. The short Markdown alignment note is a separate companion and should not be cited as the book.
 
-OPD names the package-delivery relationship. The authoritative book records **Outer Package Delivery** on the current board and **Outerprise Package Delivery** in earlier vocabulary; this repository uses the latter as its expanded form. Pair Key is the concatenation of a 64-hex sponsor identity hash and a 64-hex project identity hash, producing a 128-hex relationship identifier. It is not a signature, password, or login.
+OPD names the package-delivery relationship. The book records **Outer Package Delivery** on the current board and **Outerprise Package Delivery** in earlier vocabulary; this repository uses the latter expansion. In this specification, the Pair Key concatenates a 64-hex sponsor identity hash and a 64-hex project identity hash into a 128-hex relationship identifier. It is not a signature, password, or login.
 
-The repository manifest records SHA-256 file hashes for reproducibility. Those hashes are repository integrity checks; they are not Pair Key values, not Dual Attestation recipes, and not institutional receipts. The artifacts are hashed as exact bytes. Run the verifiers from the repository root:
+## Verify this repository
+
+The repository manifest records SHA-256 hashes of exact file bytes. These are repository integrity checks, separate from Pair Key values, Dual Attestation recipes, and institutional receipts. Run these commands from the repository root:
 
 ```bash
 python3 scripts/verify_digests.py
