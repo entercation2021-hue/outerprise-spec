@@ -46,3 +46,8 @@ python3 scripts/verify_digests.py
 node scripts/verify_digests.mjs
 python3 scripts/verify_test_vectors.py
 ```
+
+
+## Publications & Evidence
+
+[Browse the Outerprise Publications & Evidence index](https://outerprise-knowledge-library.lovable.app/publications) for the Visual Manual, individual Internet-Drafts, the synthetic Dual-Receipt example, and the archived examination book.
