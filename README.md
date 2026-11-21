@@ -6,6 +6,11 @@ This repository is a draft examination surface for the Outerprise evidence-deliv
 
 ## Start here
 
+- [Entercation ecosystem and live-app entry points](https://github.com/entercation2021-hue/Entercation-AI-Frameworks)
+- [Micro and Macro receipts](./blocks/micro-macro-receipts.md)
+- [Outerprise and enterprise integration comparison](https://doi.org/10.5281/zenodo.24305668)
+- [Knowledge Library index](./index.md)
+
 [**Open OIGP v1.3.1: Cryptographic Fiscal Sponsorship State Machine**](https://doi.org/10.5281/zenodo.24177899)
 
 Follow the approved and denied synthetic draws through sponsor decision, payment evidence, and closeout. The walkthrough shows how a reviewer can examine the supplied records without a standing connection to the system that produced them. Use the instructions in the versioned OIGP archive to reproduce its checks.
@@ -50,4 +55,8 @@ python3 scripts/verify_test_vectors.py
 
 ## Publications & Evidence
 
-[Browse the Outerprise Publications & Evidence index](https://outerprise-knowledge-library.lovable.app/publications) for the Visual Manual, individual Internet-Drafts, the synthetic Dual-Receipt example, and the archived examination book.
+- [Startup Survival and the Four Gates](https://doi.org/10.5281/zenodo.24415135)
+- [Visual Manual and app screenshots](https://doi.org/10.5281/zenodo.24415152)
+- [Examination Manual](https://doi.org/10.5281/zenodo.24415162)
+- [Dual-Receipt Profile](https://doi.org/10.5281/zenodo.24415155)
+- [Detached Evidence Handoffs](https://doi.org/10.5281/zenodo.24415158)

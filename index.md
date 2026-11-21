@@ -1,5 +1,7 @@
 # Knowledge Library index
 
+[Specification home](README.md) · [Entercation ecosystem](https://github.com/entercation2021-hue/Entercation-AI-Frameworks) · [Micro and Macro receipts](blocks/micro-macro-receipts.md) · [Outerprise and enterprise integration comparison](https://doi.org/10.5281/zenodo.24305668)
+
 This index lists the current draft alignment surface and the supplied authoritative examination-book artifact. It deliberately distinguishes repository file-integrity hashes from the Outerprise architecture’s Pair Key and Dual Attestation concepts.
 
 1. [Integration Paradox](blocks/integration-paradox.md) — Explains why integration does not collapse content identity, claimed time, institutional receipt, or sponsor/project identity binding.
@@ -8,6 +10,8 @@ This index lists the current draft alignment surface and the supplied authoritat
 4. [Outer-Gration](blocks/outer-gration.md) — Describes an outward delivery boundary where a package leaves one system without inheriting authority from the destination.
 5. [Claimed Time vs. Institutional Receipt](blocks/claimed-time-vs-receipt.md) — Separates event time claimed by a sender from time evidenced by a receiving institution.
 6. [Evidence Delivery Contract](blocks/evidence-delivery-contract.md) — Provides a minimal protocol and verification checklist for delivery without overclaiming.
+
+7. [Micro and Macro receipts](blocks/micro-macro-receipts.md) — Follows individual evidence into an organizational aggregate and delivered package.
 
 ## Canonical and examination materials
 
