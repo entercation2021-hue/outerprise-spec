@@ -52,11 +52,17 @@ node scripts/verify_digests.mjs
 python3 scripts/verify_test_vectors.py
 ```
 
+## Internet-Drafts and archival copies
 
-## Publications & Evidence
+Each row links a fixed Internet-Draft revision and its Zenodo citation. Internet-Drafts are works in progress.
 
-- [Startup Survival and the Four Gates](https://doi.org/10.5281/zenodo.24415135)
-- [Visual Manual and app screenshots](https://doi.org/10.5281/zenodo.24415152)
-- [Examination Manual](https://doi.org/10.5281/zenodo.24415162)
-- [Dual-Receipt Profile](https://doi.org/10.5281/zenodo.24415155)
-- [Detached Evidence Handoffs](https://doi.org/10.5281/zenodo.24415158)
+| Internet-Draft revision | Zenodo archive |
+| --- | --- |
+| [MiMS Reproducible Draft Review (00)](https://www.ietf.org/archive/id/draft-jones-mims-reproducible-draft-review-00.html) | [10.5281/zenodo.24450421](https://doi.org/10.5281/zenodo.24450421) |
+| [SCITT Dual-Receipt Profile (02)](https://www.ietf.org/archive/id/draft-jones-scitt-dual-receipt-02.html) | [10.5281/zenodo.24415155](https://doi.org/10.5281/zenodo.24415155) |
+| [Detached Evidence Handoffs (03)](https://www.ietf.org/archive/id/draft-jones-detached-evidence-handoffs-03.html) | [10.5281/zenodo.24415158](https://doi.org/10.5281/zenodo.24415158) |
+| [Detached Evidence Examination (00)](https://www.ietf.org/archive/id/draft-jones-detached-evidence-examination-00.html) | [10.5281/zenodo.24415162](https://doi.org/10.5281/zenodo.24415162) |
+| [Outerprise Visual Manual (00)](https://www.ietf.org/archive/id/draft-jones-outerprise-visual-manual-00.html) | [10.5281/zenodo.24415152](https://doi.org/10.5281/zenodo.24415152) |
+| [Outerprise Four-Gate Onboarding (00)](https://www.ietf.org/archive/id/draft-jones-outerprise-four-gate-onboarding-00.html) | [10.5281/zenodo.24415135](https://doi.org/10.5281/zenodo.24415135) |
+
+For the worked fiscal sponsorship example, cite the OIGP version used for verification. [OIGP v1.3.4](https://doi.org/10.5281/zenodo.24197013) · [OIGP v1.3.1](https://doi.org/10.5281/zenodo.24177899)
