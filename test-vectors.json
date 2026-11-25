@@ -1,0 +1,340 @@
+{
+  "classification": "synthetic",
+  "scope": "Positive offline conformance and documented synthetic controls only.",
+  "suites": [
+    {
+      "draft": "draft-jones-scitt-pain-point-resolutions-00",
+      "source": "https://datatracker.ietf.org/doc/draft-jones-scitt-pain-point-resolutions/00/",
+      "section": "Appendix A",
+      "vectors": [
+        {
+          "id": "V1",
+          "description": "V1 (E03): statements i = 1 to 4 are the JSON objects below with \"seq\" set to i. JCS(statement 1) is 99 octets: the members in the order shown, with no whitespace.",
+          "published_artwork": "{ \"iss\": \"demo-issuer-1\", \"seq\": i,\n    \"statement\": \"demo-supply-chain-event\",\n    \"sub\": \"demo-artifact-1\", \"v\": 1 }\n\n  SID[1] =\n    d013c1539582b548b9a4488e7982bba73ee173ebfe49acab25c43a60fc6ff721\n  SID[2] =\n    0ef4b19432f8d5d26a5a3c3ee7544491c3863b8bca69be16feaef12bdaa9f620\n  SID[3] =\n    1f9f6458b72ddd84c0f4816a468674712a8cd56fe6224bbf437c337cf8a8ba25\n  SID[4] =\n    5a767c39168bd6dca4230b1316219b0ef1fe4e947f2452f8177f7887f22c2b23",
+          "expected_hex": {
+            "SID[1]": "d013c1539582b548b9a4488e7982bba73ee173ebfe49acab25c43a60fc6ff721",
+            "SID[2]": "0ef4b19432f8d5d26a5a3c3ee7544491c3863b8bca69be16feaef12bdaa9f620",
+            "SID[3]": "1f9f6458b72ddd84c0f4816a468674712a8cd56fe6224bbf437c337cf8a8ba25",
+            "SID[4]": "5a767c39168bd6dca4230b1316219b0ef1fe4e947f2452f8177f7887f22c2b23"
+          },
+          "classification": "synthetic",
+          "assertions": [
+            {
+              "vector": "V1",
+              "assertion": "SID[1]",
+              "expected": "d013c1539582b548b9a4488e7982bba73ee173ebfe49acab25c43a60fc6ff721",
+              "observed": "d013c1539582b548b9a4488e7982bba73ee173ebfe49acab25c43a60fc6ff721",
+              "result": "MATCH"
+            },
+            {
+              "vector": "V1",
+              "assertion": "SID[2]",
+              "expected": "0ef4b19432f8d5d26a5a3c3ee7544491c3863b8bca69be16feaef12bdaa9f620",
+              "observed": "0ef4b19432f8d5d26a5a3c3ee7544491c3863b8bca69be16feaef12bdaa9f620",
+              "result": "MATCH"
+            },
+            {
+              "vector": "V1",
+              "assertion": "SID[3]",
+              "expected": "1f9f6458b72ddd84c0f4816a468674712a8cd56fe6224bbf437c337cf8a8ba25",
+              "observed": "1f9f6458b72ddd84c0f4816a468674712a8cd56fe6224bbf437c337cf8a8ba25",
+              "result": "MATCH"
+            },
+            {
+              "vector": "V1",
+              "assertion": "SID[4]",
+              "expected": "5a767c39168bd6dca4230b1316219b0ef1fe4e947f2452f8177f7887f22c2b23",
+              "observed": "5a767c39168bd6dca4230b1316219b0ef1fe4e947f2452f8177f7887f22c2b23",
+              "result": "MATCH"
+            }
+          ]
+        },
+        {
+          "id": "V2",
+          "description": "V2 (E03): statement 1 with its members in reverse order canonicalizes to the same JCS octets and therefore the same SID.",
+          "published_artwork": "SID =\n    d013c1539582b548b9a4488e7982bba73ee173ebfe49acab25c43a60fc6ff721",
+          "expected_hex": {
+            "SID": "d013c1539582b548b9a4488e7982bba73ee173ebfe49acab25c43a60fc6ff721"
+          },
+          "classification": "synthetic",
+          "assertions": [
+            {
+              "vector": "V2",
+              "assertion": "SID",
+              "expected": "d013c1539582b548b9a4488e7982bba73ee173ebfe49acab25c43a60fc6ff721",
+              "observed": "d013c1539582b548b9a4488e7982bba73ee173ebfe49acab25c43a60fc6ff721",
+              "result": "MATCH"
+            }
+          ]
+        },
+        {
+          "id": "V3",
+          "description": "V3 (E02): leaves, leaf hashes, interior nodes, and root.",
+          "published_artwork": "LEAF[1] =\n    b371de8075d477151eebd7764985459eeae3cdaf9e5708c62c57a67b944444ee\n  LEAF[2] =\n    ead4db28f0dd6b39a26168783481945701c2a38a7fe73582e1ba1bf5e008c195\n  LEAF[3] =\n    c0b8989c8781365e76fe755ecdee8c0ec21752f2772d8c80f1efe8b8858cce19\n  LEAF[4] =\n    aecbb31b50d164f069401bbd8763c7ccf3d92c8d444f2db8b00fe00c8dccc995\n  leaf hash[1] =\n    242e4ab291dbd0792b603ab243dbf7f0656c19efd036a4a2e891799c4f5dec74\n  leaf hash[2] =\n    55d6cdb9fa5a75f5e199ba75b02db2eb9312b84557ee81e24cf651f387eef6d6\n  leaf hash[3] =\n    afe00fa75f6c73948fec3d0f3e1b1376c359d5eba23402d9159d4df64751e5c5\n  leaf hash[4] =\n    3fa54f83f8c148bb87f3e0e6526e9c056424a3b80a413531b6ff480878a808e8\n  node[1..2] =\n    f7d1f88eec701014d81a1d3383ead2da6a4ed7dd5e669d30a9eac29137a830b1\n  node[3..4] =\n    303f60cd99054259d0e2236fa64edf75099518a0098d2eab74c270e07885db56\n  root =\n    23ed6ac2ac8e3a5020758cfe1f27165d5457e4230e30b659b83a0cb100444823",
+          "expected_hex": {
+            "LEAF[1]": "b371de8075d477151eebd7764985459eeae3cdaf9e5708c62c57a67b944444ee",
+            "LEAF[2]": "ead4db28f0dd6b39a26168783481945701c2a38a7fe73582e1ba1bf5e008c195",
+            "LEAF[3]": "c0b8989c8781365e76fe755ecdee8c0ec21752f2772d8c80f1efe8b8858cce19",
+            "LEAF[4]": "aecbb31b50d164f069401bbd8763c7ccf3d92c8d444f2db8b00fe00c8dccc995",
+            "leaf hash[1]": "242e4ab291dbd0792b603ab243dbf7f0656c19efd036a4a2e891799c4f5dec74",
+            "leaf hash[2]": "55d6cdb9fa5a75f5e199ba75b02db2eb9312b84557ee81e24cf651f387eef6d6",
+            "leaf hash[3]": "afe00fa75f6c73948fec3d0f3e1b1376c359d5eba23402d9159d4df64751e5c5",
+            "leaf hash[4]": "3fa54f83f8c148bb87f3e0e6526e9c056424a3b80a413531b6ff480878a808e8",
+            "node[1..2]": "f7d1f88eec701014d81a1d3383ead2da6a4ed7dd5e669d30a9eac29137a830b1",
+            "node[3..4]": "303f60cd99054259d0e2236fa64edf75099518a0098d2eab74c270e07885db56",
+            "root": "23ed6ac2ac8e3a5020758cfe1f27165d5457e4230e30b659b83a0cb100444823"
+          },
+          "classification": "synthetic",
+          "assertions": [
+            {
+              "vector": "V3",
+              "assertion": "LEAF[1]",
+              "expected": "b371de8075d477151eebd7764985459eeae3cdaf9e5708c62c57a67b944444ee",
+              "observed": "b371de8075d477151eebd7764985459eeae3cdaf9e5708c62c57a67b944444ee",
+              "result": "MATCH"
+            },
+            {
+              "vector": "V3",
+              "assertion": "leaf hash[1]",
+              "expected": "242e4ab291dbd0792b603ab243dbf7f0656c19efd036a4a2e891799c4f5dec74",
+              "observed": "242e4ab291dbd0792b603ab243dbf7f0656c19efd036a4a2e891799c4f5dec74",
+              "result": "MATCH"
+            },
+            {
+              "vector": "V3",
+              "assertion": "LEAF[2]",
+              "expected": "ead4db28f0dd6b39a26168783481945701c2a38a7fe73582e1ba1bf5e008c195",
+              "observed": "ead4db28f0dd6b39a26168783481945701c2a38a7fe73582e1ba1bf5e008c195",
+              "result": "MATCH"
+            },
+            {
+              "vector": "V3",
+              "assertion": "leaf hash[2]",
+              "expected": "55d6cdb9fa5a75f5e199ba75b02db2eb9312b84557ee81e24cf651f387eef6d6",
+              "observed": "55d6cdb9fa5a75f5e199ba75b02db2eb9312b84557ee81e24cf651f387eef6d6",
+              "result": "MATCH"
+            },
+            {
+              "vector": "V3",
+              "assertion": "LEAF[3]",
+              "expected": "c0b8989c8781365e76fe755ecdee8c0ec21752f2772d8c80f1efe8b8858cce19",
+              "observed": "c0b8989c8781365e76fe755ecdee8c0ec21752f2772d8c80f1efe8b8858cce19",
+              "result": "MATCH"
+            },
+            {
+              "vector": "V3",
+              "assertion": "leaf hash[3]",
+              "expected": "afe00fa75f6c73948fec3d0f3e1b1376c359d5eba23402d9159d4df64751e5c5",
+              "observed": "afe00fa75f6c73948fec3d0f3e1b1376c359d5eba23402d9159d4df64751e5c5",
+              "result": "MATCH"
+            },
+            {
+              "vector": "V3",
+              "assertion": "LEAF[4]",
+              "expected": "aecbb31b50d164f069401bbd8763c7ccf3d92c8d444f2db8b00fe00c8dccc995",
+              "observed": "aecbb31b50d164f069401bbd8763c7ccf3d92c8d444f2db8b00fe00c8dccc995",
+              "result": "MATCH"
+            },
+            {
+              "vector": "V3",
+              "assertion": "leaf hash[4]",
+              "expected": "3fa54f83f8c148bb87f3e0e6526e9c056424a3b80a413531b6ff480878a808e8",
+              "observed": "3fa54f83f8c148bb87f3e0e6526e9c056424a3b80a413531b6ff480878a808e8",
+              "result": "MATCH"
+            },
+            {
+              "vector": "V3",
+              "assertion": "node[1..2]",
+              "expected": "f7d1f88eec701014d81a1d3383ead2da6a4ed7dd5e669d30a9eac29137a830b1",
+              "observed": "f7d1f88eec701014d81a1d3383ead2da6a4ed7dd5e669d30a9eac29137a830b1",
+              "result": "MATCH"
+            },
+            {
+              "vector": "V3",
+              "assertion": "node[3..4]",
+              "expected": "303f60cd99054259d0e2236fa64edf75099518a0098d2eab74c270e07885db56",
+              "observed": "303f60cd99054259d0e2236fa64edf75099518a0098d2eab74c270e07885db56",
+              "result": "MATCH"
+            },
+            {
+              "vector": "V3",
+              "assertion": "root",
+              "expected": "23ed6ac2ac8e3a5020758cfe1f27165d5457e4230e30b659b83a0cb100444823",
+              "observed": "23ed6ac2ac8e3a5020758cfe1f27165d5457e4230e30b659b83a0cb100444823",
+              "result": "MATCH"
+            }
+          ]
+        },
+        {
+          "id": "V4",
+          "description": "V4 (E01): signed tree head as COSE_Sign1. The payload is JCS({\"root\": root, \"tree_size\": 4}), 89 octets, with root taken from V3.",
+          "published_artwork": "protected header: a10132    ; {1: -19}\n  Sig_structure (108 octets):\n    846a5369676e61747572653143a101324058597b22726f6f74223a2232336564\n    3661633261633865336135303230373538636665316632373136356435343537\n    65343233306533306236353962383361306362313030343434383233222c2274\n    7265655f73697a65223a347d\n  SHA-256(Sig_structure) =\n    2ff4d221c0d1245d7085d8a592472aaf002234c1fcaf4bb99f32b3ae87f677fb\n  test seed (Ed25519 private key) =\n    c45e7036779435f0995cc2917e5cb882ec322e09aa84db964afa4fc7f2d24d3d\n  public key =\n    04c773f3cbc69cbf4e83b4cb26fbc81d6394f938d3d2cae80a26e10b20b36b05\n  signature =\n    16137b4621e452d82303ae4013c15f422f9552de96a0582c7c19ad67033e891a\n    db78119dde77ac8c509ac0ecaa15187dfe0d40e8ff8353bb7a7100a6fa198009\n  COSE_Sign1, tag 18 (164 octets):\n    d28443a10132a058597b22726f6f74223a223233656436616332616338653361\n    3530323037353863666531663237313635643534353765343233306533306236\n    353962383361306362313030343434383233222c22747265655f73697a65223a\n    347d584016137b4621e452d82303ae4013c15f422f9552de96a0582c7c19ad67\n    033e891adb78119dde77ac8c509ac0ecaa15187dfe0d40e8ff8353bb7a7100a6\n    fa198009\n\n  Negative controls, each REJECTED:\n    one-octet change to the payload;\n    \"Signature1\" encoded as a byte string (0x4a);\n    tree_size changed from 4 to 5.",
+          "expected_hex": {
+            "Sig_structure (108 octets)": "846a5369676e61747572653143a101324058597b22726f6f74223a2232336564366163326163386533613530323037353863666531663237313635643534353765343233306533306236353962383361306362313030343434383233222c22747265655f73697a65223a347d",
+            "SHA-256(Sig_structure)": "2ff4d221c0d1245d7085d8a592472aaf002234c1fcaf4bb99f32b3ae87f677fb",
+            "test seed (Ed25519 private key)": "c45e7036779435f0995cc2917e5cb882ec322e09aa84db964afa4fc7f2d24d3d",
+            "public key": "04c773f3cbc69cbf4e83b4cb26fbc81d6394f938d3d2cae80a26e10b20b36b05",
+            "signature": "16137b4621e452d82303ae4013c15f422f9552de96a0582c7c19ad67033e891adb78119dde77ac8c509ac0ecaa15187dfe0d40e8ff8353bb7a7100a6fa198009",
+            "COSE_Sign1, tag 18 (164 octets)": "d28443a10132a058597b22726f6f74223a2232336564366163326163386533613530323037353863666531663237313635643534353765343233306533306236353962383361306362313030343434383233222c22747265655f73697a65223a347d584016137b4621e452d82303ae4013c15f422f9552de96a0582c7c19ad67033e891adb78119dde77ac8c509ac0ecaa15187dfe0d40e8ff8353bb7a7100a6fa198009"
+          },
+          "classification": "synthetic",
+          "assertions": [
+            {
+              "vector": "V4",
+              "assertion": "Sig_structure (108 octets)",
+              "expected": "846a5369676e61747572653143a101324058597b22726f6f74223a2232336564366163326163386533613530323037353863666531663237313635643534353765343233306533306236353962383361306362313030343434383233222c22747265655f73697a65223a347d",
+              "observed": "846a5369676e61747572653143a101324058597b22726f6f74223a2232336564366163326163386533613530323037353863666531663237313635643534353765343233306533306236353962383361306362313030343434383233222c22747265655f73697a65223a347d",
+              "result": "MATCH"
+            },
+            {
+              "vector": "V4",
+              "assertion": "SHA-256(Sig_structure)",
+              "expected": "2ff4d221c0d1245d7085d8a592472aaf002234c1fcaf4bb99f32b3ae87f677fb",
+              "observed": "2ff4d221c0d1245d7085d8a592472aaf002234c1fcaf4bb99f32b3ae87f677fb",
+              "result": "MATCH"
+            },
+            {
+              "vector": "V4",
+              "assertion": "public key",
+              "expected": "04c773f3cbc69cbf4e83b4cb26fbc81d6394f938d3d2cae80a26e10b20b36b05",
+              "observed": "04c773f3cbc69cbf4e83b4cb26fbc81d6394f938d3d2cae80a26e10b20b36b05",
+              "result": "MATCH"
+            },
+            {
+              "vector": "V4",
+              "assertion": "signature",
+              "expected": "16137b4621e452d82303ae4013c15f422f9552de96a0582c7c19ad67033e891adb78119dde77ac8c509ac0ecaa15187dfe0d40e8ff8353bb7a7100a6fa198009",
+              "observed": "16137b4621e452d82303ae4013c15f422f9552de96a0582c7c19ad67033e891adb78119dde77ac8c509ac0ecaa15187dfe0d40e8ff8353bb7a7100a6fa198009",
+              "result": "MATCH"
+            },
+            {
+              "vector": "V4",
+              "assertion": "COSE_Sign1, tag 18 (164 octets)",
+              "expected": "d28443a10132a058597b22726f6f74223a2232336564366163326163386533613530323037353863666531663237313635643534353765343233306533306236353962383361306362313030343434383233222c22747265655f73697a65223a347d584016137b4621e452d82303ae4013c15f422f9552de96a0582c7c19ad67033e891adb78119dde77ac8c509ac0ecaa15187dfe0d40e8ff8353bb7a7100a6fa198009",
+              "observed": "d28443a10132a058597b22726f6f74223a2232336564366163326163386533613530323037353863666531663237313635643534353765343233306533306236353962383361306362313030343434383233222c22747265655f73697a65223a347d584016137b4621e452d82303ae4013c15f422f9552de96a0582c7c19ad67033e891adb78119dde77ac8c509ac0ecaa15187dfe0d40e8ff8353bb7a7100a6fa198009",
+              "result": "MATCH"
+            },
+            {
+              "vector": "V4",
+              "assertion": "changed payload byte",
+              "expected": "REJECTED",
+              "observed": "REJECTED",
+              "result": "MATCH"
+            },
+            {
+              "vector": "V4",
+              "assertion": "CBOR byte-string context",
+              "expected": "REJECTED",
+              "observed": "REJECTED",
+              "result": "MATCH"
+            },
+            {
+              "vector": "V4",
+              "assertion": "changed tree size",
+              "expected": "REJECTED",
+              "observed": "REJECTED",
+              "result": "MATCH"
+            }
+          ]
+        },
+        {
+          "id": "V5",
+          "description": "V5 (E04): the composite identifier of  Section 5.6. The result equals the value published in that draft.",
+          "published_artwork": "D1 =\n    dfeb582c87775fbcc7fcc948d85fd6dda8a516329a7f40b3ecc8a97349c9a1fd\n  D2 =\n    c0f094c8ef3f6004ff50e96a0be39f15366496f62e009398d1537fe4cbb80316\n  CID = SHA-256(D1 || D2) =\n    364383c7d24a9f1902243cd206cfb35fe77b637ee38ffc5290861e3d4bbe38b8\n\n  Negative, SHA-256(D2 || D1) =\n    1003df94fb7e7dcc4908de56f9d957d79d35230b7bc836e9a2b7d7f24a27e0ac\n  Negative, SHA-256 over the 128-character hex text =\n    f590a04993bbc2d009b2baec7c642b3f81abdcfd04c3e91eb474fe753d8a21f0",
+          "expected_hex": {
+            "D1": "dfeb582c87775fbcc7fcc948d85fd6dda8a516329a7f40b3ecc8a97349c9a1fd",
+            "D2": "c0f094c8ef3f6004ff50e96a0be39f15366496f62e009398d1537fe4cbb80316",
+            "CID = SHA-256(D1 || D2)": "364383c7d24a9f1902243cd206cfb35fe77b637ee38ffc5290861e3d4bbe38b8",
+            "Negative, SHA-256(D2 || D1)": "1003df94fb7e7dcc4908de56f9d957d79d35230b7bc836e9a2b7d7f24a27e0ac",
+            "Negative, SHA-256 over the 128-character hex text": "f590a04993bbc2d009b2baec7c642b3f81abdcfd04c3e91eb474fe753d8a21f0"
+          },
+          "classification": "synthetic",
+          "assertions": [
+            {
+              "vector": "V5",
+              "assertion": "CID = SHA-256(D1 || D2)",
+              "expected": "364383c7d24a9f1902243cd206cfb35fe77b637ee38ffc5290861e3d4bbe38b8",
+              "observed": "364383c7d24a9f1902243cd206cfb35fe77b637ee38ffc5290861e3d4bbe38b8",
+              "result": "MATCH"
+            },
+            {
+              "vector": "V5",
+              "assertion": "Negative, SHA-256(D2 || D1)",
+              "expected": "1003df94fb7e7dcc4908de56f9d957d79d35230b7bc836e9a2b7d7f24a27e0ac",
+              "observed": "1003df94fb7e7dcc4908de56f9d957d79d35230b7bc836e9a2b7d7f24a27e0ac",
+              "result": "MATCH"
+            },
+            {
+              "vector": "V5",
+              "assertion": "Negative, SHA-256 over the 128-character hex text",
+              "expected": "f590a04993bbc2d009b2baec7c642b3f81abdcfd04c3e91eb474fe753d8a21f0",
+              "observed": "f590a04993bbc2d009b2baec7c642b3f81abdcfd04c3e91eb474fe753d8a21f0",
+              "result": "MATCH"
+            }
+          ]
+        },
+        {
+          "id": "V6",
+          "description": "V6 (E06): detached payload digest over the ASCII octets \"demo-payload-bytes-for-detached-evidence\".",
+          "published_artwork": "Hd(\"payload\", payload) =\n    478b9d48d64c7b44b40302e912e986c68f77cc091151daac7119e889b692149c",
+          "expected_hex": {
+            "Hd(\"payload\", payload)": "478b9d48d64c7b44b40302e912e986c68f77cc091151daac7119e889b692149c"
+          },
+          "classification": "synthetic",
+          "assertions": [
+            {
+              "vector": "V6",
+              "assertion": "Hd(\"payload\", payload)",
+              "expected": "478b9d48d64c7b44b40302e912e986c68f77cc091151daac7119e889b692149c",
+              "observed": "478b9d48d64c7b44b40302e912e986c68f77cc091151daac7119e889b692149c",
+              "result": "MATCH"
+            }
+          ]
+        },
+        {
+          "id": "V7",
+          "description": "V7 (E13): presentation binding value, unsigned, with challenge \"demo-challenge-7f3a\", domain \"demo-verifier.example\", and SID[1].",
+          "published_artwork": "binding =\n    53ba2479fadb025bf0b987b5e6f2e4010b659bd9f05801ce44f1cd5c0cdb54a9\n  Negative, domain \"other-verifier.example\" =\n    935617bd660da33af323697c94391d1c31b3e33825ca9c309ab794faa930775b",
+          "expected_hex": {
+            "binding": "53ba2479fadb025bf0b987b5e6f2e4010b659bd9f05801ce44f1cd5c0cdb54a9",
+            "Negative, domain \"other-verifier.example\"": "935617bd660da33af323697c94391d1c31b3e33825ca9c309ab794faa930775b"
+          },
+          "classification": "synthetic",
+          "assertions": [
+            {
+              "vector": "V7",
+              "assertion": "binding",
+              "expected": "53ba2479fadb025bf0b987b5e6f2e4010b659bd9f05801ce44f1cd5c0cdb54a9",
+              "observed": "53ba2479fadb025bf0b987b5e6f2e4010b659bd9f05801ce44f1cd5c0cdb54a9",
+              "result": "MATCH"
+            },
+            {
+              "vector": "V7",
+              "assertion": "Negative, domain \"other-verifier.example\"",
+              "expected": "935617bd660da33af323697c94391d1c31b3e33825ca9c309ab794faa930775b",
+              "observed": "935617bd660da33af323697c94391d1c31b3e33825ca9c309ab794faa930775b",
+              "result": "MATCH"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "draft": "draft-jones-outerprise-handshake-01",
+      "source": "https://datatracker.ietf.org/doc/draft-jones-outerprise-handshake/01/",
+      "section": "Mathematical Determinism",
+      "classification": "synthetic",
+      "companion_suite_status": "Exact revision-specific companion appendix not confirmed",
+      "vectors": [
+        {
+          "id": "evaluation-file",
+          "operation": "SHA-256",
+          "input": "complete tagged evaluation.cose",
+          "input_length": 247,
+          "expected_hex": "0f87ca2790f64a39a7f3da3f5f4002f1f731b78e300c3aa380275befd2dcb510",
+          "observed": "NOT RUN — exact evaluation.cose not acquired"
+        }
+      ]
+    }
+  ]
+}

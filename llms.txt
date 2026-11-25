@@ -1,0 +1,45 @@
+# Entercation Info Inc. / Outerprise
+
+> Detached evidence delivery at institutional boundaries. All listed drafts are Individual Internet-Draft (Work in Progress). All test vectors are synthetic.
+
+- [Public app](https://entercation.lovable.app)
+- [Vince Jones ORCID](https://orcid.org/0009-0008-6712-8136)
+- [GitHub specification](https://github.com/entercation2021-hue/outerprise-spec)
+- [GitHub project index](https://github.com/entercation2021-hue/Entercation-AI-Frameworks)
+
+## Internet-Draft archives
+
+| Exact Internet-Draft revision | Zenodo archive | Zenodo family |
+|---|---|---|
+| [draft-jones-outerprise-four-gate-onboarding-00](https://datatracker.ietf.org/doc/draft-jones-outerprise-four-gate-onboarding/00/) | [24415135](https://doi.org/10.5281/zenodo.24415135) | [24415134](https://doi.org/10.5281/zenodo.24415134) |
+| [draft-jones-outerprise-visual-manual-00](https://datatracker.ietf.org/doc/draft-jones-outerprise-visual-manual/00/) | [24415152](https://doi.org/10.5281/zenodo.24415152) | [24415151](https://doi.org/10.5281/zenodo.24415151) |
+| [draft-jones-detached-evidence-examination-00](https://datatracker.ietf.org/doc/draft-jones-detached-evidence-examination/00/) | [24415162](https://doi.org/10.5281/zenodo.24415162) | [24415161](https://doi.org/10.5281/zenodo.24415161) |
+| [draft-jones-scitt-dual-receipt-00](https://datatracker.ietf.org/doc/draft-jones-scitt-dual-receipt/00/) | [24415155](https://doi.org/10.5281/zenodo.24415155) | [24415153](https://doi.org/10.5281/zenodo.24415153) |
+| [draft-jones-scitt-dual-receipt-01](https://datatracker.ietf.org/doc/draft-jones-scitt-dual-receipt/01/) | [24415155](https://doi.org/10.5281/zenodo.24415155) | [24415153](https://doi.org/10.5281/zenodo.24415153) |
+| [draft-jones-scitt-dual-receipt-02](https://datatracker.ietf.org/doc/draft-jones-scitt-dual-receipt/02/) | [24415155](https://doi.org/10.5281/zenodo.24415155) | [24415153](https://doi.org/10.5281/zenodo.24415153) |
+| [draft-jones-detached-evidence-handoffs-00](https://datatracker.ietf.org/doc/draft-jones-detached-evidence-handoffs/00/) | [24415158](https://doi.org/10.5281/zenodo.24415158) | [24415157](https://doi.org/10.5281/zenodo.24415157) |
+| [draft-jones-detached-evidence-handoffs-01](https://datatracker.ietf.org/doc/draft-jones-detached-evidence-handoffs/01/) | [24415158](https://doi.org/10.5281/zenodo.24415158) | [24415157](https://doi.org/10.5281/zenodo.24415157) |
+| [draft-jones-detached-evidence-handoffs-02](https://datatracker.ietf.org/doc/draft-jones-detached-evidence-handoffs/02/) | [24415158](https://doi.org/10.5281/zenodo.24415158) | [24415157](https://doi.org/10.5281/zenodo.24415157) |
+| [draft-jones-detached-evidence-handoffs-03](https://datatracker.ietf.org/doc/draft-jones-detached-evidence-handoffs/03/) | [24415158](https://doi.org/10.5281/zenodo.24415158) | [24415157](https://doi.org/10.5281/zenodo.24415157) |
+| [draft-jones-mims-reproducible-draft-review-00](https://datatracker.ietf.org/doc/draft-jones-mims-reproducible-draft-review/00/) | [24450421](https://doi.org/10.5281/zenodo.24450421) | [24450420](https://doi.org/10.5281/zenodo.24450420) |
+| [draft-jones-mims-reproducible-draft-review-01](https://datatracker.ietf.org/doc/draft-jones-mims-reproducible-draft-review/01/) | [24537159](https://doi.org/10.5281/zenodo.24537159) | [24450420](https://doi.org/10.5281/zenodo.24450420) |
+| [draft-jones-outerprise-handshake-00](https://datatracker.ietf.org/doc/draft-jones-outerprise-handshake/00/) | [24536645](https://doi.org/10.5281/zenodo.24536645) | [24536644](https://doi.org/10.5281/zenodo.24536644) |
+| [draft-jones-outerprise-handshake-01](https://datatracker.ietf.org/doc/draft-jones-outerprise-handshake/01/) | [24536645](https://doi.org/10.5281/zenodo.24536645) | [24536644](https://doi.org/10.5281/zenodo.24536644) |
+| [draft-jones-scitt-pain-point-resolutions-00](https://datatracker.ietf.org/doc/draft-jones-scitt-pain-point-resolutions/00/) | [24537179](https://doi.org/10.5281/zenodo.24537179) | [24537178](https://doi.org/10.5281/zenodo.24537178) |
+
+## Related releases
+
+- [Specification v0.1.1](https://doi.org/10.5281/zenodo.23873355) · MIT · [all versions](https://doi.org/10.5281/zenodo.23873354)
+- [Specification v0.1.2](https://doi.org/10.5281/zenodo.23873552) · MIT · [all versions](https://doi.org/10.5281/zenodo.23873354)
+- [Data Center Transparency](https://doi.org/10.5281/zenodo.23993510) · CC BY 4.0 · [all versions](https://doi.org/10.5281/zenodo.23993509)
+- [OIGP v1.3.1](https://doi.org/10.5281/zenodo.24177899) · MIT · [all versions](https://doi.org/10.5281/zenodo.24177898)
+- [OIGP v1.3.4 documentation](https://doi.org/10.5281/zenodo.24197013) · MIT · [all versions](https://doi.org/10.5281/zenodo.24177898)
+- [Outerprise Waste Metric](https://doi.org/10.5281/zenodo.24182132) · CC BY 4.0 · [all versions](https://doi.org/10.5281/zenodo.24182131)
+- [Outerprise Lexicon](https://doi.org/10.5281/zenodo.24305668) · CC BY 4.0 · [all versions](https://doi.org/10.5281/zenodo.24305667)
+
+## Public synthetic sources
+
+- [Pain Point vectors, Appendix A](https://datatracker.ietf.org/doc/draft-jones-scitt-pain-point-resolutions/00/)
+- [Handshake profile and fixture boundaries](https://datatracker.ietf.org/doc/draft-jones-outerprise-handshake/01/)
+
+Machine-readable companion filenames in this package include test-vectors.json, benchmark-scorecard.json and schema-graph.jsonld.

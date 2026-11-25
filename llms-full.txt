@@ -1,0 +1,2039 @@
+# Entercation Info Inc. / Outerprise
+
+> Detached evidence delivery at institutional boundaries. All listed drafts are Individual Internet-Draft (Work in Progress). All test vectors are synthetic.
+
+- [Public app](https://entercation.lovable.app)
+- [Vince Jones ORCID](https://orcid.org/0009-0008-6712-8136)
+- [GitHub specification](https://github.com/entercation2021-hue/outerprise-spec)
+- [GitHub project index](https://github.com/entercation2021-hue/Entercation-AI-Frameworks)
+
+## Internet-Draft archives
+
+| Exact Internet-Draft revision | Zenodo archive | Zenodo family |
+|---|---|---|
+| [draft-jones-outerprise-four-gate-onboarding-00](https://datatracker.ietf.org/doc/draft-jones-outerprise-four-gate-onboarding/00/) | [24415135](https://doi.org/10.5281/zenodo.24415135) | [24415134](https://doi.org/10.5281/zenodo.24415134) |
+| [draft-jones-outerprise-visual-manual-00](https://datatracker.ietf.org/doc/draft-jones-outerprise-visual-manual/00/) | [24415152](https://doi.org/10.5281/zenodo.24415152) | [24415151](https://doi.org/10.5281/zenodo.24415151) |
+| [draft-jones-detached-evidence-examination-00](https://datatracker.ietf.org/doc/draft-jones-detached-evidence-examination/00/) | [24415162](https://doi.org/10.5281/zenodo.24415162) | [24415161](https://doi.org/10.5281/zenodo.24415161) |
+| [draft-jones-scitt-dual-receipt-00](https://datatracker.ietf.org/doc/draft-jones-scitt-dual-receipt/00/) | [24415155](https://doi.org/10.5281/zenodo.24415155) | [24415153](https://doi.org/10.5281/zenodo.24415153) |
+| [draft-jones-scitt-dual-receipt-01](https://datatracker.ietf.org/doc/draft-jones-scitt-dual-receipt/01/) | [24415155](https://doi.org/10.5281/zenodo.24415155) | [24415153](https://doi.org/10.5281/zenodo.24415153) |
+| [draft-jones-scitt-dual-receipt-02](https://datatracker.ietf.org/doc/draft-jones-scitt-dual-receipt/02/) | [24415155](https://doi.org/10.5281/zenodo.24415155) | [24415153](https://doi.org/10.5281/zenodo.24415153) |
+| [draft-jones-detached-evidence-handoffs-00](https://datatracker.ietf.org/doc/draft-jones-detached-evidence-handoffs/00/) | [24415158](https://doi.org/10.5281/zenodo.24415158) | [24415157](https://doi.org/10.5281/zenodo.24415157) |
+| [draft-jones-detached-evidence-handoffs-01](https://datatracker.ietf.org/doc/draft-jones-detached-evidence-handoffs/01/) | [24415158](https://doi.org/10.5281/zenodo.24415158) | [24415157](https://doi.org/10.5281/zenodo.24415157) |
+| [draft-jones-detached-evidence-handoffs-02](https://datatracker.ietf.org/doc/draft-jones-detached-evidence-handoffs/02/) | [24415158](https://doi.org/10.5281/zenodo.24415158) | [24415157](https://doi.org/10.5281/zenodo.24415157) |
+| [draft-jones-detached-evidence-handoffs-03](https://datatracker.ietf.org/doc/draft-jones-detached-evidence-handoffs/03/) | [24415158](https://doi.org/10.5281/zenodo.24415158) | [24415157](https://doi.org/10.5281/zenodo.24415157) |
+| [draft-jones-mims-reproducible-draft-review-00](https://datatracker.ietf.org/doc/draft-jones-mims-reproducible-draft-review/00/) | [24450421](https://doi.org/10.5281/zenodo.24450421) | [24450420](https://doi.org/10.5281/zenodo.24450420) |
+| [draft-jones-mims-reproducible-draft-review-01](https://datatracker.ietf.org/doc/draft-jones-mims-reproducible-draft-review/01/) | [24537159](https://doi.org/10.5281/zenodo.24537159) | [24450420](https://doi.org/10.5281/zenodo.24450420) |
+| [draft-jones-outerprise-handshake-00](https://datatracker.ietf.org/doc/draft-jones-outerprise-handshake/00/) | [24536645](https://doi.org/10.5281/zenodo.24536645) | [24536644](https://doi.org/10.5281/zenodo.24536644) |
+| [draft-jones-outerprise-handshake-01](https://datatracker.ietf.org/doc/draft-jones-outerprise-handshake/01/) | [24536645](https://doi.org/10.5281/zenodo.24536645) | [24536644](https://doi.org/10.5281/zenodo.24536644) |
+| [draft-jones-scitt-pain-point-resolutions-00](https://datatracker.ietf.org/doc/draft-jones-scitt-pain-point-resolutions/00/) | [24537179](https://doi.org/10.5281/zenodo.24537179) | [24537178](https://doi.org/10.5281/zenodo.24537178) |
+
+## Related releases
+
+- [Specification v0.1.1](https://doi.org/10.5281/zenodo.23873355) · MIT · [all versions](https://doi.org/10.5281/zenodo.23873354)
+- [Specification v0.1.2](https://doi.org/10.5281/zenodo.23873552) · MIT · [all versions](https://doi.org/10.5281/zenodo.23873354)
+- [Data Center Transparency](https://doi.org/10.5281/zenodo.23993510) · CC BY 4.0 · [all versions](https://doi.org/10.5281/zenodo.23993509)
+- [OIGP v1.3.1](https://doi.org/10.5281/zenodo.24177899) · MIT · [all versions](https://doi.org/10.5281/zenodo.24177898)
+- [OIGP v1.3.4 documentation](https://doi.org/10.5281/zenodo.24197013) · MIT · [all versions](https://doi.org/10.5281/zenodo.24177898)
+- [Outerprise Waste Metric](https://doi.org/10.5281/zenodo.24182132) · CC BY 4.0 · [all versions](https://doi.org/10.5281/zenodo.24182131)
+- [Outerprise Lexicon](https://doi.org/10.5281/zenodo.24305668) · CC BY 4.0 · [all versions](https://doi.org/10.5281/zenodo.24305667)
+
+## Public synthetic sources
+
+- [Pain Point vectors, Appendix A](https://datatracker.ietf.org/doc/draft-jones-scitt-pain-point-resolutions/00/)
+- [Handshake profile and fixture boundaries](https://datatracker.ietf.org/doc/draft-jones-outerprise-handshake/01/)
+
+Machine-readable companion filenames in this package include test-vectors.json, benchmark-scorecard.json and schema-graph.jsonld.
+
+## Publication Manual
+
+
+ ENTERCATION INFO INC. / OUTERPRISE
+
+
+
+ Publication & Identifier Manual
+ Vince Jones, Founder and CEO · November 25, 2026
+ A linked reference for citation, source code, author identity, and the original Internet-Draft revision history.
+
+
+ Public account identifiers
+ ORCID iD 0009-0008-6712-8136
+ GitHub @entercation2021-hue · numeric user ID 264032303
+ Zenodo dashboard username entercation2021-hue · cite using record DOIs
+ Datatracker author accounts indexed under two public addresses
+ Open ORCID · Open GitHub · Zenodo uploads
+ Datatracker · company address · Datatracker · alternate author address
+
+
+ Master index
+ The public app and knowledge library are entry points. The sections that follow link to specific records and
+ revisions.
+ Entercation library · Publications index
+
+
+ At a glance
+ Eight draft families and 15 revisions identified. All 15 of 15 revisions have public Zenodo coverage.
+
+
+
+
+ENTERCATION INFO INC. / OUTERPRISE PUBLICATION MANUAL                                                               01
+
+ 01 / IETF DATATRACKER
+
+
+ Internet-Draft families
+ The links below open the original revision. These individual Internet-Drafts are works in progress. Technical
+ references to IETF or W3C do not confer endorsement.
+
+ Outerprise Entry and the Four Gates for Startup Survival
+ Shows how a startup can document entry, validation, trust, engagement, and procurement, including an Outer
+ Pilot.
+ Draft family draft-jones-outerprise-four-gate-onboarding
+ History · -00 · Zenodo 10.5281/zenodo.24415135
+
+
+ Outerprise Ecosystem and Infrastructure: Visual Manual and Machine-Readable
+ Companion
+ Shows the public app and fiscal-sponsorship workflow through a visual walkthrough.
+ Draft family draft-jones-outerprise-visual-manual
+ History · -00 · Zenodo 10.5281/zenodo.24415152
+
+
+ Outerprise Ecosystem and Infrastructure: An Examination Manual for Detached
+ Evidence Delivery
+ Gives examiners a procedure for checking delivered packages, findings, and policy decisions.
+ Draft family draft-jones-detached-evidence-examination
+ History · -00 · Zenodo 10.5281/zenodo.24415162
+
+
+ A Dual-Receipt Profile for Binding a Decision Statement to an Independent Policy
+ Evaluation Statement
+ Links a decision to a separate signed policy evaluation so reviewers can check that they belong together.
+ Draft family draft-jones-scitt-dual-receipt
+ History · -00 · -01 · -02 · Zenodo 10.5281/zenodo.24415155
+
+
+
+
+ENTERCATION INFO INC. / OUTERPRISE PUBLICATION MANUAL                                                            02
+
+ 01 / IETF DATATRACKER
+
+
+ Internet-Draft families, continued
+ Terminology and Architectural Patterns for Detached Evidence Delivery
+ Defines what producers send, what recipients can check, and how recipients return findings or decisions.
+ Draft family draft-jones-detached-evidence-handoffs
+ History · -00 · -01 · -02 · -03 · Zenodo 10.5281/zenodo.24415158
+
+
+ A Method for Reproducible Review of Internet-Draft Test Cases
+ Explains how to pin a draft revision and rerun a small test so another reviewer can compare results.
+ Draft family draft-jones-mims-reproducible-draft-review
+ History · -00 · -01 · Zenodo 10.5281/zenodo.24537159
+
+
+ Cryptographic Handshake Profile for Fiscal-Sponsorship Onboarding and Outer Pilot
+ Execution
+ Uses a synthetic walkthrough to show how a sponsor, validator, and recipient can link their records during an
+ Outer Pilot.
+ Draft family draft-jones-outerprise-handshake
+ History · -00 · -01 · Zenodo 10.5281/zenodo.24536645
+
+
+ Resolution of SCITT and W3C Verification Ambiguities via Detached Evidence Profiles
+ Proposes explicit evidence profiles for recurring ambiguities about what a verifier can establish.
+ Draft family draft-jones-scitt-pain-point-resolutions
+ History · -00 · Zenodo 10.5281/zenodo.24537179
+
+
+
+
+ENTERCATION INFO INC. / OUTERPRISE PUBLICATION MANUAL                                                            03
+
+ 02 / ZENODO
+
+
+ Internet-Draft archives
+ Use the exact deposit DOI for a file citation and the all-versions DOI for the evolving Zenodo record. Use
+ Datatracker revision links when a deposit contains multiple draft revisions.
+
+ Outerprise Entry and the Four Gates for Startup Survival
+ TXT for -00.
+ Deposit 10.5281/zenodo.24415135 · All versions 10.5281/zenodo.24415134
+
+
+ Outerprise Ecosystem and Infrastructure: Visual Manual and Machine-Readable
+ Companion
+ TXT for -00 and ten reading PDFs covering pages 1–182. The separate machine-readable companion was not
+ listed.
+ Deposit 10.5281/zenodo.24415152 · All versions 10.5281/zenodo.24415151
+
+
+ Outerprise Ecosystem and Infrastructure: An Examination Manual for Detached
+ Evidence Delivery
+ TXT for -00.
+ Deposit 10.5281/zenodo.24415162 · All versions 10.5281/zenodo.24415161
+
+
+ A Dual-Receipt Profile for Binding a Decision Statement to an Independent Policy
+ Evaluation Statement
+ TXT for -00, -01, and -02.
+ Deposit 10.5281/zenodo.24415155 · All versions 10.5281/zenodo.24415153
+
+
+
+
+ENTERCATION INFO INC. / OUTERPRISE PUBLICATION MANUAL                                                         04
+
+ 02 / ZENODO
+
+
+ Internet-Draft archives, continued
+ Terminology and Architectural Patterns for Detached Evidence Delivery
+ TXT for -00 through -03.
+ Deposit 10.5281/zenodo.24415158 · All versions 10.5281/zenodo.24415157
+
+
+ A Method for Reproducible Review of Internet-Draft Test Cases
+ PDF and XML for -00, preserved under the previous version DOI. Official TXT and XML for -01.
+ Deposit 10.5281/zenodo.24537159 · All versions 10.5281/zenodo.24450420 · Previous version 10.5281/zenodo.24450421
+
+
+ Cryptographic Handshake Profile for Fiscal-Sponsorship Onboarding and Outer Pilot
+ Execution
+ TXT and XML for -00 and -01.
+ Deposit 10.5281/zenodo.24536645 · All versions 10.5281/zenodo.24536644
+
+
+ Resolution of SCITT and W3C Verification Ambiguities via Detached Evidence Profiles
+ Official TXT and XML for -00.
+ Deposit 10.5281/zenodo.24537179
+
+ Open access describes availability. Internet-Draft permissions follow the original rights notices. The archive entries are not
+ counted as MIT releases.
+
+
+
+
+ENTERCATION INFO INC. / OUTERPRISE PUBLICATION MANUAL                                                                             05
+
+ 02 / ZENODO
+
+
+ Software and research DOIs
+ Outerprise specification surface v0.1.1
+ Earlier tagged specification snapshot. Record license MIT.
+ Version 10.5281/zenodo.23873355 · All versions 10.5281/zenodo.23873354
+
+
+ Outerprise specification surface v0.1.2
+ Tagged specification, integrity procedures and test materials. Record license MIT.
+ Version 10.5281/zenodo.23873552 · All versions 10.5281/zenodo.23873354
+
+
+ Outerprise Data Center Transparency v0.1.0
+ Synthetic example of data-center disclosures and what they can establish. Record license CC BY 4.0.
+ Version 10.5281/zenodo.23993510 · All versions 10.5281/zenodo.23993509
+
+
+ OIGP v1.3.1 Hardened
+ Fiscal-sponsorship state machine and public synthetic case package. Record license MIT.
+ Version 10.5281/zenodo.24177899 · All versions 10.5281/zenodo.24177898
+
+
+ OIGP v1.3.4 Public Documentation
+ Specification and synthetic walkthrough. The deposit description excludes the executable verifier. Record
+ license MIT.
+ Version 10.5281/zenodo.24197013 · All versions 10.5281/zenodo.24177898
+
+
+ Outerprise Waste Metric
+ Worksheet and publication guide for comparing costs. Figures depend on the inputs. Record license CC BY
+ 4.0.
+ Version 10.5281/zenodo.24182132 · All versions 10.5281/zenodo.24182131
+
+
+ Outerprise Lexicon v1.0
+ A 21-term glossary. The earlier directory records a separate attached license file. Check the scope of each
+ before reuse. Record license CC BY 4.0 in prior directory.
+ Version 10.5281/zenodo.24305668 · All versions 10.5281/zenodo.24305667
+
+ OpenAIRE discovery is a separate indexing question. No OpenAIRE registration or coverage was confirmed here.
+
+
+
+
+ENTERCATION INFO INC. / OUTERPRISE PUBLICATION MANUAL                                                           06
+
+ 03 / GITHUB
+
+
+ Source and release directory
+ outerprise-spec · repository ID 1442167178
+ Canonical specification repository. Its README links ORCID and several Zenodo records and contains a
+ draft-to-archive table. The table already includes MiMS -00 and five earlier families. Handshake, Pain Point
+ Resolutions, and MiMS -01 were absent from the README links inspected.
+ Repository · README · MIT LICENSE · CITATION.cff
+
+
+ Tagged releases
+ Cite a fixed tag when referring to source. Zenodo v0.1.2 metadata points back to the exact GitHub tree.
+ v0.1.1 tree · 10.5281/zenodo.23873355
+ v0.1.2 tree · 10.5281/zenodo.23873552
+
+
+ Entercation-AI-Frameworks · repository ID 1176089507
+ Application and professional portfolio directory. Its README links the Visual Manual and Lexicon.
+ Repository · README · Résumé
+
+
+ Current alignment
+ The public GitHub owner and repository IDs were confirmed. The authenticated repository listing returned no
+ editable repositories for this owner, so no remote README changes were applied.
+ Account profile · Publications index
+
+
+
+
+ENTERCATION INFO INC. / OUTERPRISE PUBLICATION MANUAL                                                           07
+
+ 04 / ORCID
+
+
+ Author record and public works
+ Vince Jones · 0009-0008-6712-8136
+ The public Works response returned these three items. Zenodo creator metadata and the ORCID Works list
+ are separate linking surfaces.
+
+ OIGP v1.3.1
+ Public ORCID work record ID 233308743.
+ 10.5281/zenodo.24177899
+
+
+ Outerprise Waste Metric
+ Public ORCID work record ID 233308745.
+ 10.5281/zenodo.24182132
+
+
+ Data Center Transparency
+ Public ORCID work record ID 233308746.
+ 10.5281/zenodo.23993510
+
+
+ Zenodo-to-ORCID coverage
+ The five earlier preprint deposits, Handshake, and OIGP v1.3.4 identify Vince’s ORCID in their creator
+ metadata. MiMS -00 names Vince but its creator entry lacked the ORCID iD in the metadata inspected.
+
+
+ ORCID-to-Zenodo gaps
+ The public Works list lacks the archive deposits for these six draft families, plus OIGP v1.3.4 and the Lexicon.
+ Keep the specification release credited to Entercation Info Inc. as shown on Zenodo. Add personal credit only
+ where title and contribution warrant it. No ORCID edits were applied.
+ Open public ORCID record
+
+
+
+
+ENTERCATION INFO INC. / OUTERPRISE PUBLICATION MANUAL                                                               08
+
+ 05 / RECONCILIATION
+
+
+ Keep the publication links current
+ 1. Pin the original revision
+ Use both Datatracker author profiles and each draft family’s history. Record the exact revision, original posting
+ date and available official file formats.
+ Datatracker · company address · Datatracker · alternate author address
+
+
+ 2. Confirm the archive
+ Find the matching Zenodo files under the existing family first. Check public visibility and compare file
+ checksums where available. Keep older archives and source rights intact.
+ Zenodo uploads
+
+
+ 3. Close direct links
+ Use structured Zenodo related identifiers for exact Datatracker revisions where possible. Link repository
+ source tags and matching version DOIs in GitHub. Use public ORCID Works for author-level discovery.
+ Specification README · ORCID
+
+
+ Open queue
+ All 15 of 15 revisions are publicly archived. The two latest deposits contain official TXT and XML verified byte
+ for byte against the IETF archive. The earlier Handoffs dashboard also showed a separate unpublished draft
+ alongside the public record. Review it before using it for any update. Several Zenodo preprints lack structured
+ Datatracker links. The Handshake has public files and a Datatracker history link in its description, while its
+ structured link was absent from the public API response.
+ 10.5281/zenodo.24537159 · 10.5281/zenodo.24537179 · 10.5281/zenodo.24415158
+
+
+ Daily reconciliation
+ The scheduled check compares the four platforms, checks exact revisions and rights, and stages missing
+ official files or link fixes when account access and permissions allow. It reports changes and flags items that
+ need an account owner or publication decision.
+ Entercation library · Publications index
+
+
+
+
+ENTERCATION INFO INC. / OUTERPRISE PUBLICATION MANUAL                                                               09
+
+## Benchmark DNA public scorecard
+
+1. Credit scoring and risk — CONFORMS
+2. Evidence-integrity anomaly detection — CONFORMS
+3. Trading and portfolio decisions — CONFORMS
+4. Robo-advice — CONFORMS
+5. Payments and money movement — CONFORMS
+6. Chatbots as product — CONFORMS
+7. Pinned terminology — CONFORMS
+8. Deterministic and reproducible checks — CONFORMS
+9. Fail-closed export — GAP. Implement a pinned export gate and record its acceptance and rejection checks.
+10. Consent before capture — CONFORMS
+11. Human-readable boundary receipt — CONFORMS
+12. Per-record verdicts — CONFORMS
+13. Bias and exclusion — GAP. Obtain independent bias testing on a stated dataset.
+14. Privacy and data protection — GAP. Obtain an independent privacy evaluation of capture, storage and export.
+15. Vendor integration risk — CONFORMS
+16. Deterministic high-assurance checks — CONFORMS
+17. Security assurance — GAP. Complete an independent examination and obtain its issued report. The file records a quote only.
+18. Scope of standards and regulatory claims — CONFORMS
+19. Open banking interface boundary — CONFORMS
+20. Institutional systems boundary — CONFORMS
+21. RegTech evidence workflow — CONFORMS
+22. Community evidence and fiscal sponsorship — CONFORMS
+23. Measured savings boundary — CONFORMS
+24. Fiscal-sponsorship execution — GAP. Obtain the signed agreement and sponsor IRS letter.
+
+## Handshake Profile – official TXT
+
+
+
+
+
+Network Working Group                                           V. Jones
+Internet-Draft                                     Entercation Info Inc.
+Intended status: Informational                          24 November 2026
+Expires: 28 May 2027
+
+
+ Cryptographic Handshake Profile for Fiscal-Sponsorship Onboarding and
+                         Outer Pilot Execution
+                  draft-jones-outerprise-handshake-01
+
+Abstract
+
+   This individual Internet-Draft proposes a detached evidence exchange
+   for sponsor onboarding, a bounded pilot, and an institutional review.
+   A synthetic trace specifies byte-level commitments and evidence
+   links.  The profile concerns evidence handling and leaves funding,
+   institutional decisions, and legal eligibility to the responsible
+   parties.
+
+Status of This Memo
+
+   This Internet-Draft is submitted in full conformance with the
+   provisions of BCP 78 and BCP 79.
+
+   Internet-Drafts are working documents of the Internet Engineering
+   Task Force (IETF).  Note that other groups may also distribute
+   working documents as Internet-Drafts.  The list of current Internet-
+   Drafts is at https://datatracker.ietf.org/drafts/current/.
+
+   Internet-Drafts are draft documents valid for a maximum of six months
+   and may be updated, replaced, or obsoleted by other documents at any
+   time.  It is inappropriate to use Internet-Drafts as reference
+   material or to cite them other than as "work in progress."
+
+   This Internet-Draft will expire on 28 May 2027.
+
+Copyright Notice
+
+   Copyright (c) 2026 IETF Trust and the persons identified as the
+   document authors.  All rights reserved.
+
+
+
+
+
+
+
+
+
+
+
+Jones                      Expires 28 May 2027                  [Page 1]
+
+Internet-Draft            Outerprise Handshake             November 2026
+
+
+   This document is subject to BCP 78 and the IETF Trust's Legal
+   Provisions Relating to IETF Documents (https://trustee.ietf.org/
+   license-info) in effect on the date of publication of this document.
+   Please review these documents carefully, as they describe your rights
+   and restrictions with respect to this document.  Code Components
+   extracted from this document must include Revised BSD License text as
+   described in Section 4.e of the Trust Legal Provisions and are
+   provided without warranty as described in the Revised BSD License.
+
+Table of Contents
+
+   1.  Scope and Ontology  . . . . . . . . . . . . . . . . . . . . .   2
+   2.  Encoding and Cryptographic Operations . . . . . . . . . . . .   3
+   3.  The Cryptographic Handshake Sequence  . . . . . . . . . . . .   4
+     3.1.  Gate 1: Validation  . . . . . . . . . . . . . . . . . . .   4
+     3.2.  Gate 2: Trust . . . . . . . . . . . . . . . . . . . . . .   4
+     3.3.  Gate 3: Engagement  . . . . . . . . . . . . . . . . . . .   4
+     3.4.  Observation Scope and Chain Findings  . . . . . . . . . .   5
+     3.5.  Decision Identity and Evaluation Binding  . . . . . . . .   5
+     3.6.  Gate 4: Procurement Evidence Package  . . . . . . . . . .   6
+   4.  Mathematical Determinism  . . . . . . . . . . . . . . . . . .   6
+   5.  Fiscal Sponsorship and the Federal Applicant Gate . . . . . .   7
+   6.  Engagement and Acknowledgment Protocol  . . . . . . . . . . .   7
+   7.  Laboratory and Governance Boundaries  . . . . . . . . . . . .   8
+   8.  Security and Privacy Considerations . . . . . . . . . . . . .   8
+   9.  IANA Considerations . . . . . . . . . . . . . . . . . . . . .   8
+   10. References  . . . . . . . . . . . . . . . . . . . . . . . . .   8
+   Acknowledgments . . . . . . . . . . . . . . . . . . . . . . . . .  10
+   Author's Address  . . . . . . . . . . . . . . . . . . . . . . . .  10
+
+1.  Scope and Ontology
+
+   The proposed application role is evidence generation and delivery.
+   Credit scoring, model training, credit decisions, institutional API
+   integration and payment execution are outside scope.  The walkthrough
+   is synthetic.  AI 2030 is a proposed demonstration partner and all
+   fixture identities, decisions and payments are fictional.  No
+   participation, adoption or endorsement is implied.  Current
+   deployment of the proposed wire format is UNVERIFIED.
+
+   Issuer  An actor that makes and signs a scoped Statement under an
+      assigned role.
+
+   Recipient  An actor that receives an identified package and may
+      separately acknowledge receipt, verify it, or issue a disposition
+      under its authority.
+
+   Transparency Service  A service accepting and registering Signed
+
+
+
+Jones                      Expires 28 May 2027                  [Page 2]
+
+Internet-Draft            Outerprise Handshake             November 2026
+
+
+      Statements in the architecture of [RFC9943].  Registration is
+      optional and outside the local synthetic trace.
+
+   Statement  A typed assertion about an identified project and event.
+
+   Receipt  In SCITT usage, applicable service-issued proof evidence
+      using [RFC9942] and a specified verifiable data structure profile.
+      This draft's sponsor decision, policy evaluation and recipient
+      acknowledgment are application Statements.  They are COSE signed
+      objects when signed using this profile.
+
+   Pair Key  A public-format relationship tag derived from identifiers.
+      It supplies neither identity verification nor access control.
+
+   Transaction Attestation Ledger (TAL)  A sequence of linked project
+      records documenting observed workflow events.  A presented tip
+      binds a particular predecessor chain.
+
+   Outer Pilot  A bounded execution of one charter, from intake to
+      reviewed handoff.
+
+   Four Gates  Validation establishes documentary readiness.  Trust
+      records the intended pairing and role approvals.  Engagement runs
+      the agreed workflow.  Procurement records a separate buying
+      decision where authorized.
+
+   Workflow context and optional demonstration: Entercation application
+   (https://entercation.lovable.app/).  The link is informative and may
+   evolve.
+
+2.  Encoding and Cryptographic Operations
+
+   Use RFC 8785 JCS UTF-8 for JSON objects, with duplicate names
+   rejected before canonicalization.  This profile uses strings for
+   numeric quantities and timestamps.  Digests are SHA-256 and
+   transported as exactly 64 lowercase ASCII hexadecimal characters.
+   H(label, bytes) is SHA-256 of the ASCII prefix outerprise-handshake/
+   v1/, the ASCII label, a single zero octet, and the supplied bytes in
+   that order.  Use raw SHA-256 over file octets for manifest entries
+   and file references.  The domain-separated hashes in this profile are
+   separate from file hashes.
+
+   For signed objects, encode a tagged COSE_Sign1 (tag 18) with an
+   embedded JCS payload, an empty unprotected map, and a 64-byte Ed25519
+   signature.  For this synthetic profile the protected header is
+   deterministic CBOR {1: -19, 4: kid} with a one-octet byte-string kid,
+   encoded in that key order.  The signature input is the deterministic
+   CBOR encoding of ["Signature1", protected-header byte string, empty
+
+
+
+Jones                      Expires 28 May 2027                  [Page 3]
+
+Internet-Draft            Outerprise Handshake             November 2026
+
+
+   byte string, payload byte string].  Use Ed25519 as defined in RFC
+   8032, without prehashing.  Use the verifier's separately configured
+   trusted role-to-key mapping.  The kid is a lookup hint.  See
+   [RFC8949], [RFC9052], [RFC9053] and [RFC9864], [RFC8032] and
+   [RFC8785].
+
+3.  The Cryptographic Handshake Sequence
+
+3.1.  Gate 1: Validation
+
+   The sponsor presents the determination letter, EIN, applicable UEI
+   and SAM evidence, and a versioned management AI RMF self-map.  The
+   project operator presents the Founder Portfolio.  Record a project
+   ID, policy version and event time.  The intake object has keys
+   artifacts, policy, project, time, sponsor_ein, project_ein, and uei.
+   Artifacts maps filenames to raw file digest hex.  Compute H("intake",
+   JCS(intake)).  Source authority and applicability are reviewed
+   separately.  See Section 5.
+
+3.2.  Gate 2: Trust
+
+   After documentary identity checks, encode each EIN as nine ASCII
+   digits, preserving leading zeroes and omitting punctuation.  Compute
+   H("sponsor-ein", sponsor digits) and H("project-ein", project
+   digits).  Concatenate the two lowercase digest hex strings in sponsor
+   then project order, yielding exactly 128 ASCII characters.  Scope all
+   evidence to the separate project ID and policy.  The same entity pair
+   can operate multiple projects.  The Pair Key is predictable from its
+   inputs and can correlate projects.  Apply disclosure controls to the
+   identifiers and tag.
+
+3.3.  Gate 3: Engagement
+
+   The positive TAL trace is Submitted, Decided, Disbursed, Confirmed,
+   and EOT written.  Every record has keys intake, pair_key, policy,
+   previous, project, state, and time.  The initial previous is 64 ASCII
+   zeroes.  Each later previous is the predecessor's H("tal",
+   JCS(record)).  Require matching project, policy, intake and pair
+   across the trace.  This funding trace proceeds through Disbursed only
+   with separately authorized disbursement evidence.  A decline or
+   missing evidence halts this positive trace.
+
+   At Decided, the sponsor signs the TAL base fields plus outcome.  The
+   validator signs an object with decision (raw file digest of the
+   complete decision COSE object), policy, project, result, and time.
+   The Decided TAL record adds decision and evaluation, each the raw
+   file digest of the corresponding complete COSE file.  Require issuer
+   authority, validated signatures, and the expected scoped approve/pass
+
+
+
+Jones                      Expires 28 May 2027                  [Page 4]
+
+Internet-Draft            Outerprise Handshake             November 2026
+
+
+   outcomes before continuation.  Disbursed and Confirmed each add an
+   evidence key naming the raw file digest of the relevant source
+   specimen.  The EOT written record links to the Confirmed record
+   through its predecessor digest.  EOT means Evidence of Transaction.
+   The signed manifest authenticates the presented tip under the
+   publisher role.  These fixtures model events rather than authorize
+   movement of funds.  See the related Dual-Receipt Internet-Draft
+   (https://datatracker.ietf.org/doc/draft-jones-scitt-dual-receipt/)
+   for a separately specified profile.
+
+3.4.  Observation Scope and Chain Findings
+
+   Report the result for the records presented for the expected project,
+   policy, intake, and Pair Key. The manifest tip identifies the tip of
+   the presented chain.  A consistent chain establishes the topology of
+   those records.  Completeness, global uniqueness, and freshness
+   require separate evidence.  Use separate findings for signature
+   verification, stream binding, and decision-maker authority.
+
+   For topology reporting, deduplicate exact repeated records by their
+   H("tal", JCS(record)) digest.  Report CONFLICT if the presented
+   stream includes competing authenticated roots or two distinct
+   authenticated successors naming the same predecessor.  If no such
+   conflict is established, report UNRESOLVED when a predecessor is
+   missing, the chain is cyclic or disconnected, or the authenticated
+   binding needed to classify the chain cannot be established.  Do not
+   select a branch by timestamp.  Authentication of a record for this
+   finding requires evidence binding its exact bytes to the expected
+   stream.  Report the authority of the decision-maker separately.
+   These findings do not replace the positive trace checks in
+   Section 3.3.
+
+3.5.  Decision Identity and Evaluation Binding
+
+   In this profile, an evaluation binds to the complete tagged decision
+   COSE_Sign1 object as delivered.  The verifier computes SHA-256 over
+   all of its file octets, with no decoding, reserialization, or added
+   prefix.  It compares the lowercase hexadecimal result with the signed
+   evaluation's decision field.  A mismatch fails the exact-object
+   binding check.  Verify the sponsor and validator signatures and their
+   authority for the applicable scope separately.
+
+   A stable payload identifier, if used by a companion system, is a
+   correlation reference under that system's named identifier profile.
+   A correlation match supplies no evidence that a particular signature,
+   envelope, registration, or evaluation matches.  A service-local entry
+   handle is a locator.  Registration evidence is assessed separately
+   under the applicable transparency profile.
+
+
+
+Jones                      Expires 28 May 2027                  [Page 5]
+
+Internet-Draft            Outerprise Handshake             November 2026
+
+
+   When re-encapsulation changes the decision octets, preserve the
+   original signed decision and its evaluation as the evidence for the
+   earlier check.  To associate that evidence with another
+   representation, an external procedure would need to verify the
+   original exact-file binding and both original signatures,
+   authenticate the relevant signer and role, establish payload
+   equivalence, document the named transformation and verify its link
+   between the two objects, and establish that the policy, scope, and
+   all other inputs material to the evaluation remain applicable.  A new
+   signed representation requires its own signature and authority
+   checks.  This profile defines no transformation evidence format or
+   substitution rule.  An evaluation of different decision octets with a
+   valid exact-object binding requires a new signed evaluation of those
+   octets.
+
+3.6.  Gate 4: Procurement Evidence Package
+
+   Build a JCS manifest with keys files, intake, policy, project,
+   recipient, tal_tip, and time.  The files array is ordered by ASCII
+   pathname, each entry having path, sha256, and size as a canonical
+   decimal string.  Paths are unique single-component ASCII names using
+   letters, digits, hyphen, underscore or period.  Reject dot and
+   double-dot names, path collisions, extra files in the evidence
+   payload, incorrect byte lengths and digest mismatches.  The manifest
+   and its signed envelope are carried alongside the listed payload
+   files.  Compute H("manifest", manifest bytes) and sign the same
+   manifest bytes with the publisher role.  Provide the TAL records
+   alongside the payload and verify their tip against the signed
+   manifest.  The Macro is the handoff package.  Delivery,
+   acknowledgment, verification and institutional disposition are
+   separate events.  Sponsorship, participation in a specific grant and
+   procurement are separate decisions, each made by the authority for
+   that decision.  A separate institutional disposition identifies the
+   manifest and the scope of a reviewer decision.  Procurement requires
+   its own authorized agreement.
+
+4.  Mathematical Determinism
+
+   The evaluation-file vector applies raw SHA-256 to the complete
+   247-octet tagged evaluation.cose file.  The result is
+   0f87ca2790f64a39a7f3da3f5f4002f1f731b78e300c3aa380275befd2dcb510.
+   The Decided record evaluation field and the manifest entry for
+   evaluation.cose both carry this digest.  The companion test-vector
+   appendix records exact preimages, COSE signing inputs and outputs.
+   The synthetic clock value is 2026-11-24T12:00:00Z, the policy
+   identifier is demo-policy-1, and the project identifier is demo-1.
+   This time is a fixture field.  The public test seeds are 32
+   repetitions of 0x01, 0x02 and 0x03 for sponsor, validator and
+
+
+
+Jones                      Expires 28 May 2027                  [Page 6]
+
+Internet-Draft            Outerprise Handshake             November 2026
+
+
+   publisher, with kids 0x53, 0x56 and 0x50 respectively.  Production
+   clocks, role keys, policy and format deployment are UNVERIFIED.
+   Fixture keys are restricted to tests.
+
+   Recompute JCS bytes and compare them to embedded payloads, recompute
+   raw and domain-separated digest values, reconstruct and verify
+   signature inputs with trusted keys, and replay predecessor and role
+   bindings in the stated order.  Compare each result to the pinned
+   fixture.  A digest can check bytes against a trusted reference.
+   Signer authorization, ledger completeness, accurate source statements
+   and current eligibility require separate evidence.
+
+5.  Fiscal Sponsorship and the Federal Applicant Gate
+
+   For a covered federal application, document the identity of the
+   actual applicant, its UEI, and current SAM registration as required
+   by the funding opportunity and applicable provisions of [PART25],
+   including applicable exceptions.  Record source, retrieval time,
+   status, expiry where available, and the verified binding of UEI to
+   the applicant.  A UEI alone does not establish active registration.
+   Where a requirement is unresolved, report UNVERIFIED and withhold any
+   readiness conclusion.  Keep determination letters and sponsor
+   authority evidence under controlled access.
+
+   AI 2030 Group Inc. and EIN 99-3038309 identify a prospective case
+   from supplied records.  Its current SAM status and UEI are UNVERIFIED
+   for this proposal.  The packet can document a source check where
+   application instructions allow supporting material.  It supplies no
+   SAM registration, eligibility decision, fiscal sponsorship agreement
+   or finding of compliance.  The applicability of the federal gate
+   depends on the relevant program and the party's actual role.
+
+6.  Engagement and Acknowledgment Protocol
+
+   Following author approval, the author may submit this individual
+   draft to Datatracker and invite reviewers, including Tiara Martinez
+   or a designated reviewer, to reproduce the public vectors.
+   Participation is UNVERIFIED.  Record a successful reproduction
+   against a pinned version and artifact digest.  An acknowledgment
+   identifies reviewer, date, fixture IDs, observed digest or result,
+   and the tested implementation.  A signature and authority policy are
+   required for any acknowledgment used as authorized evidence.  Its
+   encoding is outside this version's runnable profile.
+
+   PROPOSED THRESHOLD — NOT YET MET: 89 independent verification runs
+   are required by the proposed procurement policy for the label
+   implementation-verified.  A run is a documented reproduction of the
+   agreed suite by an independently controlled reviewer and
+
+
+
+Jones                      Expires 28 May 2027                  [Page 7]
+
+Internet-Draft            Outerprise Handshake             November 2026
+
+
+   implementation.  Deduplicate identical runs and identify distinct
+   people and implementations separately.  Repeated executions of this
+   reference checker and checks on other drafts do not count.  The
+   threshold is a proposed local policy and does not confer standards
+   adoption, acceptance or approval.
+
+7.  Laboratory and Governance Boundaries
+
+   [HB15017] specifies accreditation requirements for cryptographic and
+   security testing laboratories.  The Outerprise application holds no
+   NVLAP accreditation, CAVP validation or CMVP certification.
+   Laboratory validation of this implementation is UNVERIFIED.  A
+   laboratory with the relevant scope could assess applicable algorithm
+   or module test inputs under the governing program requirements.  Any
+   resulting report would identify its own scope.  The [AIRMF] self-map
+   is management evidence.  Relevant pointers include GOVERN 6.1 and
+   MANAGE 3.1 for third-party controls, MAP 2.2 and MAP 4.1 for use
+   limits and dependencies, and MEASURE 2.4 for production monitoring.
+   This fixture establishes none of those operating outcomes.
+
+8.  Security and Privacy Considerations
+
+   Check project, artifact digest, intended recipient, expected role,
+   applicable policy, and freshness before accepting a record for a new
+   use.  A recipient should detect previously processed artifact
+   identifiers and require separately authenticated disposition
+   evidence.  Duplicate delivery must not create a new milestone.
+   Section 3.4 defines the limits of the presented chain.  A timestamp
+   field is a claim.  Optional RFC 3161 evidence has a separately
+   assessed timestamp authority and message imprint.
+
+   Deterministic EIN hashes are enumerable and linkable.  Treat the Pair
+   Key as an internal correlation value and avoid public disclosure of
+   real identifiers, testimony or sensitive records.  This version
+   defines no salted commitment.  Any later commitment profile must
+   specify domain, serialization, independent per-commitment randomness,
+   secure opening custody, and disclosure scope.  Acknowledgment
+   identifies delivery and institutional acceptance requires a separate
+   decision.
+
+9.  IANA Considerations
+
+   This document requests no IANA actions.
+
+10.  References
+
+   [RFC8785]  "JSON Canonicalization Scheme (JCS)", RFC 8785,
+              <https://www.rfc-editor.org/info/rfc8785>.
+
+
+
+Jones                      Expires 28 May 2027                  [Page 8]
+
+Internet-Draft            Outerprise Handshake             November 2026
+
+
+   [RFC8949]  "Concise Binary Object Representation (CBOR)", RFC 8949,
+              <https://www.rfc-editor.org/info/rfc8949>.
+
+   [RFC9052]  "CBOR Object Signing and Encryption (COSE): Structures and
+              Process", RFC 9052,
+              <https://www.rfc-editor.org/info/rfc9052>.
+
+   [RFC9053]  "CBOR Object Signing and Encryption (COSE): Initial
+              Algorithms", RFC 9053,
+              <https://www.rfc-editor.org/info/rfc9053>.
+
+   [RFC9864]  "Fully-Specified Algorithms for JSON Object Signing and
+              Encryption (JOSE) and CBOR Object Signing and Encryption
+              (COSE)", RFC 9864,
+              <https://www.rfc-editor.org/info/rfc9864>.
+
+   [RFC8032]  "Edwards-Curve Digital Signature Algorithm (EdDSA)",
+              RFC 8032, <https://www.rfc-editor.org/info/rfc8032>.
+
+   [RFC9942]  "CBOR Object Signing and Encryption (COSE) Receipts",
+              RFC 9942, <https://www.rfc-editor.org/info/rfc9942>.
+
+   [RFC9943]  "An Architecture for Trustworthy and Transparent Digital
+              Supply Chains", RFC 9943,
+              <https://www.rfc-editor.org/info/rfc9943>.
+
+   [RFC3161]  "Internet X.509 Public Key Infrastructure Time-Stamp
+              Protocol (TSP)", RFC 3161,
+              <https://www.rfc-editor.org/info/rfc3161>.
+
+   [PART25]   Electronic Code of Federal Regulations, "2 CFR Part 25 —
+              Universal Identifier and System for Award Management",
+              <https://www.ecfr.gov/current/title-2/subtitle-A/chapter-
+              I/part-25>.
+
+   [HB15017]  NIST, "Cryptographic and Security Testing, NIST HB
+              150-17e2022",
+              <https://doi.org/10.6028/NIST.HB.150-17e2022>.
+
+   [AIRMF]    NIST, "Artificial Intelligence Risk Management Framework
+              1.0", <https://doi.org/10.6028/NIST.AI.100-1>.
+
+
+
+
+
+
+
+
+
+
+Jones                      Expires 28 May 2027                  [Page 9]
+
+Internet-Draft            Outerprise Handshake             November 2026
+
+
+Acknowledgments
+
+   Thanks to Tokachi Kamimura for comments on the reporting terminology
+   in the related Detached Evidence Handoffs Internet-Draft
+   (https://datatracker.ietf.org/doc/draft-jones-detached-evidence-
+   handoffs/).  Those comments informed this document's observation-
+   scope wording.
+
+Author's Address
+
+   Vince Jones
+   Entercation Info Inc.
+   Email: entercation2021@gmail.com
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Jones                      Expires 28 May 2027                 [Page 10]
+
+
+## Pain Point Resolutions – official TXT
+
+
+
+
+
+Network Working Group                                           V. Jones
+Internet-Draft                                     Entercation Info Inc.
+Intended status: Informational                          25 November 2026
+Expires: 29 May 2027
+
+
+   Resolution of SCITT and W3C Verification Ambiguities via Detached
+                           Evidence Profiles
+              draft-jones-scitt-pain-point-resolutions-00
+
+Abstract
+
+   RFC 9942 (COSE Receipts), RFC 9943 (the SCITT architecture), and the
+   W3C Verifiable Credentials Data Model v2.0 provide the foundational
+   architecture for transparent, verifiable statements.  Operational
+   ambiguities remain in receipt verification, statement identity,
+   status freshness, and the boundary between what a receipt proves and
+   what a relying party must establish separately.  This document maps
+   fifteen documented pain points to constructions in four individual
+   Internet-Drafts (a dual-receipt profile, a detached evidence handoffs
+   model, a reproducible-review method, and a handshake profile).  Where
+   none of those drafts applies, it either proposes a construction or
+   names the existing external mechanism, and for every pain point it
+   states which case applies and what gap remains.  Delivery is
+   detached: no API integration, standing connection, or middleware is
+   required.  This document does not amend RFC 9942, RFC 9943, or any
+   W3C Recommendation.  All test vectors are synthetic.
+
+Status of This Memo
+
+   This Internet-Draft is submitted in full conformance with the
+   provisions of BCP 78 and BCP 79.
+
+   Internet-Drafts are working documents of the Internet Engineering
+   Task Force (IETF).  Note that other groups may also distribute
+   working documents as Internet-Drafts.  The list of current Internet-
+   Drafts is at https://datatracker.ietf.org/drafts/current/.
+
+   Internet-Drafts are draft documents valid for a maximum of six months
+   and may be updated, replaced, or obsoleted by other documents at any
+   time.  It is inappropriate to use Internet-Drafts as reference
+   material or to cite them other than as "work in progress."
+
+   This Internet-Draft will expire on 29 May 2027.
+
+
+
+
+
+
+
+Jones                      Expires 29 May 2027                  [Page 1]
+
+Internet-Draft        SCITT Pain-Point Resolutions         November 2026
+
+
+Copyright Notice
+
+   Copyright (c) 2026 IETF Trust and the persons identified as the
+   document authors.  All rights reserved.
+
+   This document is subject to BCP 78 and the IETF Trust's Legal
+   Provisions Relating to IETF Documents (https://trustee.ietf.org/
+   license-info) in effect on the date of publication of this document.
+   Please review these documents carefully, as they describe your rights
+   and restrictions with respect to this document.  Code Components
+   extracted from this document must include Revised BSD License text as
+   described in Section 4.e of the Trust Legal Provisions and are
+   provided without warranty as described in the Revised BSD License.
+
+Table of Contents
+
+   1.  Introduction  . . . . . . . . . . . . . . . . . . . . . . . .   3
+     1.1.  Requirements Language . . . . . . . . . . . . . . . . . .   3
+     1.2.  Terminology and Conventions . . . . . . . . . . . . . . .   4
+     1.3.  Relationship to Companion Drafts  . . . . . . . . . . . .   4
+   2.  The Fifteen Resolutions . . . . . . . . . . . . . . . . . . .   5
+     2.1.  E01: Receipt Position and Size  . . . . . . . . . . . . .   7
+     2.2.  E02: Leaf Serialization . . . . . . . . . . . . . . . . .   8
+     2.3.  E03: Statement Identity . . . . . . . . . . . . . . . . .   8
+     2.4.  E04: Registration Is Not Truth  . . . . . . . . . . . . .   8
+     2.5.  E05: Operator-Defined Policy  . . . . . . . . . . . . . .   9
+     2.6.  E06: Hash-Only Statements . . . . . . . . . . . . . . . .   9
+     2.7.  E07: Asynchronous Registration  . . . . . . . . . . . . .   9
+     2.8.  E08: CCF Data-Hash  . . . . . . . . . . . . . . . . . . .  10
+     2.9.  E09: Joint Statements . . . . . . . . . . . . . . . . . .  10
+     2.10. E10: Implementer Disagreement . . . . . . . . . . . . . .  10
+     2.11. E11: Status Freshness . . . . . . . . . . . . . . . . . .  10
+     2.12. E12: Status Correlation . . . . . . . . . . . . . . . . .  10
+     2.13. E13: Replay . . . . . . . . . . . . . . . . . . . . . . .  10
+     2.14. E14: Verifiability Is Not Truth . . . . . . . . . . . . .  11
+     2.15. E15: RATS Freshness . . . . . . . . . . . . . . . . . . .  11
+   3.  The Fail-Closed Architecture  . . . . . . . . . . . . . . . .  11
+   4.  Security Considerations . . . . . . . . . . . . . . . . . . .  12
+   5.  IANA Considerations . . . . . . . . . . . . . . . . . . . . .  13
+   6.  References  . . . . . . . . . . . . . . . . . . . . . . . . .  13
+     6.1.  Normative References  . . . . . . . . . . . . . . . . . .  13
+     6.2.  Informative References  . . . . . . . . . . . . . . . . .  14
+   Appendix A.  Test Vectors . . . . . . . . . . . . . . . . . . . .  16
+   Appendix B.  Open Issues  . . . . . . . . . . . . . . . . . . . .  19
+   Appendix C.  What This Document Does Not Claim  . . . . . . . . .  19
+   Acknowledgments . . . . . . . . . . . . . . . . . . . . . . . . .  19
+   Author's Address  . . . . . . . . . . . . . . . . . . . . . . . .  19
+
+
+
+
+Jones                      Expires 29 May 2027                  [Page 2]
+
+Internet-Draft        SCITT Pain-Point Resolutions         November 2026
+
+
+1.  Introduction
+
+   A claim about a receipt, a statement, or a decision is only as strong
+   as the exact bytes a verifier can recompute, the exact signature it
+   can check, and the exact boundary the evidence crossed.  Where a
+   specification leaves a choice open (which bytes a leaf covers, which
+   numbers a signature binds, which encoding a digest names), this
+   document either cites a companion profile that pins the choice,
+   proposes a pin, or states that it has none.  The author calls this
+   byte-level discipline "bottomology"; the term carries no meaning
+   beyond this sentence.
+
+   Each pain point is analysed through four views:
+
+   Ontological:
+      Distinct acts are kept distinct.  An Acknowledgment records that a
+      package was received and its bytes verified; an Approval records a
+      decision under authority.  Registration records that a Signed
+      Statement entered a log; it does not record that the statement is
+      true.  A Receipt proves inclusion under a signed root; it does not
+      prove truth, completeness, or freshness.
+
+   Topological:
+      Evidence crosses an institutional boundary only as a detached,
+      self-contained package (a "Delivery Doc").  The recipient verifies
+      it offline and records its own disposition as a separate
+      statement.  No API, standing connection, or middleware is
+      introduced.
+
+   Cryptographic:
+      The exact canonicalization, digest, tree, and signature
+      construction, with a test vector where one exists.
+
+   Navigational:
+      The ordered recomputation path a verifier follows: for example,
+      from a Receipt to the signed tree head, from the root to the leaf,
+      from the leaf to the statement, and from a decision to the
+      independent policy evaluation.  Earlier material by the author
+      calls this path "algorithmic intellectual telemetry"; in this
+      document the term means only that ordered recomputation path.
+
+1.1.  Requirements Language
+
+   The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT",
+   "SHOULD", "SHOULD NOT", "RECOMMENDED", "NOT RECOMMENDED", "MAY", and
+   "OPTIONAL" in this document are to be interpreted as described in
+   BCP 14 [RFC2119] [RFC8174] when, and only when, they appear in all
+   capitals, as shown here.
+
+
+
+Jones                      Expires 29 May 2027                  [Page 3]
+
+Internet-Draft        SCITT Pain-Point Resolutions         November 2026
+
+
+1.2.  Terminology and Conventions
+
+   JCS(v):  The JSON Canonicalization Scheme encoding [RFC8785] of v, as
+      UTF-8 octets.  Inputs to JCS in this document MUST NOT contain
+      duplicate member names.
+
+   SHA-256(x):  SHA-256 over the octet string x, producing 32 octets.
+
+   Hd(label, x):  SHA-256 over the ASCII octets "outerprise-resolutions/
+      v1/", the ASCII label, one zero octet, and x, in that order.  Hd
+      is used only for constructions this document proposes.  It is
+      distinct from the plain H() of [JONES-DUAL-02]; where this
+      document reproduces a construction of [JONES-DUAL-02], it uses
+      that draft's plain SHA-256, unchanged.
+
+   ||:  Octet concatenation.  A digest is carried as exactly 64
+      lowercase hexadecimal characters representing 32 octets; every
+      concatenation of digests in this document is over the 32-octet
+      values, never over their hexadecimal text.
+
+   The Coverage values used in Section 2 are:
+
+   PROFILE:  the construction is defined in a cited companion draft.
+   PROPOSED:  the construction is defined here for the first time and
+      has no independent implementation.
+   EXTERNAL:  an existing mechanism outside the companion drafts is
+      named; this document adds no construction beyond what is stated.
+   NONE:  no construction is offered.
+
+1.3.  Relationship to Companion Drafts
+
+   [JONES-DUAL-02] is a JSON profile.  It states that it does not use
+   COSE, that its Receipt is not a COSE Receipt as defined in [RFC9942],
+   and that it claims no conformance to [RFC9943] or [RFC9942].
+   Constructions in this document that use COSE_Sign1 (Section 2.1 and
+   vector V4 in Appendix A) are therefore new proposals, not
+   restatements of [JONES-DUAL-02].
+
+   [JONES-HANDOFFS-03] defines terminology and an architectural model
+   and specifies no wire protocol.  [JONES-MIMS-01] is a review method.
+   [JONES-HANDSHAKE-01] encodes numeric quantities as JSON strings,
+   while [JONES-DUAL-02] and this document use JSON integers for tree
+   size.  Appendix B lists the resulting alignment work.
+
+
+
+
+
+
+
+
+Jones                      Expires 29 May 2027                  [Page 4]
+
+Internet-Draft        SCITT Pain-Point Resolutions         November 2026
+
+
+2.  The Fifteen Resolutions
+
+   The pain points are taken from an independent research register dated
+   24 November 2026, which draws on the public record of the SCITT
+   working group, [INTEROP], and the cited specifications.  "Spec
+   status" gives the status of the underlying specification problem.
+   "Coverage" (Section 1.2) gives what this document and its companions
+   actually contribute.  Nothing in this section claims that an OPEN
+   problem has been closed in the specifications where it was found.
+
+    +=====+===========================+=============+=================+
+    | ID  | Pain point                | Spec status | Coverage        |
+    +=====+===========================+=============+=================+
+    | E01 | RFC 9942 tree-size and    | OPEN        | PROFILE (JSON   |
+    |     | leaf-index are carried in |             | STH, DUAL-02);  |
+    |     | the unprotected header,   |             | PROPOSED (COSE  |
+    |     | outside the signature.    |             | STH)            |
+    +-----+---------------------------+-------------+-----------------+
+    | E02 | No serialization is named | OPEN (CCF-  | PROPOSED        |
+    |     | for a log leaf; two       | only fix)   |                 |
+    |     | services derived          |             |                 |
+    |     | different leaves for the  |             |                 |
+    |     | same statements.          |             |                 |
+    +-----+---------------------------+-------------+-----------------+
+    | E03 | No portable identifier    | OPEN        | PROPOSED (JSON  |
+    |     | for a Signed Statement;   |             | statements      |
+    |     | digests change under re-  |             | only)           |
+    |     | encoding.                 |             |                 |
+    +-----+---------------------------+-------------+-----------------+
+    | E04 | Registration proves that  | PARTLY      | PROFILE (DUAL-  |
+    |     | an issuer signed          | ADDRESSED;  | 02)             |
+    |     | something, not that it is | truth out   |                 |
+    |     | true, complete, or        | of scope    |                 |
+    |     | current.                  |             |                 |
+    +-----+---------------------------+-------------+-----------------+
+    | E05 | Registration policy and   | OPEN        | PROPOSED        |
+    |     | trust anchors are         |             |                 |
+    |     | operator-defined and may  |             |                 |
+    |     | change.                   |             |                 |
+    +-----+---------------------------+-------------+-----------------+
+    | E06 | A service may hold only a | PARTLY      | PROFILE         |
+    |     | digest; the preimage may  | ADDRESSED   | (HANDOFFS-03);  |
+    |     | be unobtainable.          |             | PROPOSED        |
+    +-----+---------------------------+-------------+-----------------+
+    | E07 | An HTTP 202 response with | PARTLY      | PROFILE         |
+    |     | an entry identifier is    | ADDRESSED   | (HANDSHAKE-01); |
+    |     | mistaken for a Receipt.   |             | PROPOSED        |
+    +-----+---------------------------+-------------+-----------------+
+
+
+
+Jones                      Expires 29 May 2027                  [Page 5]
+
+Internet-Draft        SCITT Pain-Point Resolutions         November 2026
+
+
+    | E08 | The CCF data-hash input   | PARTLY      | EXTERNAL        |
+    |     | bytes were ambiguous.     | ADDRESSED   |                 |
+    |     |                           | (CCF); OPEN |                 |
+    |     |                           | generically |                 |
+    +-----+---------------------------+-------------+-----------------+
+    | E09 | Joint statements need     | OPEN        | NONE            |
+    |     | COSE_Sign; signatures can |             |                 |
+    |     | be reordered or dropped.  |             |                 |
+    +-----+---------------------------+-------------+-----------------+
+    | E10 | Independent verifiers     | OPEN        | PROFILE (MIMS-  |
+    |     | disagree where text       |             | 01)             |
+    |     | leaves a choice, each     |             |                 |
+    |     | passing its own tests.    |             |                 |
+    +-----+---------------------------+-------------+-----------------+
+    | E11 | A valid signature says    | PARTLY      | EXTERNAL;       |
+    |     | nothing about current     | ADDRESSED   | PROPOSED        |
+    |     | status; freshness is a    |             | (recording)     |
+    |     | deployment choice.        |             |                 |
+    +-----+---------------------------+-------------+-----------------+
+    | E12 | Per-credential status     | PARTLY      | EXTERNAL        |
+    |     | queries let an issuer     | ADDRESSED   |                 |
+    |     | correlate holder, time,   |             |                 |
+    |     | and verifier.             |             |                 |
+    +-----+---------------------------+-------------+-----------------+
+    | E13 | A bare presentation can   | PARTLY      | EXTERNAL;       |
+    |     | be replayed to another    | ADDRESSED   | PROPOSED        |
+    |     | verifier.                 |             | (binding value  |
+    |     |                           |             | only)           |
+    +-----+---------------------------+-------------+-----------------+
+    | E14 | Verifiability does not    | OUT OF      | PROPOSED        |
+    |     | imply truth; authority,   | SCOPE (data |                 |
+    |     | binding, and policy fit   | model);     |                 |
+    |     | are separate checks.      | OPEN        |                 |
+    |     |                           | (ecosystem) |                 |
+    +-----+---------------------------+-------------+-----------------+
+    | E15 | RATS freshness and multi- | PARTLY      | EXTERNAL        |
+    |     | evidence composition are  | ADDRESSED   |                 |
+    |     | per-verifier policy.      |             |                 |
+    +-----+---------------------------+-------------+-----------------+
+
+                 Table 1: Pain Points, Status, and Coverage
+
+
+
+
+
+
+
+
+
+
+Jones                      Expires 29 May 2027                  [Page 6]
+
+Internet-Draft        SCITT Pain-Point Resolutions         November 2026
+
+
+2.1.  E01: Receipt Position and Size
+
+   In [RFC9942] signed inclusion proofs, the signature covers the Merkle
+   root, while tree-size and leaf-index are carried in the unprotected
+   header.  Errata 9316 and 9317 against [RFC9942] were reported on 18
+   November 2026; their status has not been re-verified for this
+   document.  A hackathon report at IETF 127 observed that one receipt
+   was accepted for the issued (tree-size, leaf-index) pair and for 31
+   other pairs among 8,255 edited pairs.  The errata note that, with
+   tree-size held fixed, no other leaf-index verifies; the gap concerns
+   position and size, not membership.
+
+   [JONES-DUAL-02] Section 4.5 defines a JSON signed tree head (STH)
+   signed directly with Ed25519.  This document proposes the same remedy
+   carried in COSE: payload = JCS({"root": R, "tree_size": N}), where R
+   is 64 lowercase hexadecimal characters and N is a JSON integer,
+   signed as a COSE_Sign1 [RFC9052] with protected header {1: -19}
+   (Ed25519 [RFC8032] as registered by [RFC9864]) and an empty
+   unprotected header.  The Sig_structure is ["Signature1", protected,
+   h'', payload] per Section 4.4 of [RFC9052], in which "Signature1" is
+   a CBOR text string.  A verifier relying on tree size MUST verify the
+   STH first and MUST accept only if the recomputed root and the
+   presented tree size both equal the signed values.
+
+   The STH authenticates the root and the tree size.  It does not carry
+   or authenticate the leaf index.  The leaf index is constrained only
+   by recomputing the inclusion path under the signed tree size and
+   rejecting any index not less than that size (Section 5.2 of
+   [RFC9942]); this document relies on the errata observation above only
+   as reported and does not claim that recomputation fixes the index in
+   every case.  Neither [RFC9942] nor the V4 payload carries a normative
+   log identifier, so a verified STH proves only that the holder of the
+   verifying key signed that root and size.  The verifier MUST bind that
+   key to the intended Transparency Service by means outside this
+   document.
+
+   Route:  Receipt, then STH, then root, then leaf.
+
+   Vector:  V4 (Appendix A), including a negative control in which an
+      edited tree_size fails verification.
+
+   Boundary:  An unsigned tree size is never relied on; the leaf index
+      is relied on only as constrained by recomputation under the signed
+      size.
+
+   Residual gap: this does not amend [RFC9942].  A stock [RFC9942]
+   verifier that does not check an STH is unaffected by this document.
+
+
+
+
+Jones                      Expires 29 May 2027                  [Page 7]
+
+Internet-Draft        SCITT Pain-Point Resolutions         November 2026
+
+
+2.2.  E02: Leaf Serialization
+
+   Neither [RFC9943] nor [RFC9942] names the serialization of a log
+   leaf.  This document proposes: SID = Hd("statement", JCS(stmt)); LEAF
+   = Hd("leaf", SID); leaf hash = SHA-256(0x00 || LEAF); interior node =
+   SHA-256(0x01 || left || right), following Section 2.1.1 of [RFC9162].
+
+   Route:  Statement, then SID, then LEAF, under one rule.
+
+   Vector:  V3 (Appendix A).
+
+   Boundary:  Two verifiers applying this rule derive the same leaf;
+      services that do not apply it are unaffected.
+
+   Residual gap: this is a profile rule.  [JONES-DUAL-02] Section 5.4
+   defines a different leaf (over the canonical form of the payload and
+   its signature), so the companion drafts do not yet share one leaf
+   rule (Appendix B, Issue 1).
+
+2.3.  E03: Statement Identity
+
+   The iss and sub claims group statements, and a SCRAPI locator is
+   local to one service.  This document proposes SID = Hd("statement",
+   JCS(stmt)) for JSON statements.  JCS removes member-order and
+   whitespace freedom (vector V2).
+
+   Route:  Any JSON spelling, then JCS, then SID.
+
+   Vector:  V1 and V2 (Appendix A).
+
+   Boundary:  References cite a SID rather than a service-local locator.
+
+   Residual gap: JCS applies only to JSON.  It does not address CBOR re-
+   encoding of COSE Signed Statements.  Reference format, matching rule,
+   and relation vocabulary remain open; see
+   [I-D.gruszka-scitt-statement-identification].
+
+2.4.  E04: Registration Is Not Truth
+
+   Section 9.2 of [RFC9943] states that registering a statement only
+   proves it was produced by an Issuer and that Issuers can make false
+   statements, and Section 9.3 of [RFC9943] notes that Issuers may
+   register selectively.  An Issuer can supersede an earlier statement
+   by registering a later Signed Statement (Section 9.2 of [RFC9943]),
+   but no standard field links a later statement to the one it
+   supersedes.  [VCDM2] Section 1.1 states: "Verifiability of a
+   credential does not imply the truth of claims encoded therein."
+
+
+
+
+Jones                      Expires 29 May 2027                  [Page 8]
+
+Internet-Draft        SCITT Pain-Point Resolutions         November 2026
+
+
+   This document reuses [JONES-DUAL-02] Sections 5.2 and 5.6 unchanged:
+   D1 = SHA-256(canon(payload_A)), D2 = SHA-256(canon(payload_B)), and
+   CID = SHA-256(D1 || D2) over 64 input octets, D1 first.
+
+   Route:  Decision, then the independent policy evaluation.
+
+   Vector:  V5 (Appendix A) recomputes the composite identifier
+      published in [JONES-DUAL-02].
+
+   Boundary:  Decision and evaluation are signed by different keys;
+      neither is read as truth.
+
+   Residual gap: separating who decided from who evaluated against a
+   policy does not make either statement true, does not show that no
+   conflicting evaluation exists, does not prove completeness, and does
+   not identify which later statement supersedes an earlier one; that
+   link depends on the relation vocabulary left open under E03.
+
+2.5.  E05: Operator-Defined Policy
+
+   This document proposes that each decision cite the SID of the policy
+   and trust-anchor set under which it was made, so that a historical
+   check can be reproduced from the logged policy.  Residual gap: no
+   interoperable policy format exists, and the construction helps only
+   if the policy itself was logged.
+
+2.6.  E06: Hash-Only Statements
+
+   The payload_location header (260) of [RFC9995] is an optional hint.
+   Terminology follows [JONES-HANDOFFS-03].  This document proposes
+   payload digest = Hd("payload", bytes) (vector V6) and a third
+   verdict: if the preimage cannot be obtained, the result is
+   UNAVAILABLE, neither pass nor fail.  Content the verifier has not
+   hashed is never accepted as seen.  Residual gap: no mandatory
+   retrieval mechanism exists.
+
+2.7.  E07: Asynchronous Registration
+
+   [JONES-HANDSHAKE-01] halts its positive trace on a decline or on
+   missing evidence.  This document adds that an entry identifier is not
+   a Receipt and that the export gate (Section 3) records no milestone
+   without a signed Receipt and a verified STH.  Residual gap: no
+   standard machine-readable "not yet witnessed" state exists.
+
+
+
+
+
+
+
+
+Jones                      Expires 29 May 2027                  [Page 9]
+
+Internet-Draft        SCITT Pain-Point Resolutions         November 2026
+
+
+2.8.  E08: CCF Data-Hash
+
+   For COSE-carried statements, this document adopts the rule of
+   [I-D.ietf-scitt-receipts-ccf-profile]: the digest covers the
+   COSE_Sign1 bytes as registered, with tag 18 retained and an empty
+   unprotected header.  No construction is added.
+
+2.9.  E09: Joint Statements
+
+   No construction is offered.  The entry definition for joint
+   statements remains unsettled.
+
+2.10.  E10: Implementer Disagreement
+
+   [INTEROP] records verifiers that each passed their own tests yet
+   disagreed with one another.  [JONES-MIMS-01] pins the revision, the
+   digest of the acquired bytes, the extraction rule, dependency
+   versions, one proposition, and the expected comparison, and records
+   the observed result.  Vector V4 includes a negative control in which
+   "Signature1" is encoded as a CBOR byte string: an implementation that
+   verifies raw bytes without rebuilding the Sig_structure would not
+   detect that error, which is itself an instance of E10.  Residual gap:
+   the method detects disagreement; it does not repair specification
+   text.
+
+2.11.  E11: Status Freshness
+
+   Status mechanisms exist in [BSL] and [I-D.ietf-oauth-status-list].
+   This document proposes only that a verifier record the status-list
+   fetch time and the maximum staleness it accepted, so that a result is
+   never presented as current on the strength of a signature alone.
+
+2.12.  E12: Status Correlation
+
+   [BSL] requires an uncompressed bitstring of at least 16 KB (131,072
+   entries) to provide group privacy, which is probabilistic.  No
+   construction is added.
+
+2.13.  E13: Replay
+
+   External mechanisms include the Data Integrity challenge and domain
+   properties, the key binding of [RFC9901] over nonce and audience, and
+   [I-D.ietf-oauth-sd-jwt-vc].  This document proposes a binding value,
+   binding = Hd("presentation", challenge || 0x00 || domain || 0x00 ||
+   SID) (vector V7); the challenge and domain MUST NOT contain a zero
+   octet.
+
+
+
+
+
+Jones                      Expires 29 May 2027                 [Page 10]
+
+Internet-Draft        SCITT Pain-Point Resolutions         November 2026
+
+
+   The binding value by itself proves nothing about who presented it and
+   does not prevent replay.  It MUST be covered by a signature made with
+   a key bound to the credential, for example the key binding of
+   [RFC9901] or a Data Integrity proof, and the verifier MUST verify
+   that signature and that the signing key is the key bound to the
+   credential.  Replay resistance comes from the verifier: the challenge
+   MUST be issued by the verifier, fresh, single-use, and time-limited,
+   and the verifier MUST record each challenge it accepts and refuse its
+   reuse.  Vector V7 tests only the binding value.
+
+2.14.  E14: Verifiability Is Not Truth
+
+   This document proposes that a decision record list five verdicts
+   separately: (1) signature validity, (2) issuer authority, (3) subject
+   binding, (4) status, and (5) claim evidence.  A missing verdict is a
+   refusal, and no verdict is inferred from another.
+
+2.15.  E15: RATS Freshness
+
+   This is outside the scope of the companion drafts.  The nonce,
+   timestamp, and counter mechanisms of [RFC9334] apply; this document
+   adds nothing.
+
+3.  The Fail-Closed Architecture
+
+   The export gate is the single enforcement point for evidence
+   integrity.  A package leaves the sender only when every applicable
+   check has passed against pinned bytes: the STH verifies under a key
+   bound to the intended Transparency Service; the leaf recomputes to
+   the signed root; the SID matches the statement; the decision and the
+   policy evaluation are both present, signed by different keys, and
+   verified against keys bound to their roles; any claimed payload
+   preimage has been obtained and hashed; and any presentation binding
+   is signed and matches its challenge and domain.  Any failure, missing
+   input, or unsigned number is a refusal to export, and a refused
+   package produces no Decided, Disbursed, or Confirmed record.
+
+   Passing the gate establishes only that the evidence is intact and
+   correctly bound.  It is not authorization to act.  A package that
+   passes may carry a verified decline: that is verified evidence of a
+   negative decision and MUST NOT be treated as authorization.  An
+   action record such as Disbursed additionally requires that the
+   verified decision outcome is approve, that the policy evaluation
+   result is pass, and that the signer of the decision holds authority
+   for that action under the cited policy (Section 2.5).  Establishing
+   that authority is outside this document.
+
+
+
+
+
+Jones                      Expires 29 May 2027                 [Page 11]
+
+Internet-Draft        SCITT Pain-Point Resolutions         November 2026
+
+
+   The gate is an architectural sketch.  This document does not define a
+   gate input format, a key-to-role binding mechanism, or an outcome
+   vocabulary, and no implementation is claimed.
+
+   On the recipient side, a package that cannot be verified is not
+   accepted.  The recipient's disposition (Acknowledgment or Approval)
+   is a separate statement with its own SID and is never merged into the
+   sender's evidence.  A local chain cannot rule out withheld records or
+   conflicting views.
+
+   With respect to E04, the gate never reads a receipt or a dual receipt
+   as truth.  With respect to E10, every vector in Appendix A can be
+   recomputed from this text alone, and a recomputation that disagrees
+   is a finding against the text.
+
+4.  Security Considerations
+
+   Hash substitution:
+      The constructions rely on the collision and second-preimage
+      resistance of SHA-256.  Domain separation through the Hd labels
+      prevents a digest computed in one context (statement, leaf,
+      payload, presentation) from verifying in another.  The 0x00 and
+      0x01 prefixes of [RFC9162] separate leaf hashes from interior
+      hashes.
+
+   Detached payload loss:
+      A hash-only statement whose preimage is lost yields UNAVAILABLE,
+      never a pass.  A party registering hash-only statements SHOULD
+      retain or designate a retrieval path for as long as the statement
+      is meant to be verifiable.
+
+   Replay:
+      A Receipt is bearer-like.  A replayed Receipt proves registration
+      only and says nothing about the presenter.  Presentations are
+      bound as described in Section 2.13.
+
+   Key compromise:
+      Revocation strategies are out of scope in [RFC9943] and here.  The
+      test key in Appendix A is public and MUST NOT be used outside
+      testing.
+
+   Privacy:
+      Deterministic digests of low-entropy identifiers are enumerable
+      and linkable.  SIDs are correlation values, not identity
+      verification or access control.  Real identifiers, testimony, and
+      sensitive records MUST NOT be placed in statements registered on a
+      public log.  No salted commitment is defined.
+
+
+
+
+Jones                      Expires 29 May 2027                 [Page 12]
+
+Internet-Draft        SCITT Pain-Point Resolutions         November 2026
+
+
+   Time:
+      Every timestamp is its signer's claim; registration time is the
+      Transparency Service's claim.  [RFC3161] may supply independently
+      evidenced time, which is assessed separately.
+
+5.  IANA Considerations
+
+   This document has no IANA actions.
+
+6.  References
+
+6.1.  Normative References
+
+   [RFC2119]  Bradner, S., "Key words for use in RFCs to Indicate
+              Requirement Levels", BCP 14, RFC 2119,
+              DOI 10.17487/RFC2119, March 1997,
+              <https://www.rfc-editor.org/info/rfc2119>.
+
+   [RFC8032]  Josefsson, S. and I. Liusvaara, "Edwards-Curve Digital
+              Signature Algorithm (EdDSA)", RFC 8032,
+              DOI 10.17487/RFC8032, January 2017,
+              <https://www.rfc-editor.org/info/rfc8032>.
+
+   [RFC8174]  Leiba, B., "Ambiguity of Uppercase vs Lowercase in RFC
+              2119 Key Words", BCP 14, RFC 8174, DOI 10.17487/RFC8174,
+              May 2017, <https://www.rfc-editor.org/info/rfc8174>.
+
+   [RFC8785]  Rundgren, A., Jordan, B., and S. Erdtman, "JSON
+              Canonicalization Scheme (JCS)", RFC 8785,
+              DOI 10.17487/RFC8785, June 2020,
+              <https://www.rfc-editor.org/info/rfc8785>.
+
+   [RFC9052]  Schaad, J., "CBOR Object Signing and Encryption (COSE):
+              Structures and Process", STD 96, RFC 9052,
+              DOI 10.17487/RFC9052, August 2022,
+              <https://www.rfc-editor.org/info/rfc9052>.
+
+   [RFC9864]  Jones, M.B. and O. Steele, "Fully-Specified Algorithms for
+              JSON Object Signing and Encryption (JOSE) and CBOR Object
+              Signing and Encryption (COSE)", RFC 9864,
+              DOI 10.17487/RFC9864, October 2025,
+              <https://www.rfc-editor.org/info/rfc9864>.
+
+   [RFC9942]  Steele, O., Birkholz, H., Delignat-Lavaud, A., and C.
+              Fournet, "CBOR Object Signing and Encryption (COSE)
+              Receipts", RFC 9942, DOI 10.17487/RFC9942, June 2026,
+              <https://www.rfc-editor.org/info/rfc9942>.
+
+
+
+
+Jones                      Expires 29 May 2027                 [Page 13]
+
+Internet-Draft        SCITT Pain-Point Resolutions         November 2026
+
+
+   [RFC9943]  Birkholz, H., Delignat-Lavaud, A., Fournet, C., Deshpande,
+              Y., and S. Lasker, "An Architecture for Trustworthy and
+              Transparent Digital Supply Chains", RFC 9943,
+              DOI 10.17487/RFC9943, June 2026,
+              <https://www.rfc-editor.org/info/rfc9943>.
+
+6.2.  Informative References
+
+   [BSL]      W3C, "Bitstring Status List v1.0", W3C Recommendation, 15
+              May 2025,
+              <https://www.w3.org/TR/vc-bitstring-status-list/>.
+
+   [I-D.gruszka-scitt-statement-identification]
+              Gruszka, K., "Requirements and Test Cases for Identifying
+              SCITT Signed Statements", Work in Progress, Internet-
+              Draft, draft-gruszka-scitt-statement-identification-04, 15
+              November 2026, <https://datatracker.ietf.org/doc/html/
+              draft-gruszka-scitt-statement-identification-04>.
+
+   [I-D.ietf-oauth-sd-jwt-vc]
+              IETF OAuth Working Group, "SD-JWT-based Verifiable Digital
+              Credentials (SD-JWT VC)", Work in Progress, Internet-
+              Draft, draft-ietf-oauth-sd-jwt-vc-27, 16 November 2026,
+              <https://datatracker.ietf.org/doc/html/draft-ietf-oauth-
+              sd-jwt-vc-27>.
+
+   [I-D.ietf-oauth-status-list]
+              IETF OAuth Working Group, "Token Status List (TSL)", Work
+              in Progress, Internet-Draft, draft-ietf-oauth-status-list-
+              21, 21 June 2026, <https://datatracker.ietf.org/doc/html/
+              draft-ietf-oauth-status-list-21>.
+
+   [I-D.ietf-scitt-receipts-ccf-profile]
+              IETF SCITT Working Group, "COSE Receipts with CCF
+              Profile", Work in Progress, Internet-Draft, draft-ietf-
+              scitt-receipts-ccf-profile-06, 22 October 2026,
+              <https://datatracker.ietf.org/doc/html/draft-ietf-scitt-
+              receipts-ccf-profile-06>.
+
+   [INTEROP]  SCITT Working Group participants, "Joint Interoperability
+              Report: Independent Runs, Findings and Disagreements
+              Recorded by SCITT Working Group Participants, 14 August to
+              26 September 2026", Version 1.1,
+              DOI 10.5281/zenodo.23333369, 12 October 2026,
+              <https://doi.org/10.5281/zenodo.23333369>.
+
+
+
+
+
+
+Jones                      Expires 29 May 2027                 [Page 14]
+
+Internet-Draft        SCITT Pain-Point Resolutions         November 2026
+
+
+   [JONES-DUAL-02]
+              Jones, V., "A Dual-Receipt Profile for Binding a Decision
+              Statement to an Independent Policy Evaluation Statement",
+              Work in Progress, Internet-Draft, draft-jones-scitt-dual-
+              receipt-02, 20 November 2026,
+              <https://datatracker.ietf.org/doc/html/draft-jones-scitt-
+              dual-receipt-02>.
+
+   [JONES-HANDOFFS-03]
+              Jones, V., "Terminology and Architectural Patterns for
+              Detached Evidence Delivery", Work in Progress, Internet-
+              Draft, draft-jones-detached-evidence-handoffs-03, 18
+              November 2026, <https://datatracker.ietf.org/doc/html/
+              draft-jones-detached-evidence-handoffs-03>.
+
+   [JONES-HANDSHAKE-01]
+              Jones, V., "Cryptographic Handshake Profile for Fiscal-
+              Sponsorship Onboarding and Outer Pilot Execution", Work in
+              Progress, Internet-Draft, draft-jones-outerprise-
+              handshake-01, 24 November 2026,
+              <https://datatracker.ietf.org/doc/html/draft-jones-
+              outerprise-handshake-01>.
+
+   [JONES-MIMS-01]
+              Jones, V., "A Method for Reproducible Review of Internet-
+              Draft Test Cases", Work in Progress, Internet-Draft,
+              draft-jones-mims-reproducible-draft-review-01, 23 November
+              2026, <https://datatracker.ietf.org/doc/html/draft-jones-
+              mims-reproducible-draft-review-01>.
+
+   [RFC3161]  Adams, C., Cain, P., Pinkas, D., and R. Zuccherato,
+              "Internet X.509 Public Key Infrastructure Time-Stamp
+              Protocol (TSP)", RFC 3161, DOI 10.17487/RFC3161, August
+              2001, <https://www.rfc-editor.org/info/rfc3161>.
+
+   [RFC9162]  Laurie, B., Messeri, E., and R. Stradling, "Certificate
+              Transparency Version 2.0", RFC 9162, DOI 10.17487/RFC9162,
+              December 2021, <https://www.rfc-editor.org/info/rfc9162>.
+
+   [RFC9334]  Birkholz, H., Thaler, D., Richardson, M., Smith, N., and
+              W. Pan, "Remote ATtestation procedureS (RATS)
+              Architecture", RFC 9334, DOI 10.17487/RFC9334, January
+              2023, <https://www.rfc-editor.org/info/rfc9334>.
+
+   [RFC9901]  Fett, D., Yasuda, K., and B. Campbell, "Selective
+              Disclosure for JSON Web Tokens", RFC 9901,
+              DOI 10.17487/RFC9901, November 2025,
+              <https://www.rfc-editor.org/info/rfc9901>.
+
+
+
+Jones                      Expires 29 May 2027                 [Page 15]
+
+Internet-Draft        SCITT Pain-Point Resolutions         November 2026
+
+
+   [RFC9995]  Steele, O., Lasker, S., and H. Birkholz, "CBOR Object
+              Signing and Encryption (COSE) Hash Envelope", RFC 9995,
+              DOI 10.17487/RFC9995, July 2026,
+              <https://www.rfc-editor.org/info/rfc9995>.
+
+   [VCDM2]    W3C, "Verifiable Credentials Data Model v2.0", W3C
+              Recommendation, 15 May 2025,
+              <https://www.w3.org/TR/vc-data-model-2.0/>.
+
+Appendix A.  Test Vectors
+
+   All vectors are synthetic.  They were generated by one reference
+   script and regenerated three times with byte-identical output; the V4
+   signature was also checked with a second Ed25519 implementation.
+   That is one implementation by the author, not an independent
+   verification.  Hexadecimal is lowercase.  The Ed25519 key below is
+   published for testing only and MUST NOT be used for any other
+   purpose.
+
+   V1 (E03): statements i = 1 to 4 are the JSON objects below with "seq"
+   set to i.  JCS(statement 1) is 99 octets: the members in the order
+   shown, with no whitespace.
+
+     { "iss": "demo-issuer-1", "seq": i,
+       "statement": "demo-supply-chain-event",
+       "sub": "demo-artifact-1", "v": 1 }
+
+     SID[1] =
+       d013c1539582b548b9a4488e7982bba73ee173ebfe49acab25c43a60fc6ff721
+     SID[2] =
+       0ef4b19432f8d5d26a5a3c3ee7544491c3863b8bca69be16feaef12bdaa9f620
+     SID[3] =
+       1f9f6458b72ddd84c0f4816a468674712a8cd56fe6224bbf437c337cf8a8ba25
+     SID[4] =
+       5a767c39168bd6dca4230b1316219b0ef1fe4e947f2452f8177f7887f22c2b23
+
+   V2 (E03): statement 1 with its members in reverse order canonicalizes
+   to the same JCS octets and therefore the same SID.
+
+     SID =
+       d013c1539582b548b9a4488e7982bba73ee173ebfe49acab25c43a60fc6ff721
+
+   V3 (E02): leaves, leaf hashes, interior nodes, and root.
+
+
+
+
+
+
+
+
+Jones                      Expires 29 May 2027                 [Page 16]
+
+Internet-Draft        SCITT Pain-Point Resolutions         November 2026
+
+
+     LEAF[1] =
+       b371de8075d477151eebd7764985459eeae3cdaf9e5708c62c57a67b944444ee
+     LEAF[2] =
+       ead4db28f0dd6b39a26168783481945701c2a38a7fe73582e1ba1bf5e008c195
+     LEAF[3] =
+       c0b8989c8781365e76fe755ecdee8c0ec21752f2772d8c80f1efe8b8858cce19
+     LEAF[4] =
+       aecbb31b50d164f069401bbd8763c7ccf3d92c8d444f2db8b00fe00c8dccc995
+     leaf hash[1] =
+       242e4ab291dbd0792b603ab243dbf7f0656c19efd036a4a2e891799c4f5dec74
+     leaf hash[2] =
+       55d6cdb9fa5a75f5e199ba75b02db2eb9312b84557ee81e24cf651f387eef6d6
+     leaf hash[3] =
+       afe00fa75f6c73948fec3d0f3e1b1376c359d5eba23402d9159d4df64751e5c5
+     leaf hash[4] =
+       3fa54f83f8c148bb87f3e0e6526e9c056424a3b80a413531b6ff480878a808e8
+     node[1..2] =
+       f7d1f88eec701014d81a1d3383ead2da6a4ed7dd5e669d30a9eac29137a830b1
+     node[3..4] =
+       303f60cd99054259d0e2236fa64edf75099518a0098d2eab74c270e07885db56
+     root =
+       23ed6ac2ac8e3a5020758cfe1f27165d5457e4230e30b659b83a0cb100444823
+
+   V4 (E01): signed tree head as COSE_Sign1.  The payload is
+   JCS({"root": root, "tree_size": 4}), 89 octets, with root taken from
+   V3.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Jones                      Expires 29 May 2027                 [Page 17]
+
+Internet-Draft        SCITT Pain-Point Resolutions         November 2026
+
+
+     protected header: a10132    ; {1: -19}
+     Sig_structure (108 octets):
+       846a5369676e61747572653143a101324058597b22726f6f74223a2232336564
+       3661633261633865336135303230373538636665316632373136356435343537
+       65343233306533306236353962383361306362313030343434383233222c2274
+       7265655f73697a65223a347d
+     SHA-256(Sig_structure) =
+       2ff4d221c0d1245d7085d8a592472aaf002234c1fcaf4bb99f32b3ae87f677fb
+     test seed (Ed25519 private key) =
+       c45e7036779435f0995cc2917e5cb882ec322e09aa84db964afa4fc7f2d24d3d
+     public key =
+       04c773f3cbc69cbf4e83b4cb26fbc81d6394f938d3d2cae80a26e10b20b36b05
+     signature =
+       16137b4621e452d82303ae4013c15f422f9552de96a0582c7c19ad67033e891a
+       db78119dde77ac8c509ac0ecaa15187dfe0d40e8ff8353bb7a7100a6fa198009
+     COSE_Sign1, tag 18 (164 octets):
+       d28443a10132a058597b22726f6f74223a223233656436616332616338653361
+       3530323037353863666531663237313635643534353765343233306533306236
+       353962383361306362313030343434383233222c22747265655f73697a65223a
+       347d584016137b4621e452d82303ae4013c15f422f9552de96a0582c7c19ad67
+       033e891adb78119dde77ac8c509ac0ecaa15187dfe0d40e8ff8353bb7a7100a6
+       fa198009
+
+     Negative controls, each REJECTED:
+       one-octet change to the payload;
+       "Signature1" encoded as a byte string (0x4a);
+       tree_size changed from 4 to 5.
+
+   V5 (E04): the composite identifier of [JONES-DUAL-02] Section 5.6.
+   The result equals the value published in that draft.
+
+     D1 =
+       dfeb582c87775fbcc7fcc948d85fd6dda8a516329a7f40b3ecc8a97349c9a1fd
+     D2 =
+       c0f094c8ef3f6004ff50e96a0be39f15366496f62e009398d1537fe4cbb80316
+     CID = SHA-256(D1 || D2) =
+       364383c7d24a9f1902243cd206cfb35fe77b637ee38ffc5290861e3d4bbe38b8
+
+     Negative, SHA-256(D2 || D1) =
+       1003df94fb7e7dcc4908de56f9d957d79d35230b7bc836e9a2b7d7f24a27e0ac
+     Negative, SHA-256 over the 128-character hex text =
+       f590a04993bbc2d009b2baec7c642b3f81abdcfd04c3e91eb474fe753d8a21f0
+
+   V6 (E06): detached payload digest over the ASCII octets "demo-
+   payload-bytes-for-detached-evidence".
+
+     Hd("payload", payload) =
+       478b9d48d64c7b44b40302e912e986c68f77cc091151daac7119e889b692149c
+
+
+
+Jones                      Expires 29 May 2027                 [Page 18]
+
+Internet-Draft        SCITT Pain-Point Resolutions         November 2026
+
+
+   V7 (E13): presentation binding value, unsigned, with challenge "demo-
+   challenge-7f3a", domain "demo-verifier.example", and SID[1].
+
+     binding =
+       53ba2479fadb025bf0b987b5e6f2e4010b659bd9f05801ce44f1cd5c0cdb54a9
+     Negative, domain "other-verifier.example" =
+       935617bd660da33af323697c94391d1c31b3e33825ca9c309ab794faa930775b
+
+Appendix B.  Open Issues
+
+   1.  Leaf rule alignment: [JONES-DUAL-02] Section 5.4 and Section 2.2
+       define different leaves.  A later revision should adopt one rule
+       for both or state which objects each rule applies to.
+
+   2.  Number encoding: [JONES-HANDSHAKE-01] encodes numeric quantities
+       as JSON strings, while [JONES-DUAL-02] and this document use JSON
+       integers for tree size.
+
+   3.  STH member set: the STH of [JONES-DUAL-02] Section 4.5 has the
+       members typ, ts_key_id, tree_size, root, and
+       registration_policy_sha256; V4 uses only root and tree_size.
+
+   4.  CBOR identity: E03 remains open for COSE-encoded statements.
+
+Appendix C.  What This Document Does Not Claim
+
+   This is an individual Internet-Draft and a work in progress.  It has
+   not been adopted by any working group and is not a standard.  It does
+   not amend [RFC9942], [RFC9943], [RFC9162], or any W3C Recommendation,
+   and it does not claim that any organization has implemented or
+   endorsed it.  No independent verification of this document has been
+   recorded; the 89-run threshold proposed in [JONES-HANDSHAKE-01] has
+   not been met for this document.
+
+Acknowledgments
+
+   Thanks to the SCITT working group participants and the authors of
+   [INTEROP], whose public record is the source of the pain points in
+   Section 2.  This acknowledgment implies no review or endorsement of
+   this document.
+
+Author's Address
+
+   Vince Jones
+   Entercation Info Inc.
+   Cincinnati, OH
+   United States of America
+   Email: vince@entercation.info
+
+
+
+Jones                      Expires 29 May 2027                 [Page 19]
