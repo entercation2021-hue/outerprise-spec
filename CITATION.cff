@@ -1,17 +1,245 @@
 cff-version: 1.2.0
-message: "If you use this draft specification surface, please cite the repository and the specific release or commit."
-title: "Outerprise specification surface"
-version: "0.1.2"
-date-released: 2026-11-01
-repository-code: "https://github.com/entercation2021-hue/outerprise-spec"
-license: MIT
+message: Cite the exact release or draft revision used.
+title: Outerprise specification surface
+type: software
 authors:
-  - name: "Entercation Info Inc."
-    affiliation: "Entercation Info Inc."
-abstract: "External Evidence Delivery: Separating Content Integrity, Claimed Time, and Institutional Receipt. An Entercation implementation note."
-keywords:
-  - evidence delivery
-  - content integrity
-  - claimed time
-  - institutional receipt
-  - SHA-256
+- name: Entercation Info Inc.
+repository-code: https://github.com/entercation2021-hue/outerprise-spec
+license: MIT
+references:
+- type: generic
+  title: Zenodo all-versions record 23873354
+  doi: 10.5281/zenodo.23873354
+  url: https://doi.org/10.5281/zenodo.23873354
+  authors:
+  - name: Entercation Info Inc.
+- type: generic
+  title: Specification v0.1.1
+  doi: 10.5281/zenodo.23873355
+  url: https://doi.org/10.5281/zenodo.23873355
+  authors:
+  - name: Entercation Info Inc.
+- type: generic
+  title: Specification v0.1.2
+  doi: 10.5281/zenodo.23873552
+  url: https://doi.org/10.5281/zenodo.23873552
+  authors:
+  - name: Entercation Info Inc.
+- type: generic
+  title: Zenodo all-versions record 23993509
+  doi: 10.5281/zenodo.23993509
+  url: https://doi.org/10.5281/zenodo.23993509
+  authors:
+  - given-names: Vince
+    family-names: Jones
+    orcid: https://orcid.org/0009-0008-6712-8136
+- type: generic
+  title: Data Center Transparency
+  doi: 10.5281/zenodo.23993510
+  url: https://doi.org/10.5281/zenodo.23993510
+  authors:
+  - given-names: Vince
+    family-names: Jones
+    orcid: https://orcid.org/0009-0008-6712-8136
+- type: generic
+  title: Zenodo all-versions record 24177898
+  doi: 10.5281/zenodo.24177898
+  url: https://doi.org/10.5281/zenodo.24177898
+  authors:
+  - given-names: Vince
+    family-names: Jones
+    orcid: https://orcid.org/0009-0008-6712-8136
+- type: generic
+  title: OIGP v1.3.1
+  doi: 10.5281/zenodo.24177899
+  url: https://doi.org/10.5281/zenodo.24177899
+  authors:
+  - given-names: Vince
+    family-names: Jones
+    orcid: https://orcid.org/0009-0008-6712-8136
+- type: generic
+  title: Zenodo all-versions record 24182131
+  doi: 10.5281/zenodo.24182131
+  url: https://doi.org/10.5281/zenodo.24182131
+  authors:
+  - given-names: Vince
+    family-names: Jones
+    orcid: https://orcid.org/0009-0008-6712-8136
+- type: generic
+  title: Outerprise Waste Metric
+  doi: 10.5281/zenodo.24182132
+  url: https://doi.org/10.5281/zenodo.24182132
+  authors:
+  - given-names: Vince
+    family-names: Jones
+    orcid: https://orcid.org/0009-0008-6712-8136
+- type: generic
+  title: OIGP v1.3.4 documentation
+  doi: 10.5281/zenodo.24197013
+  url: https://doi.org/10.5281/zenodo.24197013
+  authors:
+  - given-names: Vince
+    family-names: Jones
+    orcid: https://orcid.org/0009-0008-6712-8136
+- type: generic
+  title: Zenodo all-versions record 24305667
+  doi: 10.5281/zenodo.24305667
+  url: https://doi.org/10.5281/zenodo.24305667
+  authors:
+  - given-names: Vince
+    family-names: Jones
+    orcid: https://orcid.org/0009-0008-6712-8136
+- type: generic
+  title: Outerprise Lexicon
+  doi: 10.5281/zenodo.24305668
+  url: https://doi.org/10.5281/zenodo.24305668
+  authors:
+  - given-names: Vince
+    family-names: Jones
+    orcid: https://orcid.org/0009-0008-6712-8136
+- type: generic
+  title: Zenodo all-versions record 24415134
+  doi: 10.5281/zenodo.24415134
+  url: https://doi.org/10.5281/zenodo.24415134
+  authors:
+  - given-names: Vince
+    family-names: Jones
+    orcid: https://orcid.org/0009-0008-6712-8136
+- type: generic
+  title: draft-jones-outerprise-four-gate-onboarding-00
+  doi: 10.5281/zenodo.24415135
+  url: https://doi.org/10.5281/zenodo.24415135
+  authors:
+  - given-names: Vince
+    family-names: Jones
+    orcid: https://orcid.org/0009-0008-6712-8136
+- type: generic
+  title: Zenodo all-versions record 24415151
+  doi: 10.5281/zenodo.24415151
+  url: https://doi.org/10.5281/zenodo.24415151
+  authors:
+  - given-names: Vince
+    family-names: Jones
+    orcid: https://orcid.org/0009-0008-6712-8136
+- type: generic
+  title: draft-jones-outerprise-visual-manual-00
+  doi: 10.5281/zenodo.24415152
+  url: https://doi.org/10.5281/zenodo.24415152
+  authors:
+  - given-names: Vince
+    family-names: Jones
+    orcid: https://orcid.org/0009-0008-6712-8136
+- type: generic
+  title: Zenodo all-versions record 24415153
+  doi: 10.5281/zenodo.24415153
+  url: https://doi.org/10.5281/zenodo.24415153
+  authors:
+  - given-names: Vince
+    family-names: Jones
+    orcid: https://orcid.org/0009-0008-6712-8136
+- type: generic
+  title: A Dual-Receipt Profile for Binding a Decision Statement to an Independent
+    Policy Evaluation Statement
+  doi: 10.5281/zenodo.24415155
+  url: https://doi.org/10.5281/zenodo.24415155
+  authors:
+  - given-names: Vince
+    family-names: Jones
+    orcid: https://orcid.org/0009-0008-6712-8136
+- type: generic
+  title: Zenodo all-versions record 24415157
+  doi: 10.5281/zenodo.24415157
+  url: https://doi.org/10.5281/zenodo.24415157
+  authors:
+  - given-names: Vince
+    family-names: Jones
+    orcid: https://orcid.org/0009-0008-6712-8136
+- type: generic
+  title: Terminology and Architectural Patterns for Detached Evidence Delivery
+  doi: 10.5281/zenodo.24415158
+  url: https://doi.org/10.5281/zenodo.24415158
+  authors:
+  - given-names: Vince
+    family-names: Jones
+    orcid: https://orcid.org/0009-0008-6712-8136
+- type: generic
+  title: Zenodo all-versions record 24415161
+  doi: 10.5281/zenodo.24415161
+  url: https://doi.org/10.5281/zenodo.24415161
+  authors:
+  - given-names: Vince
+    family-names: Jones
+    orcid: https://orcid.org/0009-0008-6712-8136
+- type: generic
+  title: draft-jones-detached-evidence-examination-00
+  doi: 10.5281/zenodo.24415162
+  url: https://doi.org/10.5281/zenodo.24415162
+  authors:
+  - given-names: Vince
+    family-names: Jones
+    orcid: https://orcid.org/0009-0008-6712-8136
+- type: generic
+  title: Zenodo all-versions record 24450420
+  doi: 10.5281/zenodo.24450420
+  url: https://doi.org/10.5281/zenodo.24450420
+  authors:
+  - given-names: Vince
+    family-names: Jones
+    orcid: https://orcid.org/0009-0008-6712-8136
+- type: generic
+  title: draft-jones-mims-reproducible-draft-review-00
+  doi: 10.5281/zenodo.24450421
+  url: https://doi.org/10.5281/zenodo.24450421
+  authors:
+  - given-names: Vince
+    family-names: Jones
+    orcid: https://orcid.org/0009-0008-6712-8136
+- type: generic
+  title: Zenodo all-versions record 24536644
+  doi: 10.5281/zenodo.24536644
+  url: https://doi.org/10.5281/zenodo.24536644
+  authors:
+  - given-names: Vince
+    family-names: Jones
+    orcid: https://orcid.org/0009-0008-6712-8136
+- type: generic
+  title: Cryptographic Handshake Profile for Fiscal-Sponsorship Onboarding and Outer
+    Pilot Execution
+  doi: 10.5281/zenodo.24536645
+  url: https://doi.org/10.5281/zenodo.24536645
+  authors:
+  - given-names: Vince
+    family-names: Jones
+    orcid: https://orcid.org/0009-0008-6712-8136
+- type: generic
+  title: draft-jones-mims-reproducible-draft-review-01
+  doi: 10.5281/zenodo.24537159
+  url: https://doi.org/10.5281/zenodo.24537159
+  authors:
+  - given-names: Vince
+    family-names: Jones
+    orcid: https://orcid.org/0009-0008-6712-8136
+- type: generic
+  title: Zenodo all-versions record 24537178
+  doi: 10.5281/zenodo.24537178
+  url: https://doi.org/10.5281/zenodo.24537178
+  authors:
+  - given-names: Vince
+    family-names: Jones
+    orcid: https://orcid.org/0009-0008-6712-8136
+- type: generic
+  title: draft-jones-scitt-pain-point-resolutions-00
+  doi: 10.5281/zenodo.24537179
+  url: https://doi.org/10.5281/zenodo.24537179
+  authors:
+  - given-names: Vince
+    family-names: Jones
+    orcid: https://orcid.org/0009-0008-6712-8136
+preferred-citation:
+  type: software
+  title: Outerprise specification surface v0.1.2
+  authors:
+  - name: Entercation Info Inc.
+  version: 0.1.2
+  doi: 10.5281/zenodo.23873552
+  url: https://github.com/entercation2021-hue/outerprise-spec/tree/v0.1.2

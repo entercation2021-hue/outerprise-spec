@@ -1,0 +1,698 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://entercation.lovable.app/#organization",
+      "name": "Entercation Info Inc.",
+      "alternateName": "Entercation.info Incorporated",
+      "url": "https://entercation.lovable.app",
+      "founder": {
+        "@id": "https://orcid.org/0009-0008-6712-8136#person"
+      },
+      "sameAs": [
+        "https://github.com/entercation2021-hue"
+      ],
+      "subjectOf": [
+        {
+          "@id": "https://datatracker.ietf.org/doc/draft-jones-outerprise-four-gate-onboarding/00/"
+        },
+        {
+          "@id": "https://datatracker.ietf.org/doc/draft-jones-outerprise-visual-manual/00/"
+        },
+        {
+          "@id": "https://datatracker.ietf.org/doc/draft-jones-detached-evidence-examination/00/"
+        },
+        {
+          "@id": "https://datatracker.ietf.org/doc/draft-jones-scitt-dual-receipt/00/"
+        },
+        {
+          "@id": "https://datatracker.ietf.org/doc/draft-jones-scitt-dual-receipt/01/"
+        },
+        {
+          "@id": "https://datatracker.ietf.org/doc/draft-jones-scitt-dual-receipt/02/"
+        },
+        {
+          "@id": "https://datatracker.ietf.org/doc/draft-jones-detached-evidence-handoffs/00/"
+        },
+        {
+          "@id": "https://datatracker.ietf.org/doc/draft-jones-detached-evidence-handoffs/01/"
+        },
+        {
+          "@id": "https://datatracker.ietf.org/doc/draft-jones-detached-evidence-handoffs/02/"
+        },
+        {
+          "@id": "https://datatracker.ietf.org/doc/draft-jones-detached-evidence-handoffs/03/"
+        },
+        {
+          "@id": "https://datatracker.ietf.org/doc/draft-jones-mims-reproducible-draft-review/00/"
+        },
+        {
+          "@id": "https://datatracker.ietf.org/doc/draft-jones-mims-reproducible-draft-review/01/"
+        },
+        {
+          "@id": "https://datatracker.ietf.org/doc/draft-jones-outerprise-handshake/00/"
+        },
+        {
+          "@id": "https://datatracker.ietf.org/doc/draft-jones-outerprise-handshake/01/"
+        },
+        {
+          "@id": "https://datatracker.ietf.org/doc/draft-jones-scitt-pain-point-resolutions/00/"
+        }
+      ],
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "GitHub owner ID",
+        "value": "264032303"
+      },
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "email": "vince@entercation.info"
+      }
+    },
+    {
+      "@type": "Person",
+      "@id": "https://orcid.org/0009-0008-6712-8136#person",
+      "name": "Vince Jones",
+      "url": "https://orcid.org/0009-0008-6712-8136",
+      "sameAs": [
+        "https://orcid.org/0009-0008-6712-8136",
+        "https://datatracker.ietf.org/person/vince%40entercation.info",
+        "https://datatracker.ietf.org/person/entercation2021%40gmail.com"
+      ],
+      "worksFor": {
+        "@id": "https://entercation.lovable.app/#organization"
+      },
+      "knowsAbout": [
+        "Outerprise",
+        "Outtegration",
+        "Dual-Receipt Profile",
+        "Transaction Attestation Ledger",
+        "SCITT",
+        "COSE_Sign1",
+        "RFC 8785 JCS",
+        "W3C Verifiable Credentials"
+      ],
+      "subjectOf": {
+        "@id": "https://zenodo.org/search?q=metadata.creators.person_or_org.identifiers.identifier%3A0009-0008-6712-8136"
+      }
+    },
+    {
+      "@type": "TechArticle",
+      "@id": "https://datatracker.ietf.org/doc/draft-jones-outerprise-four-gate-onboarding/",
+      "name": "Four Gates for Startup Survival",
+      "url": "https://datatracker.ietf.org/doc/draft-jones-outerprise-four-gate-onboarding/",
+      "creativeWorkStatus": "Individual Internet-Draft (Work in Progress)",
+      "author": {
+        "@id": "https://orcid.org/0009-0008-6712-8136#person"
+      },
+      "publisher": {
+        "@id": "https://entercation.lovable.app/#organization"
+      },
+      "hasPart": [
+        {
+          "@id": "https://datatracker.ietf.org/doc/draft-jones-outerprise-four-gate-onboarding/00/"
+        }
+      ],
+      "citation": [
+        "https://doi.org/10.5281/zenodo.24415135"
+      ]
+    },
+    {
+      "@type": "TechArticle",
+      "@id": "https://datatracker.ietf.org/doc/draft-jones-outerprise-four-gate-onboarding/00/",
+      "name": "Four Gates for Startup Survival",
+      "version": "00",
+      "creativeWorkStatus": "Individual Internet-Draft (Work in Progress)",
+      "author": {
+        "@id": "https://orcid.org/0009-0008-6712-8136#person"
+      },
+      "isPartOf": {
+        "@id": "https://datatracker.ietf.org/doc/draft-jones-outerprise-four-gate-onboarding/"
+      },
+      "archivedAt": "https://doi.org/10.5281/zenodo.24415135"
+    },
+    {
+      "@type": "TechArticle",
+      "@id": "https://datatracker.ietf.org/doc/draft-jones-outerprise-visual-manual/",
+      "name": "Outerprise Visual Manual",
+      "url": "https://datatracker.ietf.org/doc/draft-jones-outerprise-visual-manual/",
+      "creativeWorkStatus": "Individual Internet-Draft (Work in Progress)",
+      "author": {
+        "@id": "https://orcid.org/0009-0008-6712-8136#person"
+      },
+      "publisher": {
+        "@id": "https://entercation.lovable.app/#organization"
+      },
+      "hasPart": [
+        {
+          "@id": "https://datatracker.ietf.org/doc/draft-jones-outerprise-visual-manual/00/"
+        }
+      ],
+      "citation": [
+        "https://doi.org/10.5281/zenodo.24415152"
+      ]
+    },
+    {
+      "@type": "TechArticle",
+      "@id": "https://datatracker.ietf.org/doc/draft-jones-outerprise-visual-manual/00/",
+      "name": "Outerprise Visual Manual",
+      "version": "00",
+      "creativeWorkStatus": "Individual Internet-Draft (Work in Progress)",
+      "author": {
+        "@id": "https://orcid.org/0009-0008-6712-8136#person"
+      },
+      "isPartOf": {
+        "@id": "https://datatracker.ietf.org/doc/draft-jones-outerprise-visual-manual/"
+      },
+      "archivedAt": "https://doi.org/10.5281/zenodo.24415152"
+    },
+    {
+      "@type": "TechArticle",
+      "@id": "https://datatracker.ietf.org/doc/draft-jones-detached-evidence-examination/",
+      "name": "Detached Evidence Examination",
+      "url": "https://datatracker.ietf.org/doc/draft-jones-detached-evidence-examination/",
+      "creativeWorkStatus": "Individual Internet-Draft (Work in Progress)",
+      "author": {
+        "@id": "https://orcid.org/0009-0008-6712-8136#person"
+      },
+      "publisher": {
+        "@id": "https://entercation.lovable.app/#organization"
+      },
+      "hasPart": [
+        {
+          "@id": "https://datatracker.ietf.org/doc/draft-jones-detached-evidence-examination/00/"
+        }
+      ],
+      "citation": [
+        "https://doi.org/10.5281/zenodo.24415162"
+      ]
+    },
+    {
+      "@type": "TechArticle",
+      "@id": "https://datatracker.ietf.org/doc/draft-jones-detached-evidence-examination/00/",
+      "name": "Detached Evidence Examination",
+      "version": "00",
+      "creativeWorkStatus": "Individual Internet-Draft (Work in Progress)",
+      "author": {
+        "@id": "https://orcid.org/0009-0008-6712-8136#person"
+      },
+      "isPartOf": {
+        "@id": "https://datatracker.ietf.org/doc/draft-jones-detached-evidence-examination/"
+      },
+      "archivedAt": "https://doi.org/10.5281/zenodo.24415162"
+    },
+    {
+      "@type": "TechArticle",
+      "@id": "https://datatracker.ietf.org/doc/draft-jones-scitt-dual-receipt/",
+      "name": "SCITT Dual-Receipt",
+      "url": "https://datatracker.ietf.org/doc/draft-jones-scitt-dual-receipt/",
+      "creativeWorkStatus": "Individual Internet-Draft (Work in Progress)",
+      "author": {
+        "@id": "https://orcid.org/0009-0008-6712-8136#person"
+      },
+      "publisher": {
+        "@id": "https://entercation.lovable.app/#organization"
+      },
+      "hasPart": [
+        {
+          "@id": "https://datatracker.ietf.org/doc/draft-jones-scitt-dual-receipt/00/"
+        },
+        {
+          "@id": "https://datatracker.ietf.org/doc/draft-jones-scitt-dual-receipt/01/"
+        },
+        {
+          "@id": "https://datatracker.ietf.org/doc/draft-jones-scitt-dual-receipt/02/"
+        }
+      ],
+      "citation": [
+        "https://doi.org/10.5281/zenodo.24415155"
+      ]
+    },
+    {
+      "@type": "TechArticle",
+      "@id": "https://datatracker.ietf.org/doc/draft-jones-scitt-dual-receipt/00/",
+      "name": "SCITT Dual-Receipt",
+      "version": "00",
+      "creativeWorkStatus": "Individual Internet-Draft (Work in Progress)",
+      "author": {
+        "@id": "https://orcid.org/0009-0008-6712-8136#person"
+      },
+      "isPartOf": {
+        "@id": "https://datatracker.ietf.org/doc/draft-jones-scitt-dual-receipt/"
+      },
+      "archivedAt": "https://doi.org/10.5281/zenodo.24415155"
+    },
+    {
+      "@type": "TechArticle",
+      "@id": "https://datatracker.ietf.org/doc/draft-jones-scitt-dual-receipt/01/",
+      "name": "SCITT Dual-Receipt",
+      "version": "01",
+      "creativeWorkStatus": "Individual Internet-Draft (Work in Progress)",
+      "author": {
+        "@id": "https://orcid.org/0009-0008-6712-8136#person"
+      },
+      "isPartOf": {
+        "@id": "https://datatracker.ietf.org/doc/draft-jones-scitt-dual-receipt/"
+      },
+      "archivedAt": "https://doi.org/10.5281/zenodo.24415155"
+    },
+    {
+      "@type": "TechArticle",
+      "@id": "https://datatracker.ietf.org/doc/draft-jones-scitt-dual-receipt/02/",
+      "name": "SCITT Dual-Receipt",
+      "version": "02",
+      "creativeWorkStatus": "Individual Internet-Draft (Work in Progress)",
+      "author": {
+        "@id": "https://orcid.org/0009-0008-6712-8136#person"
+      },
+      "isPartOf": {
+        "@id": "https://datatracker.ietf.org/doc/draft-jones-scitt-dual-receipt/"
+      },
+      "archivedAt": "https://doi.org/10.5281/zenodo.24415155"
+    },
+    {
+      "@type": "TechArticle",
+      "@id": "https://datatracker.ietf.org/doc/draft-jones-detached-evidence-handoffs/",
+      "name": "Detached Evidence Handoffs",
+      "url": "https://datatracker.ietf.org/doc/draft-jones-detached-evidence-handoffs/",
+      "creativeWorkStatus": "Individual Internet-Draft (Work in Progress)",
+      "author": {
+        "@id": "https://orcid.org/0009-0008-6712-8136#person"
+      },
+      "publisher": {
+        "@id": "https://entercation.lovable.app/#organization"
+      },
+      "hasPart": [
+        {
+          "@id": "https://datatracker.ietf.org/doc/draft-jones-detached-evidence-handoffs/00/"
+        },
+        {
+          "@id": "https://datatracker.ietf.org/doc/draft-jones-detached-evidence-handoffs/01/"
+        },
+        {
+          "@id": "https://datatracker.ietf.org/doc/draft-jones-detached-evidence-handoffs/02/"
+        },
+        {
+          "@id": "https://datatracker.ietf.org/doc/draft-jones-detached-evidence-handoffs/03/"
+        }
+      ],
+      "citation": [
+        "https://doi.org/10.5281/zenodo.24415158"
+      ]
+    },
+    {
+      "@type": "TechArticle",
+      "@id": "https://datatracker.ietf.org/doc/draft-jones-detached-evidence-handoffs/00/",
+      "name": "Detached Evidence Handoffs",
+      "version": "00",
+      "creativeWorkStatus": "Individual Internet-Draft (Work in Progress)",
+      "author": {
+        "@id": "https://orcid.org/0009-0008-6712-8136#person"
+      },
+      "isPartOf": {
+        "@id": "https://datatracker.ietf.org/doc/draft-jones-detached-evidence-handoffs/"
+      },
+      "archivedAt": "https://doi.org/10.5281/zenodo.24415158"
+    },
+    {
+      "@type": "TechArticle",
+      "@id": "https://datatracker.ietf.org/doc/draft-jones-detached-evidence-handoffs/01/",
+      "name": "Detached Evidence Handoffs",
+      "version": "01",
+      "creativeWorkStatus": "Individual Internet-Draft (Work in Progress)",
+      "author": {
+        "@id": "https://orcid.org/0009-0008-6712-8136#person"
+      },
+      "isPartOf": {
+        "@id": "https://datatracker.ietf.org/doc/draft-jones-detached-evidence-handoffs/"
+      },
+      "archivedAt": "https://doi.org/10.5281/zenodo.24415158"
+    },
+    {
+      "@type": "TechArticle",
+      "@id": "https://datatracker.ietf.org/doc/draft-jones-detached-evidence-handoffs/02/",
+      "name": "Detached Evidence Handoffs",
+      "version": "02",
+      "creativeWorkStatus": "Individual Internet-Draft (Work in Progress)",
+      "author": {
+        "@id": "https://orcid.org/0009-0008-6712-8136#person"
+      },
+      "isPartOf": {
+        "@id": "https://datatracker.ietf.org/doc/draft-jones-detached-evidence-handoffs/"
+      },
+      "archivedAt": "https://doi.org/10.5281/zenodo.24415158"
+    },
+    {
+      "@type": "TechArticle",
+      "@id": "https://datatracker.ietf.org/doc/draft-jones-detached-evidence-handoffs/03/",
+      "name": "Detached Evidence Handoffs",
+      "version": "03",
+      "creativeWorkStatus": "Individual Internet-Draft (Work in Progress)",
+      "author": {
+        "@id": "https://orcid.org/0009-0008-6712-8136#person"
+      },
+      "isPartOf": {
+        "@id": "https://datatracker.ietf.org/doc/draft-jones-detached-evidence-handoffs/"
+      },
+      "archivedAt": "https://doi.org/10.5281/zenodo.24415158"
+    },
+    {
+      "@type": "TechArticle",
+      "@id": "https://datatracker.ietf.org/doc/draft-jones-mims-reproducible-draft-review/",
+      "name": "MiMS Reproducible Draft Review",
+      "url": "https://datatracker.ietf.org/doc/draft-jones-mims-reproducible-draft-review/",
+      "creativeWorkStatus": "Individual Internet-Draft (Work in Progress)",
+      "author": {
+        "@id": "https://orcid.org/0009-0008-6712-8136#person"
+      },
+      "publisher": {
+        "@id": "https://entercation.lovable.app/#organization"
+      },
+      "hasPart": [
+        {
+          "@id": "https://datatracker.ietf.org/doc/draft-jones-mims-reproducible-draft-review/00/"
+        },
+        {
+          "@id": "https://datatracker.ietf.org/doc/draft-jones-mims-reproducible-draft-review/01/"
+        }
+      ],
+      "citation": [
+        "https://doi.org/10.5281/zenodo.24450421",
+        "https://doi.org/10.5281/zenodo.24537159"
+      ]
+    },
+    {
+      "@type": "TechArticle",
+      "@id": "https://datatracker.ietf.org/doc/draft-jones-mims-reproducible-draft-review/00/",
+      "name": "MiMS Reproducible Draft Review",
+      "version": "00",
+      "creativeWorkStatus": "Individual Internet-Draft (Work in Progress)",
+      "author": {
+        "@id": "https://orcid.org/0009-0008-6712-8136#person"
+      },
+      "isPartOf": {
+        "@id": "https://datatracker.ietf.org/doc/draft-jones-mims-reproducible-draft-review/"
+      },
+      "archivedAt": "https://doi.org/10.5281/zenodo.24450421"
+    },
+    {
+      "@type": "TechArticle",
+      "@id": "https://datatracker.ietf.org/doc/draft-jones-mims-reproducible-draft-review/01/",
+      "name": "MiMS Reproducible Draft Review",
+      "version": "01",
+      "creativeWorkStatus": "Individual Internet-Draft (Work in Progress)",
+      "author": {
+        "@id": "https://orcid.org/0009-0008-6712-8136#person"
+      },
+      "isPartOf": {
+        "@id": "https://datatracker.ietf.org/doc/draft-jones-mims-reproducible-draft-review/"
+      },
+      "archivedAt": "https://doi.org/10.5281/zenodo.24537159"
+    },
+    {
+      "@type": "TechArticle",
+      "@id": "https://datatracker.ietf.org/doc/draft-jones-outerprise-handshake/",
+      "name": "Outerprise Handshake",
+      "url": "https://datatracker.ietf.org/doc/draft-jones-outerprise-handshake/",
+      "creativeWorkStatus": "Individual Internet-Draft (Work in Progress)",
+      "author": {
+        "@id": "https://orcid.org/0009-0008-6712-8136#person"
+      },
+      "publisher": {
+        "@id": "https://entercation.lovable.app/#organization"
+      },
+      "hasPart": [
+        {
+          "@id": "https://datatracker.ietf.org/doc/draft-jones-outerprise-handshake/00/"
+        },
+        {
+          "@id": "https://datatracker.ietf.org/doc/draft-jones-outerprise-handshake/01/"
+        }
+      ],
+      "citation": [
+        "https://doi.org/10.5281/zenodo.24536645"
+      ]
+    },
+    {
+      "@type": "TechArticle",
+      "@id": "https://datatracker.ietf.org/doc/draft-jones-outerprise-handshake/00/",
+      "name": "Outerprise Handshake",
+      "version": "00",
+      "creativeWorkStatus": "Individual Internet-Draft (Work in Progress)",
+      "author": {
+        "@id": "https://orcid.org/0009-0008-6712-8136#person"
+      },
+      "isPartOf": {
+        "@id": "https://datatracker.ietf.org/doc/draft-jones-outerprise-handshake/"
+      },
+      "archivedAt": "https://doi.org/10.5281/zenodo.24536645"
+    },
+    {
+      "@type": "TechArticle",
+      "@id": "https://datatracker.ietf.org/doc/draft-jones-outerprise-handshake/01/",
+      "name": "Outerprise Handshake",
+      "version": "01",
+      "creativeWorkStatus": "Individual Internet-Draft (Work in Progress)",
+      "author": {
+        "@id": "https://orcid.org/0009-0008-6712-8136#person"
+      },
+      "isPartOf": {
+        "@id": "https://datatracker.ietf.org/doc/draft-jones-outerprise-handshake/"
+      },
+      "archivedAt": "https://doi.org/10.5281/zenodo.24536645"
+    },
+    {
+      "@type": "TechArticle",
+      "@id": "https://datatracker.ietf.org/doc/draft-jones-scitt-pain-point-resolutions/",
+      "name": "SCITT and W3C Verification Ambiguities",
+      "url": "https://datatracker.ietf.org/doc/draft-jones-scitt-pain-point-resolutions/",
+      "creativeWorkStatus": "Individual Internet-Draft (Work in Progress)",
+      "author": {
+        "@id": "https://orcid.org/0009-0008-6712-8136#person"
+      },
+      "publisher": {
+        "@id": "https://entercation.lovable.app/#organization"
+      },
+      "hasPart": [
+        {
+          "@id": "https://datatracker.ietf.org/doc/draft-jones-scitt-pain-point-resolutions/00/"
+        }
+      ],
+      "citation": [
+        "https://doi.org/10.5281/zenodo.24537179"
+      ]
+    },
+    {
+      "@type": "TechArticle",
+      "@id": "https://datatracker.ietf.org/doc/draft-jones-scitt-pain-point-resolutions/00/",
+      "name": "SCITT and W3C Verification Ambiguities",
+      "version": "00",
+      "creativeWorkStatus": "Individual Internet-Draft (Work in Progress)",
+      "author": {
+        "@id": "https://orcid.org/0009-0008-6712-8136#person"
+      },
+      "isPartOf": {
+        "@id": "https://datatracker.ietf.org/doc/draft-jones-scitt-pain-point-resolutions/"
+      },
+      "archivedAt": "https://doi.org/10.5281/zenodo.24537179"
+    },
+    {
+      "@type": "Dataset",
+      "@id": "https://github.com/entercation2021-hue/outerprise-spec#test-vectors.json",
+      "name": "Outerprise synthetic conformance vectors",
+      "description": "Synthetic fixtures scoped to pinned individual drafts.",
+      "creator": {
+        "@id": "https://orcid.org/0009-0008-6712-8136#person"
+      },
+      "citation": [
+        "https://www.rfc-editor.org/info/rfc9942",
+        "https://www.rfc-editor.org/info/rfc9943",
+        "https://www.rfc-editor.org/info/rfc8785",
+        "https://www.rfc-editor.org/info/rfc9052",
+        "https://www.w3.org/TR/vc-data-model-2.0/"
+      ],
+      "isBasedOn": [
+        "https://doi.org/10.5281/zenodo.24537179",
+        "https://doi.org/10.5281/zenodo.24536645"
+      ],
+      "distribution": {
+        "@type": "DataDownload",
+        "name": "test-vectors.json",
+        "encodingFormat": "application/json"
+      }
+    },
+    {
+      "@type": "Dataset",
+      "@id": "https://github.com/entercation2021-hue/outerprise-spec#benchmark-scorecard.json",
+      "name": "Entercation Fintech Benchmark DNA",
+      "description": "Dated management self-assessment, 19 of 24 conform and five gaps.",
+      "creator": {
+        "@id": "https://orcid.org/0009-0008-6712-8136#person"
+      },
+      "citation": [
+        "https://www.rfc-editor.org/info/rfc9942",
+        "https://www.rfc-editor.org/info/rfc9943",
+        "https://www.rfc-editor.org/info/rfc8785",
+        "https://www.rfc-editor.org/info/rfc9052",
+        "https://www.w3.org/TR/vc-data-model-2.0/"
+      ],
+      "isBasedOn": [],
+      "distribution": {
+        "@type": "DataDownload",
+        "name": "benchmark-scorecard.json",
+        "encodingFormat": "application/json"
+      }
+    },
+    {
+      "@type": "DefinedTermSet",
+      "@id": "https://doi.org/10.5281/zenodo.24305668",
+      "name": "Outerprise Lexicon",
+      "url": "https://doi.org/10.5281/zenodo.24305668"
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://github.com/entercation2021-hue/outerprise-spec#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is Outtegration?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Outtegration describes detached evidence delivery at an institutional boundary. A producer delivers a package for inspection and the recipient checks it under its own policy. The pattern requires no standing API integration with the recipient. The recipient retains responsibility for access, acceptance, and any later decision."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How does Dual-Receipt bind a decision to an evaluation?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The decision issuer and policy evaluator use separate signing roles. The verifier checks the specified bindings between the decision, its receipt and the evaluation, then checks the required signatures and applicable policy. An authorized relying party determines whether the evidence supports action."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What does a transparency receipt establish?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "It provides inclusion evidence under the applicable profile and authenticated root. The relying party establishes the service identity, current trust and any required freshness separately."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do E01–E15 address verification ambiguities?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The Pain Point Resolutions draft maps fifteen issues to authored profiles, new proposals, external mechanisms, or uncovered gaps. It preserves four explicit open issues and neither amends nor extends the cited RFCs by itself."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does a receipt prove the underlying claim is true?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A receipt supplies bounded registration evidence. Source corroboration, authority and the truth of the issuer’s assertion require their own checks."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What does the Handshake bind?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The evaluation references SHA-256 over the complete tagged decision COSE_Sign1 file as delivered. A different signed representation requires a new exact-file binding."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What does the Transaction Attestation Ledger record?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The TAL links presented observations through predecessor digests. Its tip commits to the presented chain within scope. Global completeness and freshness require separate evidence."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What are the Four Gates?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Validation, Trust, Engagement and Procurement are distinct institution-controlled gates. An Outer Pilot is a bounded evaluation within Engagement."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What does fail-closed export mean?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Missing, stale or mismatched required evidence blocks export under the proposed gate policy. The benchmark records a shipped and tested gate as an open assurance gap."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What do PASS, UNAVAILABLE and FAIL mean?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Report each record under its pinned profile. PASS records a performed, successful check. UNAVAILABLE names a missing prerequisite. FAIL records a check that returned a negative result under the applicable rule."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What does JSON Canonicalization Scheme do?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "RFC 8785 defines a reproducible encoding for admissible JSON values. It gives verifiers a consistent byte sequence for hashing or signing under a profile that selects it."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What does COSE_Sign1 sign?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Under RFC 9052 a verifier rebuilds the applicable Sig_structure, accounting for protected header bytes, external AAD and the payload. Signer authority comes from the relying party’s trust policy."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What does the benchmark score establish?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The dated management self-assessment records 19 conforming checks and five named gaps out of 24. It includes scope boundaries and design observations and carries no independent assurance conclusion."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Are the vectors real records?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "All distributed vectors are synthetic. Test keys are for fixtures only. The expected results apply to the pinned source and do not establish production behavior."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How should I cite a draft or release?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Cite the exact Datatracker revision for protocol language and the Zenodo version DOI for archival bytes. Use the all-versions DOI for discovering future Zenodo releases."
+          }
+        }
+      ],
+      "citation": [
+        "https://www.rfc-editor.org/info/rfc9942",
+        "https://www.rfc-editor.org/info/rfc9943",
+        "https://www.rfc-editor.org/info/rfc8785",
+        "https://www.rfc-editor.org/info/rfc9052",
+        "https://www.w3.org/TR/vc-data-model-2.0/"
+      ]
+    },
+    {
+      "@type": "SoftwareSourceCode",
+      "@id": "https://github.com/entercation2021-hue/outerprise-spec",
+      "identifier": "1442167178",
+      "codeRepository": "https://github.com/entercation2021-hue/outerprise-spec"
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "https://github.com/entercation2021-hue/Entercation-AI-Frameworks",
+      "identifier": "1176089507"
+    }
+  ]
+}

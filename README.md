@@ -56,13 +56,51 @@ python3 scripts/verify_test_vectors.py
 
 Each row links a fixed Internet-Draft revision and its Zenodo citation. Internet-Drafts are works in progress.
 
-| Internet-Draft revision | Zenodo archive |
-| --- | --- |
-| [MiMS Reproducible Draft Review (00)](https://www.ietf.org/archive/id/draft-jones-mims-reproducible-draft-review-00.html) | [10.5281/zenodo.24450421](https://doi.org/10.5281/zenodo.24450421) |
-| [SCITT Dual-Receipt Profile (02)](https://www.ietf.org/archive/id/draft-jones-scitt-dual-receipt-02.html) | [10.5281/zenodo.24415155](https://doi.org/10.5281/zenodo.24415155) |
-| [Detached Evidence Handoffs (03)](https://www.ietf.org/archive/id/draft-jones-detached-evidence-handoffs-03.html) | [10.5281/zenodo.24415158](https://doi.org/10.5281/zenodo.24415158) |
-| [Detached Evidence Examination (00)](https://www.ietf.org/archive/id/draft-jones-detached-evidence-examination-00.html) | [10.5281/zenodo.24415162](https://doi.org/10.5281/zenodo.24415162) |
-| [Outerprise Visual Manual (00)](https://www.ietf.org/archive/id/draft-jones-outerprise-visual-manual-00.html) | [10.5281/zenodo.24415152](https://doi.org/10.5281/zenodo.24415152) |
-| [Outerprise Four-Gate Onboarding (00)](https://www.ietf.org/archive/id/draft-jones-outerprise-four-gate-onboarding-00.html) | [10.5281/zenodo.24415135](https://doi.org/10.5281/zenodo.24415135) |
 
 For the worked fiscal sponsorship example, cite the OIGP version used for verification. [OIGP v1.3.4](https://doi.org/10.5281/zenodo.24197013) · [OIGP v1.3.1](https://doi.org/10.5281/zenodo.24177899)
+
+## Draft and archive index
+
+Individual Internet-Draft (Work in Progress).
+
+| Exact Internet-Draft revision | Zenodo archive | Zenodo family |
+|---|---|---|
+| [draft-jones-outerprise-four-gate-onboarding-00](https://datatracker.ietf.org/doc/draft-jones-outerprise-four-gate-onboarding/00/) | [24415135](https://doi.org/10.5281/zenodo.24415135) | [24415134](https://doi.org/10.5281/zenodo.24415134) |
+| [draft-jones-outerprise-visual-manual-00](https://datatracker.ietf.org/doc/draft-jones-outerprise-visual-manual/00/) | [24415152](https://doi.org/10.5281/zenodo.24415152) | [24415151](https://doi.org/10.5281/zenodo.24415151) |
+| [draft-jones-detached-evidence-examination-00](https://datatracker.ietf.org/doc/draft-jones-detached-evidence-examination/00/) | [24415162](https://doi.org/10.5281/zenodo.24415162) | [24415161](https://doi.org/10.5281/zenodo.24415161) |
+| [draft-jones-scitt-dual-receipt-00](https://datatracker.ietf.org/doc/draft-jones-scitt-dual-receipt/00/) | [24415155](https://doi.org/10.5281/zenodo.24415155) | [24415153](https://doi.org/10.5281/zenodo.24415153) |
+| [draft-jones-scitt-dual-receipt-01](https://datatracker.ietf.org/doc/draft-jones-scitt-dual-receipt/01/) | [24415155](https://doi.org/10.5281/zenodo.24415155) | [24415153](https://doi.org/10.5281/zenodo.24415153) |
+| [draft-jones-scitt-dual-receipt-02](https://datatracker.ietf.org/doc/draft-jones-scitt-dual-receipt/02/) | [24415155](https://doi.org/10.5281/zenodo.24415155) | [24415153](https://doi.org/10.5281/zenodo.24415153) |
+| [draft-jones-detached-evidence-handoffs-00](https://datatracker.ietf.org/doc/draft-jones-detached-evidence-handoffs/00/) | [24415158](https://doi.org/10.5281/zenodo.24415158) | [24415157](https://doi.org/10.5281/zenodo.24415157) |
+| [draft-jones-detached-evidence-handoffs-01](https://datatracker.ietf.org/doc/draft-jones-detached-evidence-handoffs/01/) | [24415158](https://doi.org/10.5281/zenodo.24415158) | [24415157](https://doi.org/10.5281/zenodo.24415157) |
+| [draft-jones-detached-evidence-handoffs-02](https://datatracker.ietf.org/doc/draft-jones-detached-evidence-handoffs/02/) | [24415158](https://doi.org/10.5281/zenodo.24415158) | [24415157](https://doi.org/10.5281/zenodo.24415157) |
+| [draft-jones-detached-evidence-handoffs-03](https://datatracker.ietf.org/doc/draft-jones-detached-evidence-handoffs/03/) | [24415158](https://doi.org/10.5281/zenodo.24415158) | [24415157](https://doi.org/10.5281/zenodo.24415157) |
+| [draft-jones-mims-reproducible-draft-review-00](https://datatracker.ietf.org/doc/draft-jones-mims-reproducible-draft-review/00/) | [24450421](https://doi.org/10.5281/zenodo.24450421) | [24450420](https://doi.org/10.5281/zenodo.24450420) |
+| [draft-jones-mims-reproducible-draft-review-01](https://datatracker.ietf.org/doc/draft-jones-mims-reproducible-draft-review/01/) | [24537159](https://doi.org/10.5281/zenodo.24537159) | [24450420](https://doi.org/10.5281/zenodo.24450420) |
+| [draft-jones-outerprise-handshake-00](https://datatracker.ietf.org/doc/draft-jones-outerprise-handshake/00/) | [24536645](https://doi.org/10.5281/zenodo.24536645) | [24536644](https://doi.org/10.5281/zenodo.24536644) |
+| [draft-jones-outerprise-handshake-01](https://datatracker.ietf.org/doc/draft-jones-outerprise-handshake/01/) | [24536645](https://doi.org/10.5281/zenodo.24536645) | [24536644](https://doi.org/10.5281/zenodo.24536644) |
+| [draft-jones-scitt-pain-point-resolutions-00](https://datatracker.ietf.org/doc/draft-jones-scitt-pain-point-resolutions/00/) | [24537179](https://doi.org/10.5281/zenodo.24537179) | [24537178](https://doi.org/10.5281/zenodo.24537178) |
+
+## Technical questions
+
+### What is Outtegration?
+
+Outtegration describes detached evidence delivery at an institutional boundary. A producer delivers a package for inspection and the recipient checks it under its own policy. The pattern requires no standing API integration with the recipient. The recipient retains responsibility for access, acceptance, and any later decision.
+
+### How does Dual-Receipt bind a decision to an evaluation?
+
+The decision issuer and policy evaluator use separate signing roles. The verifier checks the specified bindings between the decision, its receipt and the evaluation, then checks the required signatures and applicable policy. An authorized relying party determines whether the evidence supports action.
+
+### What does a transparency receipt establish?
+
+It provides inclusion evidence under the applicable profile and authenticated root. The relying party establishes the service identity, current trust and any required freshness separately.
+
+### How do E01–E15 address verification ambiguities?
+
+The Pain Point Resolutions draft maps fifteen issues to authored profiles, new proposals, external mechanisms, or uncovered gaps. It preserves four explicit open issues and neither amends nor extends the cited RFCs by itself.
+
+### Does a receipt prove the underlying claim is true?
+
+A receipt supplies bounded registration evidence. Source corroboration, authority and the truth of the issuer’s assertion require their own checks.
+
+[Machine-readable index](./llms.txt) · [Citation metadata](./CITATION.cff) · [Synthetic vectors](./test-vectors.json)

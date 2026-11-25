@@ -1,0 +1,178 @@
+{
+  "title": "Entercation Fintech Benchmark DNA",
+  "source_date": "2026-11-24",
+  "scope": "Author management self-assessment. Public summary omits private quote and correspondence details.",
+  "total": 24,
+  "conforms": 19,
+  "gaps": 5,
+  "checks": [
+    {
+      "id": 1,
+      "domain": "A",
+      "label": "Credit scoring and risk",
+      "verdict": "CONFORMS",
+      "evidence_to_close": null
+    },
+    {
+      "id": 2,
+      "domain": "A",
+      "label": "Evidence-integrity anomaly detection",
+      "verdict": "CONFORMS",
+      "evidence_to_close": null
+    },
+    {
+      "id": 3,
+      "domain": "A",
+      "label": "Trading and portfolio decisions",
+      "verdict": "CONFORMS",
+      "evidence_to_close": null
+    },
+    {
+      "id": 4,
+      "domain": "A",
+      "label": "Robo-advice",
+      "verdict": "CONFORMS",
+      "evidence_to_close": null
+    },
+    {
+      "id": 5,
+      "domain": "A",
+      "label": "Payments and money movement",
+      "verdict": "CONFORMS",
+      "evidence_to_close": null
+    },
+    {
+      "id": 6,
+      "domain": "A",
+      "label": "Chatbots as product",
+      "verdict": "CONFORMS",
+      "evidence_to_close": null
+    },
+    {
+      "id": 7,
+      "domain": "B",
+      "label": "Pinned terminology",
+      "verdict": "CONFORMS",
+      "evidence_to_close": null
+    },
+    {
+      "id": 8,
+      "domain": "B",
+      "label": "Deterministic and reproducible checks",
+      "verdict": "CONFORMS",
+      "evidence_to_close": null
+    },
+    {
+      "id": 9,
+      "domain": "B",
+      "label": "Fail-closed export",
+      "verdict": "GAP",
+      "evidence_to_close": "Implement a pinned export gate and record its acceptance and rejection checks."
+    },
+    {
+      "id": 10,
+      "domain": "B",
+      "label": "Consent before capture",
+      "verdict": "CONFORMS",
+      "evidence_to_close": null
+    },
+    {
+      "id": 11,
+      "domain": "B",
+      "label": "Human-readable boundary receipt",
+      "verdict": "CONFORMS",
+      "evidence_to_close": null
+    },
+    {
+      "id": 12,
+      "domain": "B",
+      "label": "Per-record verdicts",
+      "verdict": "CONFORMS",
+      "evidence_to_close": null
+    },
+    {
+      "id": 13,
+      "domain": "C",
+      "label": "Bias and exclusion",
+      "verdict": "GAP",
+      "evidence_to_close": "Obtain independent bias testing on a stated dataset."
+    },
+    {
+      "id": 14,
+      "domain": "C",
+      "label": "Privacy and data protection",
+      "verdict": "GAP",
+      "evidence_to_close": "Obtain an independent privacy evaluation of capture, storage and export."
+    },
+    {
+      "id": 15,
+      "domain": "C",
+      "label": "Vendor integration risk",
+      "verdict": "CONFORMS",
+      "evidence_to_close": null
+    },
+    {
+      "id": 16,
+      "domain": "C",
+      "label": "Deterministic high-assurance checks",
+      "verdict": "CONFORMS",
+      "evidence_to_close": null
+    },
+    {
+      "id": 17,
+      "domain": "C",
+      "label": "Security assurance",
+      "verdict": "GAP",
+      "evidence_to_close": "Complete an independent examination and obtain its issued report. The file records a quote only."
+    },
+    {
+      "id": 18,
+      "domain": "C",
+      "label": "Scope of standards and regulatory claims",
+      "verdict": "CONFORMS",
+      "evidence_to_close": null
+    },
+    {
+      "id": 19,
+      "domain": "D",
+      "label": "Open banking interface boundary",
+      "verdict": "CONFORMS",
+      "evidence_to_close": null
+    },
+    {
+      "id": 20,
+      "domain": "D",
+      "label": "Institutional systems boundary",
+      "verdict": "CONFORMS",
+      "evidence_to_close": null
+    },
+    {
+      "id": 21,
+      "domain": "D",
+      "label": "RegTech evidence workflow",
+      "verdict": "CONFORMS",
+      "evidence_to_close": null
+    },
+    {
+      "id": 22,
+      "domain": "D",
+      "label": "Community evidence and fiscal sponsorship",
+      "verdict": "CONFORMS",
+      "evidence_to_close": null
+    },
+    {
+      "id": 23,
+      "domain": "D",
+      "label": "Measured savings boundary",
+      "verdict": "CONFORMS",
+      "evidence_to_close": null
+    },
+    {
+      "id": 24,
+      "domain": "D",
+      "label": "Fiscal-sponsorship execution",
+      "verdict": "GAP",
+      "evidence_to_close": "Obtain the signed agreement and sponsor IRS letter."
+    }
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "@context": "https://w3id.org/codemeta/3.0",
+  "@type": "SoftwareSourceCode",
+  "name": "Outerprise specification surface",
+  "codeRepository": "https://github.com/entercation2021-hue/outerprise-spec",
+  "author": {
+    "@type": "Organization",
+    "name": "Entercation Info Inc."
+  },
+  "contributor": {
+    "@type": "Person",
+    "name": "Vince Jones",
+    "@id": "https://orcid.org/0009-0008-6712-8136"
+  },
+  "license": "https://spdx.org/licenses/MIT.html",
+  "citation": [
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23873354"
+    },
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23873355"
+    },
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23873552"
+    },
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23993509"
+    },
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23993510"
+    },
+    {
+      "@id": "https://doi.org/10.5281/zenodo.24177898"
+    },
+    {
+      "@id": "https://doi.org/10.5281/zenodo.24177899"
+    },
+    {
+      "@id": "https://doi.org/10.5281/zenodo.24182131"
+    },
+    {
+      "@id": "https://doi.org/10.5281/zenodo.24182132"
+    },
+    {
+      "@id": "https://doi.org/10.5281/zenodo.24197013"
+    },
+    {
+      "@id": "https://doi.org/10.5281/zenodo.24305667"
+    },
+    {
+      "@id": "https://doi.org/10.5281/zenodo.24305668"
+    },
+    {
+      "@id": "https://doi.org/10.5281/zenodo.24415134"
+    },
+    {
+      "@id": "https://doi.org/10.5281/zenodo.24415135"
+    },
+    {
+      "@id": "https://doi.org/10.5281/zenodo.24415151"
+    },
+    {
+      "@id": "https://doi.org/10.5281/zenodo.24415152"
+    },
+    {
+      "@id": "https://doi.org/10.5281/zenodo.24415153"
+    },
+    {
+      "@id": "https://doi.org/10.5281/zenodo.24415155"
+    },
+    {
+      "@id": "https://doi.org/10.5281/zenodo.24415157"
+    },
+    {
+      "@id": "https://doi.org/10.5281/zenodo.24415158"
+    },
+    {
+      "@id": "https://doi.org/10.5281/zenodo.24415161"
+    },
+    {
+      "@id": "https://doi.org/10.5281/zenodo.24415162"
+    },
+    {
+      "@id": "https://doi.org/10.5281/zenodo.24450420"
+    },
+    {
+      "@id": "https://doi.org/10.5281/zenodo.24450421"
+    },
+    {
+      "@id": "https://doi.org/10.5281/zenodo.24536644"
+    },
+    {
+      "@id": "https://doi.org/10.5281/zenodo.24536645"
+    },
+    {
+      "@id": "https://doi.org/10.5281/zenodo.24537159"
+    },
+    {
+      "@id": "https://doi.org/10.5281/zenodo.24537178"
+    },
+    {
+      "@id": "https://doi.org/10.5281/zenodo.24537179"
+    }
+  ]
+}
